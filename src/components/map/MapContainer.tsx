@@ -125,18 +125,111 @@ export default function MapWrapper({
           },
           onEachFeature: (feature, layer) => {
             const props = feature.properties;
-            const name = props.imeKo || props.OB_IME || props.obcina || 'Neznano';
-            const price = props.medianaCenaM2Stanovanja || props.medianaCenaM2;
+            const name = props.NAZIV || props.imeKo || props.OB_IME || props.obcina || 'Neznano';
+            const priceStanovanja = props.medianaCenaM2Stanovanja;
+            const priceHise = props.medianaCenaM2Hise;
+            const price = priceStanovanja || props.medianaCenaM2;
             const count = props.steviloTransakcij || props.stevilo || 0;
+            const trend = props.trendYoY;
+            const vsegaTransakcij = props.vsegaTransakcij || 0;
+
+            // Create slug for link
+            const slug = name.toLowerCase()
+              .replace(/č/g, 'c').replace(/š/g, 's').replace(/ž/g, 'z')
+              .replace(/đ/g, 'd').replace(/ć/g, 'c')
+              .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+
+            // National averages for comparison
+            const natAvgStanovanja = 2850;
+            const natAvgHise = 1650;
+            const compStanovanja = priceStanovanja ? Math.round((priceStanovanja - natAvgStanovanja) / natAvgStanovanja * 100) : null;
+            const compHise = priceHise ? Math.round((priceHise - natAvgHise) / natAvgHise * 100) : null;
+
+            // Trend indicator
+            const trendHtml = trend !== null && trend !== undefined ? `
+              <div style="display: flex; align-items: center; gap: 6px; margin-top: 8px; padding-top: 8px; border-top: 1px solid #e5e7eb;">
+                <span style="font-size: 12px; color: #6b7280;">Letni trend:</span>
+                <span style="font-size: 12px; font-weight: 600; color: ${trend > 0 ? '#16a34a' : trend < 0 ? '#dc2626' : '#6b7280'}; background: ${trend > 0 ? '#dcfce7' : trend < 0 ? '#fee2e2' : '#f3f4f6'}; padding: 2px 8px; border-radius: 12px;">
+                  ${trend > 0 ? '↑' : trend < 0 ? '↓' : '→'} ${trend > 0 ? '+' : ''}${trend.toFixed(1)}%
+                </span>
+              </div>
+            ` : '';
+
+            // Comparison badge
+            const getCompBadge = (comp: number | null) => {
+              if (comp === null) return '';
+              const color = comp > 0 ? '#dc2626' : comp < 0 ? '#16a34a' : '#6b7280';
+              return `<span style="font-size: 10px; color: ${color}; margin-left: 4px;">(${comp > 0 ? '+' : ''}${comp}%)</span>`;
+            };
 
             const popupContent = `
-              <div style="min-width: 180px;">
-                <div style="font-weight: bold; margin-bottom: 4px;">${name}</div>
-                ${price ? `<div>Mediana: <strong>${Math.round(price).toLocaleString('sl-SI')} €/m²</strong></div>` : ''}
-                ${count ? `<div style="color: #666; font-size: 12px;">${count} transakcij</div>` : ''}
+              <div style="min-width: 260px; max-width: 300px;">
+                <!-- Header -->
+                <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px; padding-bottom: 8px; border-bottom: 2px solid #059669;">
+                  <div style="width: 32px; height: 32px; background: linear-gradient(135deg, #059669 0%, #047857 100%); border-radius: 8px; display: flex; align-items: center; justify-content: center;">
+                    <span style="color: white; font-size: 14px;">📍</span>
+                  </div>
+                  <div>
+                    <div style="font-weight: 700; font-size: 15px; color: #111827; line-height: 1.2;">${name}</div>
+                    <span style="font-size: 11px; color: #6b7280;">Občina</span>
+                  </div>
+                </div>
+
+                <!-- Prices -->
+                <div style="background: #f9fafb; border-radius: 8px; padding: 10px; margin-bottom: 8px;">
+                  <div style="font-size: 10px; font-weight: 600; color: #6b7280; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px;">Mediana cene na m²</div>
+
+                  <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 4px;">
+                    <div style="display: flex; align-items: center; gap: 4px;">
+                      <span style="font-size: 12px;">🏢</span>
+                      <span style="font-size: 12px; color: #374151;">Stanovanja</span>
+                    </div>
+                    <div>
+                      ${priceStanovanja
+                        ? `<span style="font-weight: 700; font-size: 13px; color: #111827;">${Math.round(priceStanovanja).toLocaleString('sl-SI')} €/m²</span>${getCompBadge(compStanovanja)}`
+                        : '<span style="font-size: 12px; color: #9ca3af;">—</span>'
+                      }
+                    </div>
+                  </div>
+
+                  <div style="display: flex; align-items: center; justify-content: space-between;">
+                    <div style="display: flex; align-items: center; gap: 4px;">
+                      <span style="font-size: 12px;">🏠</span>
+                      <span style="font-size: 12px; color: #374151;">Hiše</span>
+                    </div>
+                    <div>
+                      ${priceHise
+                        ? `<span style="font-weight: 700; font-size: 13px; color: #111827;">${Math.round(priceHise).toLocaleString('sl-SI')} €/m²</span>${getCompBadge(compHise)}`
+                        : '<span style="font-size: 12px; color: #9ca3af;">—</span>'
+                      }
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Stats -->
+                <div style="display: flex; gap: 6px; margin-bottom: 6px;">
+                  <div style="flex: 1; background: #f0fdf4; border-radius: 6px; padding: 6px; text-align: center;">
+                    <div style="font-size: 16px; font-weight: 700; color: #059669;">${count.toLocaleString('sl-SI')}</div>
+                    <div style="font-size: 9px; color: #6b7280;">transakcij (24-25)</div>
+                  </div>
+                  <div style="flex: 1; background: #fef3c7; border-radius: 6px; padding: 6px; text-align: center;">
+                    <div style="font-size: 16px; font-weight: 700; color: #b45309;">${vsegaTransakcij.toLocaleString('sl-SI')}</div>
+                    <div style="font-size: 9px; color: #78350f;">skupaj od 2007</div>
+                  </div>
+                </div>
+
+                ${trendHtml}
+
+                <!-- Link -->
+                <a href="/statistika/${slug}"
+                   style="display: block; text-align: center; background: #059669; color: white; padding: 10px; border-radius: 8px; font-size: 12px; font-weight: 600; text-decoration: none; margin-top: 10px;"
+                   onmouseover="this.style.background='#047857'"
+                   onmouseout="this.style.background='#059669'">
+                  Več o občini ${name} →
+                </a>
               </div>
             `;
-            layer.bindPopup(popupContent);
+            layer.bindPopup(popupContent, { maxWidth: 320 });
 
             layer.on({
               mouseover: (e) => {
