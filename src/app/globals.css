@@ -5,6 +5,15 @@
 /* Leaflet base styles */
 @import 'leaflet/dist/leaflet.css';
 
+/* Ensure Leaflet popups appear above sticky header (z-50 = 50) */
+.leaflet-pane.leaflet-popup-pane {
+  z-index: 100 !important;
+}
+
+.leaflet-popup {
+  z-index: 100 !important;
+}
+
 /* Custom Leaflet popup styles */
 .leaflet-popup-content-wrapper {
   border-radius: 12px !important;
