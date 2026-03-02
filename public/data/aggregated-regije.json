@@ -1,0 +1,98 @@
+[
+  {
+    "regija": "Osrednjeslovenska",
+    "medianaCenaM2Stanovanja": 3910,
+    "medianaCenaM2Hise": 2043,
+    "steviloTransakcij": 2371,
+    "trendYoY": 10,
+    "steviloObcin": 25
+  },
+  {
+    "regija": "Obalno-kraška",
+    "medianaCenaM2Stanovanja": 3668,
+    "medianaCenaM2Hise": null,
+    "steviloTransakcij": 401,
+    "trendYoY": 13,
+    "steviloObcin": 8
+  },
+  {
+    "regija": "Gorenjska",
+    "medianaCenaM2Stanovanja": 2720,
+    "medianaCenaM2Hise": 1108,
+    "steviloTransakcij": 654,
+    "trendYoY": 61,
+    "steviloObcin": 18
+  },
+  {
+    "regija": "Goriška",
+    "medianaCenaM2Stanovanja": 2350,
+    "medianaCenaM2Hise": 583,
+    "steviloTransakcij": 219,
+    "trendYoY": 10,
+    "steviloObcin": 13
+  },
+  {
+    "regija": "Jugovzhodna Slovenija",
+    "medianaCenaM2Stanovanja": 2131,
+    "medianaCenaM2Hise": 572,
+    "steviloTransakcij": 359,
+    "trendYoY": 16,
+    "steviloObcin": 21
+  },
+  {
+    "regija": "Savinjska",
+    "medianaCenaM2Stanovanja": 1996,
+    "medianaCenaM2Hise": 890,
+    "steviloTransakcij": 837,
+    "trendYoY": 23,
+    "steviloObcin": 31
+  },
+  {
+    "regija": "Primorsko-notranjska",
+    "medianaCenaM2Stanovanja": 1919,
+    "medianaCenaM2Hise": null,
+    "steviloTransakcij": 97,
+    "trendYoY": 17,
+    "steviloObcin": 6
+  },
+  {
+    "regija": "Podravska",
+    "medianaCenaM2Stanovanja": 1908,
+    "medianaCenaM2Hise": 679,
+    "steviloTransakcij": 1380,
+    "trendYoY": 23,
+    "steviloObcin": 43
+  },
+  {
+    "regija": "Zasavska",
+    "medianaCenaM2Stanovanja": 1870,
+    "medianaCenaM2Hise": 1225,
+    "steviloTransakcij": 189,
+    "trendYoY": 12,
+    "steviloObcin": 4
+  },
+  {
+    "regija": "Posavska",
+    "medianaCenaM2Stanovanja": 1608,
+    "medianaCenaM2Hise": null,
+    "steviloTransakcij": 120,
+    "trendYoY": 20,
+    "steviloObcin": 6
+  },
+  {
+    "regija": "Koroška",
+    "medianaCenaM2Stanovanja": 1516,
+    "medianaCenaM2Hise": null,
+    "steviloTransakcij": 131,
+    "trendYoY": 10,
+    "steviloObcin": 12
+  },
+  {
+    "regija": "Pomurska",
+    "medianaCenaM2Stanovanja": 1372,
+    "medianaCenaM2Hise": 375,
+    "steviloTransakcij": 161,
+    "trendYoY": 9,
+    "steviloObcin": 27
+  }
+]

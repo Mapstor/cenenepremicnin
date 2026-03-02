@@ -1,0 +1,452 @@
+[
+  {
+    "quarter": "2007-Q1",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 115.66
+  },
+  {
+    "quarter": "2007-Q2",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 118.12
+  },
+  {
+    "quarter": "2007-Q3",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 122.08
+  },
+  {
+    "quarter": "2007-Q4",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 127.52
+  },
+  {
+    "quarter": "2008-Q1",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 129.32
+  },
+  {
+    "quarter": "2008-Q2",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 129.08
+  },
+  {
+    "quarter": "2008-Q3",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 131.52
+  },
+  {
+    "quarter": "2008-Q4",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 127.31
+  },
+  {
+    "quarter": "2009-Q1",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 119.37
+  },
+  {
+    "quarter": "2009-Q2",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 116.93
+  },
+  {
+    "quarter": "2009-Q3",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 114.95
+  },
+  {
+    "quarter": "2009-Q4",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 116.97
+  },
+  {
+    "quarter": "2010-Q1",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 117.41
+  },
+  {
+    "quarter": "2010-Q2",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 118.08
+  },
+  {
+    "quarter": "2010-Q3",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 116.53
+  },
+  {
+    "quarter": "2010-Q4",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 116.8
+  },
+  {
+    "quarter": "2011-Q1",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 122.24
+  },
+  {
+    "quarter": "2011-Q2",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 121.89
+  },
+  {
+    "quarter": "2011-Q3",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 119.01
+  },
+  {
+    "quarter": "2011-Q4",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 118.4
+  },
+  {
+    "quarter": "2012-Q1",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 113.6
+  },
+  {
+    "quarter": "2012-Q2",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 114.91
+  },
+  {
+    "quarter": "2012-Q3",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 111.9
+  },
+  {
+    "quarter": "2012-Q4",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 107.95
+  },
+  {
+    "quarter": "2013-Q1",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 108.72
+  },
+  {
+    "quarter": "2013-Q2",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 109.6
+  },
+  {
+    "quarter": "2013-Q3",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 103.3
+  },
+  {
+    "quarter": "2013-Q4",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 103.22
+  },
+  {
+    "quarter": "2014-Q1",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 101.51
+  },
+  {
+    "quarter": "2014-Q2",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 98.84
+  },
+  {
+    "quarter": "2014-Q3",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 97.77
+  },
+  {
+    "quarter": "2014-Q4",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 98.69
+  },
+  {
+    "quarter": "2015-Q1",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 100.11
+  },
+  {
+    "quarter": "2015-Q2",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 102.38
+  },
+  {
+    "quarter": "2015-Q3",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 98.77
+  },
+  {
+    "quarter": "2015-Q4",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 98.74
+  },
+  {
+    "quarter": "2016-Q1",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 100.94
+  },
+  {
+    "quarter": "2016-Q2",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 102.84
+  },
+  {
+    "quarter": "2016-Q3",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 103.69
+  },
+  {
+    "quarter": "2016-Q4",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 105.54
+  },
+  {
+    "quarter": "2017-Q1",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 107.68
+  },
+  {
+    "quarter": "2017-Q2",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 111.33
+  },
+  {
+    "quarter": "2017-Q3",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 112.17
+  },
+  {
+    "quarter": "2017-Q4",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 115.96
+  },
+  {
+    "quarter": "2018-Q1",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 118.04
+  },
+  {
+    "quarter": "2018-Q2",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 119.93
+  },
+  {
+    "quarter": "2018-Q3",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 122.67
+  },
+  {
+    "quarter": "2018-Q4",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 125.55
+  },
+  {
+    "quarter": "2019-Q1",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 126.98
+  },
+  {
+    "quarter": "2019-Q2",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 128.83
+  },
+  {
+    "quarter": "2019-Q3",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 131.33
+  },
+  {
+    "quarter": "2019-Q4",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 131.62
+  },
+  {
+    "quarter": "2020-Q1",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 132.99
+  },
+  {
+    "quarter": "2020-Q2",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 135.56
+  },
+  {
+    "quarter": "2020-Q3",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 135.65
+  },
+  {
+    "quarter": "2020-Q4",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 138.43
+  },
+  {
+    "quarter": "2021-Q1",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 142.65
+  },
+  {
+    "quarter": "2021-Q2",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 149.21
+  },
+  {
+    "quarter": "2021-Q3",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 153.15
+  },
+  {
+    "quarter": "2021-Q4",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 160.26
+  },
+  {
+    "quarter": "2022-Q1",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 166.93
+  },
+  {
+    "quarter": "2022-Q2",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 172.43
+  },
+  {
+    "quarter": "2022-Q3",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 176.4
+  },
+  {
+    "quarter": "2022-Q4",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 178.83
+  },
+  {
+    "quarter": "2023-Q1",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 181.96
+  },
+  {
+    "quarter": "2023-Q2",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 185.39
+  },
+  {
+    "quarter": "2023-Q3",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 186.33
+  },
+  {
+    "quarter": "2023-Q4",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 191.19
+  },
+  {
+    "quarter": "2024-Q1",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 195.44
+  },
+  {
+    "quarter": "2024-Q2",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 198.33
+  },
+  {
+    "quarter": "2024-Q3",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 201.54
+  },
+  {
+    "quarter": "2024-Q4",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 205.71
+  },
+  {
+    "quarter": "2025-Q1",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 201.66
+  },
+  {
+    "quarter": "2025-Q2",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 209.31
+  },
+  {
+    "quarter": "2025-Q3",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 207.03
+  }
+]

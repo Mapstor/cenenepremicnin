@@ -1,0 +1,53 @@
+{
+  "vrstaDela": {
+    "1": "Hiša",
+    "2": "Stanovanje",
+    "3": "Garaža",
+    "4": "Parkirno mesto",
+    "5": "Poslovni prostor",
+    "6": "Pisarna",
+    "7": "Trgovski lokal",
+    "8": "Gostinski lokal",
+    "9": "Industrijski objekt",
+    "10": "Skladišče",
+    "11": "Drug poslovni prostor",
+    "12": "Turistični apartma",
+    "13": "Kmetijski objekt",
+    "14": "Drug stanovanjski prostor",
+    "15": "Nedoločeno"
+  },
+  "vrstaZemljisca": {
+    "1": "Stavbno zemljišče z gradbenim dovoljenjem",
+    "2": "Stavbno zemljišče, komunalno opremljeno",
+    "3": "Stavbno zemljišče, delno/neopremljeno",
+    "4": "Zemljišče za infrastrukturo",
+    "5": "Zemljišče pod stavbo/funkcionalno",
+    "6": "Cestno/parkirno zemljišče",
+    "7": "Kmetijsko zemljišče",
+    "8": "Kmetijsko zemljišče s trajnim nasadom",
+    "9": "Gozdno zemljišče",
+    "10": "Neplodno/vodno/drugo zemljišče"
+  },
+  "tipNepremicnine": {
+    "stanovanja": [2],
+    "hise": [1],
+    "poslovni": [5, 6, 7, 8, 9, 10, 11],
+    "parkirisca": [3, 4],
+    "drugo": [12, 13, 14, 15]
+  },
+  "indeksTip": {
+    "QoY": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "QoQ": "Četrtletje / prejšnje četrtletje",
+    "YoY": "Četrtletje / isto četrtletje prejšnjega leta",
+    "Base2015": "Četrtletje / povprečje četrtletij leta 2015"
+  },
+  "drzave": {
+    "SI": "Slovenija",
+    "AT": "Avstrija",
+    "HR": "Hrvaška",
+    "HU": "Madžarska",
+    "IT": "Italija",
+    "DE": "Nemčija",
+    "EU27_2020": "EU-27"
+  }
+}

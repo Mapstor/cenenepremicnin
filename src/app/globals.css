@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Leaflet base styles */
+@import 'leaflet/dist/leaflet.css';
+
+/* Custom Leaflet popup styles */
+.leaflet-popup-content-wrapper {
+  border-radius: 12px !important;
+  padding: 0 !important;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15) !important;
+  border: 1px solid #e5e7eb !important;
+}
+
+.leaflet-popup-content {
+  margin: 12px !important;
+  line-height: 1.4 !important;
+}
+
+.leaflet-popup-close-button {
+  color: #6b7280 !important;
+  font-size: 20px !important;
+  top: 8px !important;
+  right: 8px !important;
+  width: 24px !important;
+  height: 24px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.leaflet-popup-close-button:hover {
+  color: #111827 !important;
+}
+
+.leaflet-popup-tip {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Custom popup specific overrides */
+.custom-popup .leaflet-popup-content-wrapper {
+  overflow: hidden;
+}
+
+.custom-popup .leaflet-popup-content {
+  max-height: 450px;
+  overflow-y: auto;
+}

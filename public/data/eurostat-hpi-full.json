@@ -1,0 +1,2984 @@
+[
+  {
+    "quarter": "2007-Q1",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 80
+  },
+  {
+    "quarter": "2007-Q1",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 99.8
+  },
+  {
+    "quarter": "2007-Q1",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 95.04
+  },
+  {
+    "quarter": "2007-Q1",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 115.66
+  },
+  {
+    "quarter": "2007-Q2",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 81.7
+  },
+  {
+    "quarter": "2007-Q2",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 102.15
+  },
+  {
+    "quarter": "2007-Q2",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 97.35
+  },
+  {
+    "quarter": "2007-Q2",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 118.12
+  },
+  {
+    "quarter": "2007-Q3",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 81.6
+  },
+  {
+    "quarter": "2007-Q3",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 103.64
+  },
+  {
+    "quarter": "2007-Q3",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 101.2
+  },
+  {
+    "quarter": "2007-Q3",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 122.08
+  },
+  {
+    "quarter": "2007-Q4",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 81.6
+  },
+  {
+    "quarter": "2007-Q4",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 103.67
+  },
+  {
+    "quarter": "2007-Q4",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 102.05
+  },
+  {
+    "quarter": "2007-Q4",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 127.52
+  },
+  {
+    "quarter": "2008-Q1",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 82.8
+  },
+  {
+    "quarter": "2008-Q1",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 104.08
+  },
+  {
+    "quarter": "2008-Q1",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 123.19
+  },
+  {
+    "quarter": "2008-Q1",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 100.55
+  },
+  {
+    "quarter": "2008-Q1",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 129.32
+  },
+  {
+    "quarter": "2008-Q2",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 83.1
+  },
+  {
+    "quarter": "2008-Q2",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 104.63
+  },
+  {
+    "quarter": "2008-Q2",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 124.01
+  },
+  {
+    "quarter": "2008-Q2",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 101.9
+  },
+  {
+    "quarter": "2008-Q2",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 129.08
+  },
+  {
+    "quarter": "2008-Q3",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 81.6
+  },
+  {
+    "quarter": "2008-Q3",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 103.96
+  },
+  {
+    "quarter": "2008-Q3",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 126.34
+  },
+  {
+    "quarter": "2008-Q3",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 102.29
+  },
+  {
+    "quarter": "2008-Q3",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 131.52
+  },
+  {
+    "quarter": "2008-Q4",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 81.8
+  },
+  {
+    "quarter": "2008-Q4",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 102.02
+  },
+  {
+    "quarter": "2008-Q4",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 123.02
+  },
+  {
+    "quarter": "2008-Q4",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 100.29
+  },
+  {
+    "quarter": "2008-Q4",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 127.31
+  },
+  {
+    "quarter": "2009-Q1",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 81.8
+  },
+  {
+    "quarter": "2009-Q1",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 100.13
+  },
+  {
+    "quarter": "2009-Q1",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 122.58
+  },
+  {
+    "quarter": "2009-Q1",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 99.69
+  },
+  {
+    "quarter": "2009-Q1",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 119.37
+  },
+  {
+    "quarter": "2009-Q2",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 83.1
+  },
+  {
+    "quarter": "2009-Q2",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 99.65
+  },
+  {
+    "quarter": "2009-Q2",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 118.48
+  },
+  {
+    "quarter": "2009-Q2",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 96.65
+  },
+  {
+    "quarter": "2009-Q2",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 116.93
+  },
+  {
+    "quarter": "2009-Q3",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 82.9
+  },
+  {
+    "quarter": "2009-Q3",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 99.59
+  },
+  {
+    "quarter": "2009-Q3",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 116.37
+  },
+  {
+    "quarter": "2009-Q3",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 95.05
+  },
+  {
+    "quarter": "2009-Q3",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 114.95
+  },
+  {
+    "quarter": "2009-Q4",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 84.2
+  },
+  {
+    "quarter": "2009-Q4",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 99.78
+  },
+  {
+    "quarter": "2009-Q4",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 114.28
+  },
+  {
+    "quarter": "2009-Q4",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 92.42
+  },
+  {
+    "quarter": "2009-Q4",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 116.97
+  },
+  {
+    "quarter": "2010-Q1",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 75.05
+  },
+  {
+    "quarter": "2010-Q1",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 83
+  },
+  {
+    "quarter": "2010-Q1",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 99.3
+  },
+  {
+    "quarter": "2010-Q1",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 112.07
+  },
+  {
+    "quarter": "2010-Q1",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 94.69
+  },
+  {
+    "quarter": "2010-Q1",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 116.8
+  },
+  {
+    "quarter": "2010-Q1",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 117.41
+  },
+  {
+    "quarter": "2010-Q2",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 77.21
+  },
+  {
+    "quarter": "2010-Q2",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 84.3
+  },
+  {
+    "quarter": "2010-Q2",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 100.35
+  },
+  {
+    "quarter": "2010-Q2",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 110.49
+  },
+  {
+    "quarter": "2010-Q2",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 94.21
+  },
+  {
+    "quarter": "2010-Q2",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 117.9
+  },
+  {
+    "quarter": "2010-Q2",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 118.08
+  },
+  {
+    "quarter": "2010-Q3",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 78.19
+  },
+  {
+    "quarter": "2010-Q3",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 84.3
+  },
+  {
+    "quarter": "2010-Q3",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 100.74
+  },
+  {
+    "quarter": "2010-Q3",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 109.52
+  },
+  {
+    "quarter": "2010-Q3",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 93.75
+  },
+  {
+    "quarter": "2010-Q3",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 118.8
+  },
+  {
+    "quarter": "2010-Q3",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 116.53
+  },
+  {
+    "quarter": "2010-Q4",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 78.84
+  },
+  {
+    "quarter": "2010-Q4",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 83.8
+  },
+  {
+    "quarter": "2010-Q4",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 100.62
+  },
+  {
+    "quarter": "2010-Q4",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 109.8
+  },
+  {
+    "quarter": "2010-Q4",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 91.99
+  },
+  {
+    "quarter": "2010-Q4",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 118.9
+  },
+  {
+    "quarter": "2010-Q4",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 116.8
+  },
+  {
+    "quarter": "2011-Q1",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 78.96
+  },
+  {
+    "quarter": "2011-Q1",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 86.1
+  },
+  {
+    "quarter": "2011-Q1",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 100.86
+  },
+  {
+    "quarter": "2011-Q1",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 108.81
+  },
+  {
+    "quarter": "2011-Q1",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 91.73
+  },
+  {
+    "quarter": "2011-Q1",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 118.3
+  },
+  {
+    "quarter": "2011-Q1",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 122.24
+  },
+  {
+    "quarter": "2011-Q2",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 81.28
+  },
+  {
+    "quarter": "2011-Q2",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 87.1
+  },
+  {
+    "quarter": "2011-Q2",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 101.59
+  },
+  {
+    "quarter": "2011-Q2",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 110.53
+  },
+  {
+    "quarter": "2011-Q2",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 90.97
+  },
+  {
+    "quarter": "2011-Q2",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 120.7
+  },
+  {
+    "quarter": "2011-Q2",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 121.89
+  },
+  {
+    "quarter": "2011-Q3",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 82.59
+  },
+  {
+    "quarter": "2011-Q3",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 86.7
+  },
+  {
+    "quarter": "2011-Q3",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 101.1
+  },
+  {
+    "quarter": "2011-Q3",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 111.31
+  },
+  {
+    "quarter": "2011-Q3",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 89.75
+  },
+  {
+    "quarter": "2011-Q3",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 120.3
+  },
+  {
+    "quarter": "2011-Q3",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 119.01
+  },
+  {
+    "quarter": "2011-Q4",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 83.06
+  },
+  {
+    "quarter": "2011-Q4",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 87.3
+  },
+  {
+    "quarter": "2011-Q4",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 99.97
+  },
+  {
+    "quarter": "2011-Q4",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 111.99
+  },
+  {
+    "quarter": "2011-Q4",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 89.34
+  },
+  {
+    "quarter": "2011-Q4",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 119.5
+  },
+  {
+    "quarter": "2011-Q4",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 118.4
+  },
+  {
+    "quarter": "2012-Q1",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 85.3
+  },
+  {
+    "quarter": "2012-Q1",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 88
+  },
+  {
+    "quarter": "2012-Q1",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 99.29
+  },
+  {
+    "quarter": "2012-Q1",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 111.36
+  },
+  {
+    "quarter": "2012-Q1",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 90.21
+  },
+  {
+    "quarter": "2012-Q1",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 119
+  },
+  {
+    "quarter": "2012-Q1",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 113.6
+  },
+  {
+    "quarter": "2012-Q2",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 85.44
+  },
+  {
+    "quarter": "2012-Q2",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 89.1
+  },
+  {
+    "quarter": "2012-Q2",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 99
+  },
+  {
+    "quarter": "2012-Q2",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 109.86
+  },
+  {
+    "quarter": "2012-Q2",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 87.12
+  },
+  {
+    "quarter": "2012-Q2",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 118.1
+  },
+  {
+    "quarter": "2012-Q2",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 114.91
+  },
+  {
+    "quarter": "2012-Q3",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 88.71
+  },
+  {
+    "quarter": "2012-Q3",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 90.4
+  },
+  {
+    "quarter": "2012-Q3",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 98.61
+  },
+  {
+    "quarter": "2012-Q3",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 109.09
+  },
+  {
+    "quarter": "2012-Q3",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 86.39
+  },
+  {
+    "quarter": "2012-Q3",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 115.9
+  },
+  {
+    "quarter": "2012-Q3",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 111.9
+  },
+  {
+    "quarter": "2012-Q4",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 88
+  },
+  {
+    "quarter": "2012-Q4",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 91.6
+  },
+  {
+    "quarter": "2012-Q4",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 98.12
+  },
+  {
+    "quarter": "2012-Q4",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 105.4
+  },
+  {
+    "quarter": "2012-Q4",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 84.67
+  },
+  {
+    "quarter": "2012-Q4",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 113.6
+  },
+  {
+    "quarter": "2012-Q4",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 107.95
+  },
+  {
+    "quarter": "2013-Q1",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 89.06
+  },
+  {
+    "quarter": "2013-Q1",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 91.3
+  },
+  {
+    "quarter": "2013-Q1",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 96.84
+  },
+  {
+    "quarter": "2013-Q1",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 105.28
+  },
+  {
+    "quarter": "2013-Q1",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 84.95
+  },
+  {
+    "quarter": "2013-Q1",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 110.5
+  },
+  {
+    "quarter": "2013-Q1",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 108.72
+  },
+  {
+    "quarter": "2013-Q2",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 92.25
+  },
+  {
+    "quarter": "2013-Q2",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 93.1
+  },
+  {
+    "quarter": "2013-Q2",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 97.25
+  },
+  {
+    "quarter": "2013-Q2",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 104.63
+  },
+  {
+    "quarter": "2013-Q2",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 85.14
+  },
+  {
+    "quarter": "2013-Q2",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 110.2
+  },
+  {
+    "quarter": "2013-Q2",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 109.6
+  },
+  {
+    "quarter": "2013-Q3",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 91.79
+  },
+  {
+    "quarter": "2013-Q3",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 92.9
+  },
+  {
+    "quarter": "2013-Q3",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 97.29
+  },
+  {
+    "quarter": "2013-Q3",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 104.97
+  },
+  {
+    "quarter": "2013-Q3",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 85.26
+  },
+  {
+    "quarter": "2013-Q3",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 108.6
+  },
+  {
+    "quarter": "2013-Q3",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 103.3
+  },
+  {
+    "quarter": "2013-Q4",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 91.68
+  },
+  {
+    "quarter": "2013-Q4",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 93
+  },
+  {
+    "quarter": "2013-Q4",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 96.86
+  },
+  {
+    "quarter": "2013-Q4",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 103.63
+  },
+  {
+    "quarter": "2013-Q4",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 84.13
+  },
+  {
+    "quarter": "2013-Q4",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 107.1
+  },
+  {
+    "quarter": "2013-Q4",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 103.22
+  },
+  {
+    "quarter": "2014-Q1",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 92.89
+  },
+  {
+    "quarter": "2014-Q1",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 93.8
+  },
+  {
+    "quarter": "2014-Q1",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 96.88
+  },
+  {
+    "quarter": "2014-Q1",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 102.94
+  },
+  {
+    "quarter": "2014-Q1",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 85.75
+  },
+  {
+    "quarter": "2014-Q1",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 105.7
+  },
+  {
+    "quarter": "2014-Q1",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 101.51
+  },
+  {
+    "quarter": "2014-Q2",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 94.35
+  },
+  {
+    "quarter": "2014-Q2",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 95.7
+  },
+  {
+    "quarter": "2014-Q2",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 97.85
+  },
+  {
+    "quarter": "2014-Q2",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 103.82
+  },
+  {
+    "quarter": "2014-Q2",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 87.55
+  },
+  {
+    "quarter": "2014-Q2",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 104.7
+  },
+  {
+    "quarter": "2014-Q2",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 98.84
+  },
+  {
+    "quarter": "2014-Q3",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 95.32
+  },
+  {
+    "quarter": "2014-Q3",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 96.2
+  },
+  {
+    "quarter": "2014-Q3",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 98.29
+  },
+  {
+    "quarter": "2014-Q3",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 103
+  },
+  {
+    "quarter": "2014-Q3",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 89.19
+  },
+  {
+    "quarter": "2014-Q3",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 103.5
+  },
+  {
+    "quarter": "2014-Q3",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 97.77
+  },
+  {
+    "quarter": "2014-Q4",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 96.14
+  },
+  {
+    "quarter": "2014-Q4",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 96.2
+  },
+  {
+    "quarter": "2014-Q4",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 97.99
+  },
+  {
+    "quarter": "2014-Q4",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 102.14
+  },
+  {
+    "quarter": "2014-Q4",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 91.22
+  },
+  {
+    "quarter": "2014-Q4",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 101.9
+  },
+  {
+    "quarter": "2014-Q4",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 98.69
+  },
+  {
+    "quarter": "2015-Q1",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 98.19
+  },
+  {
+    "quarter": "2015-Q1",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 97.8
+  },
+  {
+    "quarter": "2015-Q1",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 98.27
+  },
+  {
+    "quarter": "2015-Q1",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 101.05
+  },
+  {
+    "quarter": "2015-Q1",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 93.6
+  },
+  {
+    "quarter": "2015-Q1",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 99.7
+  },
+  {
+    "quarter": "2015-Q1",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 100.11
+  },
+  {
+    "quarter": "2015-Q2",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 99.97
+  },
+  {
+    "quarter": "2015-Q2",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 99.9
+  },
+  {
+    "quarter": "2015-Q2",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 99.83
+  },
+  {
+    "quarter": "2015-Q2",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 99.13
+  },
+  {
+    "quarter": "2015-Q2",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 98.69
+  },
+  {
+    "quarter": "2015-Q2",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 99.8
+  },
+  {
+    "quarter": "2015-Q2",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 102.38
+  },
+  {
+    "quarter": "2015-Q3",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 101.23
+  },
+  {
+    "quarter": "2015-Q3",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 100.4
+  },
+  {
+    "quarter": "2015-Q3",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 100.81
+  },
+  {
+    "quarter": "2015-Q3",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 99.86
+  },
+  {
+    "quarter": "2015-Q3",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 103.06
+  },
+  {
+    "quarter": "2015-Q3",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 100.7
+  },
+  {
+    "quarter": "2015-Q3",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 98.77
+  },
+  {
+    "quarter": "2015-Q4",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 100.61
+  },
+  {
+    "quarter": "2015-Q4",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 101.8
+  },
+  {
+    "quarter": "2015-Q4",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 101.09
+  },
+  {
+    "quarter": "2015-Q4",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 99.96
+  },
+  {
+    "quarter": "2015-Q4",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 104.65
+  },
+  {
+    "quarter": "2015-Q4",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 99.8
+  },
+  {
+    "quarter": "2015-Q4",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 98.74
+  },
+  {
+    "quarter": "2016-Q1",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 104.04
+  },
+  {
+    "quarter": "2016-Q1",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 103.9
+  },
+  {
+    "quarter": "2016-Q1",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 102.02
+  },
+  {
+    "quarter": "2016-Q1",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 101.21
+  },
+  {
+    "quarter": "2016-Q1",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 109.39
+  },
+  {
+    "quarter": "2016-Q1",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 99.8
+  },
+  {
+    "quarter": "2016-Q1",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 100.94
+  },
+  {
+    "quarter": "2016-Q2",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 106.7
+  },
+  {
+    "quarter": "2016-Q2",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 106.9
+  },
+  {
+    "quarter": "2016-Q2",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 103.75
+  },
+  {
+    "quarter": "2016-Q2",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 100.28
+  },
+  {
+    "quarter": "2016-Q2",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 111.97
+  },
+  {
+    "quarter": "2016-Q2",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 100.5
+  },
+  {
+    "quarter": "2016-Q2",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 102.84
+  },
+  {
+    "quarter": "2016-Q3",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 108.08
+  },
+  {
+    "quarter": "2016-Q3",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 108.8
+  },
+  {
+    "quarter": "2016-Q3",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 105.36
+  },
+  {
+    "quarter": "2016-Q3",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 101.31
+  },
+  {
+    "quarter": "2016-Q3",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 115.2
+  },
+  {
+    "quarter": "2016-Q3",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 100.7
+  },
+  {
+    "quarter": "2016-Q3",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 103.69
+  },
+  {
+    "quarter": "2016-Q4",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 108
+  },
+  {
+    "quarter": "2016-Q4",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 110.4
+  },
+  {
+    "quarter": "2016-Q4",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 106.11
+  },
+  {
+    "quarter": "2016-Q4",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 100.75
+  },
+  {
+    "quarter": "2016-Q4",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 116.95
+  },
+  {
+    "quarter": "2016-Q4",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 100
+  },
+  {
+    "quarter": "2016-Q4",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 105.54
+  },
+  {
+    "quarter": "2017-Q1",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 109.76
+  },
+  {
+    "quarter": "2017-Q1",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 110.9
+  },
+  {
+    "quarter": "2017-Q1",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 106.88
+  },
+  {
+    "quarter": "2017-Q1",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 100.85
+  },
+  {
+    "quarter": "2017-Q1",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 122.24
+  },
+  {
+    "quarter": "2017-Q1",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 99.1
+  },
+  {
+    "quarter": "2017-Q1",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 107.68
+  },
+  {
+    "quarter": "2017-Q2",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 112.46
+  },
+  {
+    "quarter": "2017-Q2",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 113.1
+  },
+  {
+    "quarter": "2017-Q2",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 108.76
+  },
+  {
+    "quarter": "2017-Q2",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 104.55
+  },
+  {
+    "quarter": "2017-Q2",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 125.48
+  },
+  {
+    "quarter": "2017-Q2",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 99.6
+  },
+  {
+    "quarter": "2017-Q2",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 111.33
+  },
+  {
+    "quarter": "2017-Q3",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 113.67
+  },
+  {
+    "quarter": "2017-Q3",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 115
+  },
+  {
+    "quarter": "2017-Q3",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 110.39
+  },
+  {
+    "quarter": "2017-Q3",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 105.13
+  },
+  {
+    "quarter": "2017-Q3",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 129.28
+  },
+  {
+    "quarter": "2017-Q3",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 99.2
+  },
+  {
+    "quarter": "2017-Q3",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 112.17
+  },
+  {
+    "quarter": "2017-Q4",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 112.65
+  },
+  {
+    "quarter": "2017-Q4",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 117.3
+  },
+  {
+    "quarter": "2017-Q4",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 111.19
+  },
+  {
+    "quarter": "2017-Q4",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 108.45
+  },
+  {
+    "quarter": "2017-Q4",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 131.96
+  },
+  {
+    "quarter": "2017-Q4",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 98.8
+  },
+  {
+    "quarter": "2017-Q4",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 115.96
+  },
+  {
+    "quarter": "2018-Q1",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 115.13
+  },
+  {
+    "quarter": "2018-Q1",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 118.3
+  },
+  {
+    "quarter": "2018-Q1",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 112.26
+  },
+  {
+    "quarter": "2018-Q1",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 109.44
+  },
+  {
+    "quarter": "2018-Q1",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 138.65
+  },
+  {
+    "quarter": "2018-Q1",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 98.6
+  },
+  {
+    "quarter": "2018-Q1",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 118.04
+  },
+  {
+    "quarter": "2018-Q2",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 118.94
+  },
+  {
+    "quarter": "2018-Q2",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 120.6
+  },
+  {
+    "quarter": "2018-Q2",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 114.22
+  },
+  {
+    "quarter": "2018-Q2",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 109.26
+  },
+  {
+    "quarter": "2018-Q2",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 142.52
+  },
+  {
+    "quarter": "2018-Q2",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 99.2
+  },
+  {
+    "quarter": "2018-Q2",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 119.93
+  },
+  {
+    "quarter": "2018-Q3",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 120.1
+  },
+  {
+    "quarter": "2018-Q3",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 123.1
+  },
+  {
+    "quarter": "2018-Q3",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 115.93
+  },
+  {
+    "quarter": "2018-Q3",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 112.32
+  },
+  {
+    "quarter": "2018-Q3",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 148.49
+  },
+  {
+    "quarter": "2018-Q3",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 98.4
+  },
+  {
+    "quarter": "2018-Q3",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 122.67
+  },
+  {
+    "quarter": "2018-Q4",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 121.15
+  },
+  {
+    "quarter": "2018-Q4",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 124.6
+  },
+  {
+    "quarter": "2018-Q4",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 116.81
+  },
+  {
+    "quarter": "2018-Q4",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 113.54
+  },
+  {
+    "quarter": "2018-Q4",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 152.32
+  },
+  {
+    "quarter": "2018-Q4",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 98.3
+  },
+  {
+    "quarter": "2018-Q4",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 125.55
+  },
+  {
+    "quarter": "2019-Q1",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 121.53
+  },
+  {
+    "quarter": "2019-Q1",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 124.6
+  },
+  {
+    "quarter": "2019-Q1",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 117.58
+  },
+  {
+    "quarter": "2019-Q1",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 117.55
+  },
+  {
+    "quarter": "2019-Q1",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 165.03
+  },
+  {
+    "quarter": "2019-Q1",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 97.7
+  },
+  {
+    "quarter": "2019-Q1",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 126.98
+  },
+  {
+    "quarter": "2019-Q2",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 125.79
+  },
+  {
+    "quarter": "2019-Q2",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 127.8
+  },
+  {
+    "quarter": "2019-Q2",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 119.78
+  },
+  {
+    "quarter": "2019-Q2",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 120.6
+  },
+  {
+    "quarter": "2019-Q2",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 170.54
+  },
+  {
+    "quarter": "2019-Q2",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 99.1
+  },
+  {
+    "quarter": "2019-Q2",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 128.83
+  },
+  {
+    "quarter": "2019-Q3",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 127.81
+  },
+  {
+    "quarter": "2019-Q3",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 129.6
+  },
+  {
+    "quarter": "2019-Q3",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 121.54
+  },
+  {
+    "quarter": "2019-Q3",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 121.36
+  },
+  {
+    "quarter": "2019-Q3",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 173.22
+  },
+  {
+    "quarter": "2019-Q3",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 98.8
+  },
+  {
+    "quarter": "2019-Q3",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 131.33
+  },
+  {
+    "quarter": "2019-Q4",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 128.74
+  },
+  {
+    "quarter": "2019-Q4",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 132.7
+  },
+  {
+    "quarter": "2019-Q4",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 122.69
+  },
+  {
+    "quarter": "2019-Q4",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 124.9
+  },
+  {
+    "quarter": "2019-Q4",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 171.88
+  },
+  {
+    "quarter": "2019-Q4",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 98.5
+  },
+  {
+    "quarter": "2019-Q4",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 131.62
+  },
+  {
+    "quarter": "2020-Q1",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 131.26
+  },
+  {
+    "quarter": "2020-Q1",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 133.8
+  },
+  {
+    "quarter": "2020-Q1",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 124.44
+  },
+  {
+    "quarter": "2020-Q1",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 128.25
+  },
+  {
+    "quarter": "2020-Q1",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 178.74
+  },
+  {
+    "quarter": "2020-Q1",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 99.4
+  },
+  {
+    "quarter": "2020-Q1",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 132.99
+  },
+  {
+    "quarter": "2020-Q2",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 134.09
+  },
+  {
+    "quarter": "2020-Q2",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 136.2
+  },
+  {
+    "quarter": "2020-Q2",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 126.28
+  },
+  {
+    "quarter": "2020-Q2",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 130.57
+  },
+  {
+    "quarter": "2020-Q2",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 174.9
+  },
+  {
+    "quarter": "2020-Q2",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 102.4
+  },
+  {
+    "quarter": "2020-Q2",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 135.56
+  },
+  {
+    "quarter": "2020-Q3",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 138
+  },
+  {
+    "quarter": "2020-Q3",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 140.3
+  },
+  {
+    "quarter": "2020-Q3",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 128.05
+  },
+  {
+    "quarter": "2020-Q3",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 129.75
+  },
+  {
+    "quarter": "2020-Q3",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 181.59
+  },
+  {
+    "quarter": "2020-Q3",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 99.8
+  },
+  {
+    "quarter": "2020-Q3",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 135.65
+  },
+  {
+    "quarter": "2020-Q4",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 138.71
+  },
+  {
+    "quarter": "2020-Q4",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 144.3
+  },
+  {
+    "quarter": "2020-Q4",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 129.8
+  },
+  {
+    "quarter": "2020-Q4",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 132.95
+  },
+  {
+    "quarter": "2020-Q4",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 179.08
+  },
+  {
+    "quarter": "2020-Q4",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 100
+  },
+  {
+    "quarter": "2020-Q4",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 138.43
+  },
+  {
+    "quarter": "2021-Q1",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 144.08
+  },
+  {
+    "quarter": "2021-Q1",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 146.3
+  },
+  {
+    "quarter": "2021-Q1",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 132.11
+  },
+  {
+    "quarter": "2021-Q1",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 134.19
+  },
+  {
+    "quarter": "2021-Q1",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 195.95
+  },
+  {
+    "quarter": "2021-Q1",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 101.1
+  },
+  {
+    "quarter": "2021-Q1",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 142.65
+  },
+  {
+    "quarter": "2021-Q2",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 149.12
+  },
+  {
+    "quarter": "2021-Q2",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 151.8
+  },
+  {
+    "quarter": "2021-Q2",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 135.91
+  },
+  {
+    "quarter": "2021-Q2",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 139.03
+  },
+  {
+    "quarter": "2021-Q2",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 204.4
+  },
+  {
+    "quarter": "2021-Q2",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 102.8
+  },
+  {
+    "quarter": "2021-Q2",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 149.21
+  },
+  {
+    "quarter": "2021-Q3",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 153.52
+  },
+  {
+    "quarter": "2021-Q3",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 158.2
+  },
+  {
+    "quarter": "2021-Q3",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 140.18
+  },
+  {
+    "quarter": "2021-Q3",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 141.44
+  },
+  {
+    "quarter": "2021-Q3",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 211.94
+  },
+  {
+    "quarter": "2021-Q3",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 103.9
+  },
+  {
+    "quarter": "2021-Q3",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 153.15
+  },
+  {
+    "quarter": "2021-Q4",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 157.34
+  },
+  {
+    "quarter": "2021-Q4",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 162.5
+  },
+  {
+    "quarter": "2021-Q4",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 143.16
+  },
+  {
+    "quarter": "2021-Q4",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 144.99
+  },
+  {
+    "quarter": "2021-Q4",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 219.86
+  },
+  {
+    "quarter": "2021-Q4",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 104
+  },
+  {
+    "quarter": "2021-Q4",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 160.26
+  },
+  {
+    "quarter": "2022-Q1",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 164.63
+  },
+  {
+    "quarter": "2022-Q1",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 164.1
+  },
+  {
+    "quarter": "2022-Q1",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 146.21
+  },
+  {
+    "quarter": "2022-Q1",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 152.25
+  },
+  {
+    "quarter": "2022-Q1",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 241.42
+  },
+  {
+    "quarter": "2022-Q1",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 105.7
+  },
+  {
+    "quarter": "2022-Q1",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 166.93
+  },
+  {
+    "quarter": "2022-Q2",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 169.43
+  },
+  {
+    "quarter": "2022-Q2",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 167.4
+  },
+  {
+    "quarter": "2022-Q2",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 149.58
+  },
+  {
+    "quarter": "2022-Q2",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 157.94
+  },
+  {
+    "quarter": "2022-Q2",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 255.23
+  },
+  {
+    "quarter": "2022-Q2",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 108.1
+  },
+  {
+    "quarter": "2022-Q2",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 172.43
+  },
+  {
+    "quarter": "2022-Q3",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 173.59
+  },
+  {
+    "quarter": "2022-Q3",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 166.3
+  },
+  {
+    "quarter": "2022-Q3",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 150.9
+  },
+  {
+    "quarter": "2022-Q3",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 162.44
+  },
+  {
+    "quarter": "2022-Q3",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 262.98
+  },
+  {
+    "quarter": "2022-Q3",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 106.9
+  },
+  {
+    "quarter": "2022-Q3",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 176.4
+  },
+  {
+    "quarter": "2022-Q4",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 166.32
+  },
+  {
+    "quarter": "2022-Q4",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 158.5
+  },
+  {
+    "quarter": "2022-Q4",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 148.74
+  },
+  {
+    "quarter": "2022-Q4",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 170.11
+  },
+  {
+    "quarter": "2022-Q4",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 258.43
+  },
+  {
+    "quarter": "2022-Q4",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 106.8
+  },
+  {
+    "quarter": "2022-Q4",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 178.83
+  },
+  {
+    "quarter": "2023-Q1",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 164.35
+  },
+  {
+    "quarter": "2023-Q1",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 153.7
+  },
+  {
+    "quarter": "2023-Q1",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 147.58
+  },
+  {
+    "quarter": "2023-Q1",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 173.56
+  },
+  {
+    "quarter": "2023-Q1",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 268.81
+  },
+  {
+    "quarter": "2023-Q1",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 106.8
+  },
+  {
+    "quarter": "2023-Q1",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 181.96
+  },
+  {
+    "quarter": "2023-Q2",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 164.68
+  },
+  {
+    "quarter": "2023-Q2",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 151.6
+  },
+  {
+    "quarter": "2023-Q2",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 148.19
+  },
+  {
+    "quarter": "2023-Q2",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 179.63
+  },
+  {
+    "quarter": "2023-Q2",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 271.54
+  },
+  {
+    "quarter": "2023-Q2",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 108.8
+  },
+  {
+    "quarter": "2023-Q2",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 185.39
+  },
+  {
+    "quarter": "2023-Q3",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 164.29
+  },
+  {
+    "quarter": "2023-Q3",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 149.3
+  },
+  {
+    "quarter": "2023-Q3",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 149.15
+  },
+  {
+    "quarter": "2023-Q3",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 180.09
+  },
+  {
+    "quarter": "2023-Q3",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 272.63
+  },
+  {
+    "quarter": "2023-Q3",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 108.7
+  },
+  {
+    "quarter": "2023-Q3",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 186.33
+  },
+  {
+    "quarter": "2023-Q4",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 161.4
+  },
+  {
+    "quarter": "2023-Q4",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 146.4
+  },
+  {
+    "quarter": "2023-Q4",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 148.87
+  },
+  {
+    "quarter": "2023-Q4",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 186.24
+  },
+  {
+    "quarter": "2023-Q4",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 277.19
+  },
+  {
+    "quarter": "2023-Q4",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 108.7
+  },
+  {
+    "quarter": "2023-Q4",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 191.19
+  },
+  {
+    "quarter": "2024-Q1",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 159.54
+  },
+  {
+    "quarter": "2024-Q1",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 145.8
+  },
+  {
+    "quarter": "2024-Q1",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 149.8
+  },
+  {
+    "quarter": "2024-Q1",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 189.41
+  },
+  {
+    "quarter": "2024-Q1",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 300.99
+  },
+  {
+    "quarter": "2024-Q1",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 108.5
+  },
+  {
+    "quarter": "2024-Q1",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 195.44
+  },
+  {
+    "quarter": "2024-Q2",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 164.34
+  },
+  {
+    "quarter": "2024-Q2",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 147.8
+  },
+  {
+    "quarter": "2024-Q2",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 152.68
+  },
+  {
+    "quarter": "2024-Q2",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 197.53
+  },
+  {
+    "quarter": "2024-Q2",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 306.51
+  },
+  {
+    "quarter": "2024-Q2",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 112
+  },
+  {
+    "quarter": "2024-Q2",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 198.33
+  },
+  {
+    "quarter": "2024-Q3",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 165.13
+  },
+  {
+    "quarter": "2024-Q3",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 149
+  },
+  {
+    "quarter": "2024-Q3",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 155.07
+  },
+  {
+    "quarter": "2024-Q3",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 202.19
+  },
+  {
+    "quarter": "2024-Q3",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 309.83
+  },
+  {
+    "quarter": "2024-Q3",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 112.8
+  },
+  {
+    "quarter": "2024-Q3",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 201.54
+  },
+  {
+    "quarter": "2024-Q4",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 163.23
+  },
+  {
+    "quarter": "2024-Q4",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 149.2
+  },
+  {
+    "quarter": "2024-Q4",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 156.22
+  },
+  {
+    "quarter": "2024-Q4",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 205.01
+  },
+  {
+    "quarter": "2024-Q4",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 322.11
+  },
+  {
+    "quarter": "2024-Q4",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 113.5
+  },
+  {
+    "quarter": "2024-Q4",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 205.71
+  },
+  {
+    "quarter": "2025-Q1",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 165.17
+  },
+  {
+    "quarter": "2025-Q1",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 150.9
+  },
+  {
+    "quarter": "2025-Q1",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 158.41
+  },
+  {
+    "quarter": "2025-Q1",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 214.18
+  },
+  {
+    "quarter": "2025-Q1",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 352.26
+  },
+  {
+    "quarter": "2025-Q1",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 113.3
+  },
+  {
+    "quarter": "2025-Q1",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 201.66
+  },
+  {
+    "quarter": "2025-Q2",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 166.95
+  },
+  {
+    "quarter": "2025-Q2",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 152.4
+  },
+  {
+    "quarter": "2025-Q2",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 161.02
+  },
+  {
+    "quarter": "2025-Q2",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 223.65
+  },
+  {
+    "quarter": "2025-Q2",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 363.76
+  },
+  {
+    "quarter": "2025-Q2",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 116.4
+  },
+  {
+    "quarter": "2025-Q2",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 209.31
+  },
+  {
+    "quarter": "2025-Q3",
+    "country": "AT",
+    "countryName": "Avstrija",
+    "value": 169.64
+  },
+  {
+    "quarter": "2025-Q3",
+    "country": "DE",
+    "countryName": "Nemčija",
+    "value": 153.9
+  },
+  {
+    "quarter": "2025-Q3",
+    "country": "EU27_2020",
+    "countryName": "EU-27",
+    "value": 163.62
+  },
+  {
+    "quarter": "2025-Q3",
+    "country": "HR",
+    "countryName": "Hrvaška",
+    "value": 230.07
+  },
+  {
+    "quarter": "2025-Q3",
+    "country": "HU",
+    "countryName": "Madžarska",
+    "value": 375.19
+  },
+  {
+    "quarter": "2025-Q3",
+    "country": "IT",
+    "countryName": "Italija",
+    "value": 117.1
+  },
+  {
+    "quarter": "2025-Q3",
+    "country": "SI",
+    "countryName": "Slovenija",
+    "value": 207.03
+  }
+]

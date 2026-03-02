@@ -1,0 +1,1802 @@
+[
+  {
+    "quarter": "2007-Q1",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 109.2
+  },
+  {
+    "quarter": "2007-Q1",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 109.2
+  },
+  {
+    "quarter": "2007-Q1",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": null
+  },
+  {
+    "quarter": "2007-Q1",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 115.66
+  },
+  {
+    "quarter": "2007-Q2",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 111.5
+  },
+  {
+    "quarter": "2007-Q2",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 102.1
+  },
+  {
+    "quarter": "2007-Q2",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": null
+  },
+  {
+    "quarter": "2007-Q2",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 118.12
+  },
+  {
+    "quarter": "2007-Q3",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 115.3
+  },
+  {
+    "quarter": "2007-Q3",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 103.4
+  },
+  {
+    "quarter": "2007-Q3",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": null
+  },
+  {
+    "quarter": "2007-Q3",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 122.08
+  },
+  {
+    "quarter": "2007-Q4",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 120.4
+  },
+  {
+    "quarter": "2007-Q4",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 104.5
+  },
+  {
+    "quarter": "2007-Q4",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": null
+  },
+  {
+    "quarter": "2007-Q4",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 127.52
+  },
+  {
+    "quarter": "2008-Q1",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 101.4
+  },
+  {
+    "quarter": "2008-Q1",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 101.4
+  },
+  {
+    "quarter": "2008-Q1",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 111.8
+  },
+  {
+    "quarter": "2008-Q1",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 129.32
+  },
+  {
+    "quarter": "2008-Q2",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 101.2
+  },
+  {
+    "quarter": "2008-Q2",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 99.8
+  },
+  {
+    "quarter": "2008-Q2",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 109.3
+  },
+  {
+    "quarter": "2008-Q2",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 129.08
+  },
+  {
+    "quarter": "2008-Q3",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 103.1
+  },
+  {
+    "quarter": "2008-Q3",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 101.9
+  },
+  {
+    "quarter": "2008-Q3",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 107.7
+  },
+  {
+    "quarter": "2008-Q3",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 131.52
+  },
+  {
+    "quarter": "2008-Q4",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 99.8
+  },
+  {
+    "quarter": "2008-Q4",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 96.8
+  },
+  {
+    "quarter": "2008-Q4",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 99.8
+  },
+  {
+    "quarter": "2008-Q4",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 127.31
+  },
+  {
+    "quarter": "2009-Q1",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 93.8
+  },
+  {
+    "quarter": "2009-Q1",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 93.8
+  },
+  {
+    "quarter": "2009-Q1",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 92.3
+  },
+  {
+    "quarter": "2009-Q1",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 119.37
+  },
+  {
+    "quarter": "2009-Q2",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 91.8
+  },
+  {
+    "quarter": "2009-Q2",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 98
+  },
+  {
+    "quarter": "2009-Q2",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 90.6
+  },
+  {
+    "quarter": "2009-Q2",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 116.93
+  },
+  {
+    "quarter": "2009-Q3",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 90.3
+  },
+  {
+    "quarter": "2009-Q3",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 98.3
+  },
+  {
+    "quarter": "2009-Q3",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 87.4
+  },
+  {
+    "quarter": "2009-Q3",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 114.95
+  },
+  {
+    "quarter": "2009-Q4",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 91.9
+  },
+  {
+    "quarter": "2009-Q4",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 101.8
+  },
+  {
+    "quarter": "2009-Q4",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 91.9
+  },
+  {
+    "quarter": "2009-Q4",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 116.97
+  },
+  {
+    "quarter": "2010-Q1",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 100.4
+  },
+  {
+    "quarter": "2010-Q1",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 100.4
+  },
+  {
+    "quarter": "2010-Q1",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 98.4
+  },
+  {
+    "quarter": "2010-Q1",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 117.41
+  },
+  {
+    "quarter": "2010-Q2",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 100.9
+  },
+  {
+    "quarter": "2010-Q2",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 100.6
+  },
+  {
+    "quarter": "2010-Q2",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 101
+  },
+  {
+    "quarter": "2010-Q2",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 118.08
+  },
+  {
+    "quarter": "2010-Q3",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 99.6
+  },
+  {
+    "quarter": "2010-Q3",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 98.7
+  },
+  {
+    "quarter": "2010-Q3",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 101.4
+  },
+  {
+    "quarter": "2010-Q3",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 116.53
+  },
+  {
+    "quarter": "2010-Q4",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 99.9
+  },
+  {
+    "quarter": "2010-Q4",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 100.2
+  },
+  {
+    "quarter": "2010-Q4",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 99.9
+  },
+  {
+    "quarter": "2010-Q4",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 116.8
+  },
+  {
+    "quarter": "2011-Q1",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 104.7
+  },
+  {
+    "quarter": "2011-Q1",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 104.7
+  },
+  {
+    "quarter": "2011-Q1",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 104.1
+  },
+  {
+    "quarter": "2011-Q1",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 122.24
+  },
+  {
+    "quarter": "2011-Q2",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 104.4
+  },
+  {
+    "quarter": "2011-Q2",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 99.7
+  },
+  {
+    "quarter": "2011-Q2",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 103.2
+  },
+  {
+    "quarter": "2011-Q2",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 121.89
+  },
+  {
+    "quarter": "2011-Q3",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 101.9
+  },
+  {
+    "quarter": "2011-Q3",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 97.6
+  },
+  {
+    "quarter": "2011-Q3",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 102.1
+  },
+  {
+    "quarter": "2011-Q3",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 119.01
+  },
+  {
+    "quarter": "2011-Q4",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 101.4
+  },
+  {
+    "quarter": "2011-Q4",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 99.5
+  },
+  {
+    "quarter": "2011-Q4",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 101.4
+  },
+  {
+    "quarter": "2011-Q4",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 118.4
+  },
+  {
+    "quarter": "2012-Q1",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 95.9
+  },
+  {
+    "quarter": "2012-Q1",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 95.9
+  },
+  {
+    "quarter": "2012-Q1",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 92.9
+  },
+  {
+    "quarter": "2012-Q1",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 113.6
+  },
+  {
+    "quarter": "2012-Q2",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 97
+  },
+  {
+    "quarter": "2012-Q2",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 101.1
+  },
+  {
+    "quarter": "2012-Q2",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 94.3
+  },
+  {
+    "quarter": "2012-Q2",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 114.91
+  },
+  {
+    "quarter": "2012-Q3",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 94.5
+  },
+  {
+    "quarter": "2012-Q3",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 97.4
+  },
+  {
+    "quarter": "2012-Q3",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 94
+  },
+  {
+    "quarter": "2012-Q3",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 111.9
+  },
+  {
+    "quarter": "2012-Q4",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 91.2
+  },
+  {
+    "quarter": "2012-Q4",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 96.5
+  },
+  {
+    "quarter": "2012-Q4",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 91.2
+  },
+  {
+    "quarter": "2012-Q4",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 107.95
+  },
+  {
+    "quarter": "2013-Q1",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 100.7
+  },
+  {
+    "quarter": "2013-Q1",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 100.7
+  },
+  {
+    "quarter": "2013-Q1",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 95.7
+  },
+  {
+    "quarter": "2013-Q1",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 108.72
+  },
+  {
+    "quarter": "2013-Q2",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 101.5
+  },
+  {
+    "quarter": "2013-Q2",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 100.8
+  },
+  {
+    "quarter": "2013-Q2",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 95.4
+  },
+  {
+    "quarter": "2013-Q2",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 109.6
+  },
+  {
+    "quarter": "2013-Q3",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 95.7
+  },
+  {
+    "quarter": "2013-Q3",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 94.3
+  },
+  {
+    "quarter": "2013-Q3",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 92.3
+  },
+  {
+    "quarter": "2013-Q3",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 103.3
+  },
+  {
+    "quarter": "2013-Q4",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 95.6
+  },
+  {
+    "quarter": "2013-Q4",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 99.9
+  },
+  {
+    "quarter": "2013-Q4",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 95.6
+  },
+  {
+    "quarter": "2013-Q4",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 103.22
+  },
+  {
+    "quarter": "2014-Q1",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 98.3
+  },
+  {
+    "quarter": "2014-Q1",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 98.3
+  },
+  {
+    "quarter": "2014-Q1",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 93.4
+  },
+  {
+    "quarter": "2014-Q1",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 101.51
+  },
+  {
+    "quarter": "2014-Q2",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 95.8
+  },
+  {
+    "quarter": "2014-Q2",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 97.4
+  },
+  {
+    "quarter": "2014-Q2",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 90.2
+  },
+  {
+    "quarter": "2014-Q2",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 98.84
+  },
+  {
+    "quarter": "2014-Q3",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 94.7
+  },
+  {
+    "quarter": "2014-Q3",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 98.9
+  },
+  {
+    "quarter": "2014-Q3",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 94.6
+  },
+  {
+    "quarter": "2014-Q3",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 97.77
+  },
+  {
+    "quarter": "2014-Q4",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 95.6
+  },
+  {
+    "quarter": "2014-Q4",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 100.9
+  },
+  {
+    "quarter": "2014-Q4",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 95.6
+  },
+  {
+    "quarter": "2014-Q4",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 98.69
+  },
+  {
+    "quarter": "2015-Q1",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 101.4
+  },
+  {
+    "quarter": "2015-Q1",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 101.4
+  },
+  {
+    "quarter": "2015-Q1",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 98.6
+  },
+  {
+    "quarter": "2015-Q1",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 100.11
+  },
+  {
+    "quarter": "2015-Q2",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 103.7
+  },
+  {
+    "quarter": "2015-Q2",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 102.3
+  },
+  {
+    "quarter": "2015-Q2",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 103.6
+  },
+  {
+    "quarter": "2015-Q2",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 102.38
+  },
+  {
+    "quarter": "2015-Q3",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 100.1
+  },
+  {
+    "quarter": "2015-Q3",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 96.5
+  },
+  {
+    "quarter": "2015-Q3",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 101
+  },
+  {
+    "quarter": "2015-Q3",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 98.77
+  },
+  {
+    "quarter": "2015-Q4",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 100.1
+  },
+  {
+    "quarter": "2015-Q4",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 100
+  },
+  {
+    "quarter": "2015-Q4",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 100.1
+  },
+  {
+    "quarter": "2015-Q4",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 98.74
+  },
+  {
+    "quarter": "2016-Q1",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 102.2
+  },
+  {
+    "quarter": "2016-Q1",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 102.2
+  },
+  {
+    "quarter": "2016-Q1",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 100.8
+  },
+  {
+    "quarter": "2016-Q1",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 100.94
+  },
+  {
+    "quarter": "2016-Q2",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 104.2
+  },
+  {
+    "quarter": "2016-Q2",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 101.9
+  },
+  {
+    "quarter": "2016-Q2",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 100.5
+  },
+  {
+    "quarter": "2016-Q2",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 102.84
+  },
+  {
+    "quarter": "2016-Q3",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 105
+  },
+  {
+    "quarter": "2016-Q3",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 100.8
+  },
+  {
+    "quarter": "2016-Q3",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 105
+  },
+  {
+    "quarter": "2016-Q3",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 103.69
+  },
+  {
+    "quarter": "2016-Q4",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 106.9
+  },
+  {
+    "quarter": "2016-Q4",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 101.8
+  },
+  {
+    "quarter": "2016-Q4",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 106.9
+  },
+  {
+    "quarter": "2016-Q4",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 105.54
+  },
+  {
+    "quarter": "2017-Q1",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 102
+  },
+  {
+    "quarter": "2017-Q1",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 102
+  },
+  {
+    "quarter": "2017-Q1",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 106.7
+  },
+  {
+    "quarter": "2017-Q1",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 107.68
+  },
+  {
+    "quarter": "2017-Q2",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 105.5
+  },
+  {
+    "quarter": "2017-Q2",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 103.4
+  },
+  {
+    "quarter": "2017-Q2",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 108.3
+  },
+  {
+    "quarter": "2017-Q2",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 111.33
+  },
+  {
+    "quarter": "2017-Q3",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 106.3
+  },
+  {
+    "quarter": "2017-Q3",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 100.8
+  },
+  {
+    "quarter": "2017-Q3",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 108.2
+  },
+  {
+    "quarter": "2017-Q3",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 112.17
+  },
+  {
+    "quarter": "2017-Q4",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 109.9
+  },
+  {
+    "quarter": "2017-Q4",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 103.4
+  },
+  {
+    "quarter": "2017-Q4",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 109.9
+  },
+  {
+    "quarter": "2017-Q4",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 115.96
+  },
+  {
+    "quarter": "2018-Q1",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 101.8
+  },
+  {
+    "quarter": "2018-Q1",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 101.8
+  },
+  {
+    "quarter": "2018-Q1",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 109.6
+  },
+  {
+    "quarter": "2018-Q1",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 118.04
+  },
+  {
+    "quarter": "2018-Q2",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 103.4
+  },
+  {
+    "quarter": "2018-Q2",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 101.6
+  },
+  {
+    "quarter": "2018-Q2",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 107.7
+  },
+  {
+    "quarter": "2018-Q2",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 119.93
+  },
+  {
+    "quarter": "2018-Q3",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 105.8
+  },
+  {
+    "quarter": "2018-Q3",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 102.3
+  },
+  {
+    "quarter": "2018-Q3",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 109.4
+  },
+  {
+    "quarter": "2018-Q3",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 122.67
+  },
+  {
+    "quarter": "2018-Q4",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 108.3
+  },
+  {
+    "quarter": "2018-Q4",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 102.4
+  },
+  {
+    "quarter": "2018-Q4",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 108.3
+  },
+  {
+    "quarter": "2018-Q4",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 125.55
+  },
+  {
+    "quarter": "2019-Q1",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 101.1
+  },
+  {
+    "quarter": "2019-Q1",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 101.1
+  },
+  {
+    "quarter": "2019-Q1",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 107.6
+  },
+  {
+    "quarter": "2019-Q1",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 126.98
+  },
+  {
+    "quarter": "2019-Q2",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 102.6
+  },
+  {
+    "quarter": "2019-Q2",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 101.5
+  },
+  {
+    "quarter": "2019-Q2",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 107.4
+  },
+  {
+    "quarter": "2019-Q2",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 128.83
+  },
+  {
+    "quarter": "2019-Q3",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 104.6
+  },
+  {
+    "quarter": "2019-Q3",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 101.9
+  },
+  {
+    "quarter": "2019-Q3",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 107.1
+  },
+  {
+    "quarter": "2019-Q3",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 131.33
+  },
+  {
+    "quarter": "2019-Q4",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 104.8
+  },
+  {
+    "quarter": "2019-Q4",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 100.2
+  },
+  {
+    "quarter": "2019-Q4",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 104.8
+  },
+  {
+    "quarter": "2019-Q4",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 131.62
+  },
+  {
+    "quarter": "2020-Q1",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 101
+  },
+  {
+    "quarter": "2020-Q1",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 101
+  },
+  {
+    "quarter": "2020-Q1",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 104.7
+  },
+  {
+    "quarter": "2020-Q1",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 132.99
+  },
+  {
+    "quarter": "2020-Q2",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 103
+  },
+  {
+    "quarter": "2020-Q2",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 101.9
+  },
+  {
+    "quarter": "2020-Q2",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 105.2
+  },
+  {
+    "quarter": "2020-Q2",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 135.56
+  },
+  {
+    "quarter": "2020-Q3",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 103.1
+  },
+  {
+    "quarter": "2020-Q3",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 100.1
+  },
+  {
+    "quarter": "2020-Q3",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 103.3
+  },
+  {
+    "quarter": "2020-Q3",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 135.65
+  },
+  {
+    "quarter": "2020-Q4",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 105.2
+  },
+  {
+    "quarter": "2020-Q4",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 102
+  },
+  {
+    "quarter": "2020-Q4",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 105.2
+  },
+  {
+    "quarter": "2020-Q4",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 138.43
+  },
+  {
+    "quarter": "2021-Q1",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 103
+  },
+  {
+    "quarter": "2021-Q1",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 103
+  },
+  {
+    "quarter": "2021-Q1",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 107.3
+  },
+  {
+    "quarter": "2021-Q1",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 142.65
+  },
+  {
+    "quarter": "2021-Q2",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 107.8
+  },
+  {
+    "quarter": "2021-Q2",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 104.6
+  },
+  {
+    "quarter": "2021-Q2",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 110.1
+  },
+  {
+    "quarter": "2021-Q2",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 149.21
+  },
+  {
+    "quarter": "2021-Q3",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 110.6
+  },
+  {
+    "quarter": "2021-Q3",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 102.6
+  },
+  {
+    "quarter": "2021-Q3",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 112.9
+  },
+  {
+    "quarter": "2021-Q3",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 153.15
+  },
+  {
+    "quarter": "2021-Q4",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 115.8
+  },
+  {
+    "quarter": "2021-Q4",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 104.6
+  },
+  {
+    "quarter": "2021-Q4",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 115.8
+  },
+  {
+    "quarter": "2021-Q4",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 160.26
+  },
+  {
+    "quarter": "2022-Q1",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 104.2
+  },
+  {
+    "quarter": "2022-Q1",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 104.2
+  },
+  {
+    "quarter": "2022-Q1",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 117
+  },
+  {
+    "quarter": "2022-Q1",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 166.93
+  },
+  {
+    "quarter": "2022-Q2",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 107.6
+  },
+  {
+    "quarter": "2022-Q2",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 103.3
+  },
+  {
+    "quarter": "2022-Q2",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 115.6
+  },
+  {
+    "quarter": "2022-Q2",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 172.43
+  },
+  {
+    "quarter": "2022-Q3",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 110.1
+  },
+  {
+    "quarter": "2022-Q3",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 102.3
+  },
+  {
+    "quarter": "2022-Q3",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 115.2
+  },
+  {
+    "quarter": "2022-Q3",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 176.4
+  },
+  {
+    "quarter": "2022-Q4",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 111.6
+  },
+  {
+    "quarter": "2022-Q4",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 101.4
+  },
+  {
+    "quarter": "2022-Q4",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 111.6
+  },
+  {
+    "quarter": "2022-Q4",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 178.83
+  },
+  {
+    "quarter": "2023-Q1",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 101.7
+  },
+  {
+    "quarter": "2023-Q1",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 101.8
+  },
+  {
+    "quarter": "2023-Q1",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 109
+  },
+  {
+    "quarter": "2023-Q1",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 181.96
+  },
+  {
+    "quarter": "2023-Q2",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 103.7
+  },
+  {
+    "quarter": "2023-Q2",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 101.9
+  },
+  {
+    "quarter": "2023-Q2",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 107.5
+  },
+  {
+    "quarter": "2023-Q2",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 185.39
+  },
+  {
+    "quarter": "2023-Q3",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 104.2
+  },
+  {
+    "quarter": "2023-Q3",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 100.5
+  },
+  {
+    "quarter": "2023-Q3",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 105.6
+  },
+  {
+    "quarter": "2023-Q3",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 186.33
+  },
+  {
+    "quarter": "2023-Q4",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 106.9
+  },
+  {
+    "quarter": "2023-Q4",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 102.6
+  },
+  {
+    "quarter": "2023-Q4",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 106.9
+  },
+  {
+    "quarter": "2023-Q4",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 191.19
+  },
+  {
+    "quarter": "2024-Q1",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 102.2
+  },
+  {
+    "quarter": "2024-Q1",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 102.2
+  },
+  {
+    "quarter": "2024-Q1",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 107.4
+  },
+  {
+    "quarter": "2024-Q1",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 195.44
+  },
+  {
+    "quarter": "2024-Q2",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 103.7
+  },
+  {
+    "quarter": "2024-Q2",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 101.5
+  },
+  {
+    "quarter": "2024-Q2",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 107
+  },
+  {
+    "quarter": "2024-Q2",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 198.33
+  },
+  {
+    "quarter": "2024-Q3",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 105.4
+  },
+  {
+    "quarter": "2024-Q3",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 101.6
+  },
+  {
+    "quarter": "2024-Q3",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 108.2
+  },
+  {
+    "quarter": "2024-Q3",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 201.54
+  },
+  {
+    "quarter": "2024-Q4",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 107.6
+  },
+  {
+    "quarter": "2024-Q4",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 102.1
+  },
+  {
+    "quarter": "2024-Q4",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 107.6
+  },
+  {
+    "quarter": "2024-Q4",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 205.71
+  },
+  {
+    "quarter": "2025-Q1",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 98
+  },
+  {
+    "quarter": "2025-Q1",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 98
+  },
+  {
+    "quarter": "2025-Q1",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 103.2
+  },
+  {
+    "quarter": "2025-Q1",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 201.66
+  },
+  {
+    "quarter": "2025-Q2",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 101.8
+  },
+  {
+    "quarter": "2025-Q2",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 103.8
+  },
+  {
+    "quarter": "2025-Q2",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 105.5
+  },
+  {
+    "quarter": "2025-Q2",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 209.31
+  },
+  {
+    "quarter": "2025-Q3",
+    "indexType": "QoY",
+    "indexTypeLabel": "Četrtletje / zadnje četrtletje prejšnjega leta",
+    "value": 100.6
+  },
+  {
+    "quarter": "2025-Q3",
+    "indexType": "QoQ",
+    "indexTypeLabel": "Četrtletje / prejšnje četrtletje",
+    "value": 98.9
+  },
+  {
+    "quarter": "2025-Q3",
+    "indexType": "YoY",
+    "indexTypeLabel": "Četrtletje / isto četrtletje prejšnjega leta",
+    "value": 102.7
+  },
+  {
+    "quarter": "2025-Q3",
+    "indexType": "Base2015",
+    "indexTypeLabel": "Četrtletje / povprečje četrtletij leta 2015",
+    "value": 207.03
+  }
+]

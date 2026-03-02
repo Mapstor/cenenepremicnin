@@ -1,0 +1,668 @@
+{
+  "poLetu": {
+    "2007": {
+      "skupaj": 9536,
+      "novogradnje": 7,
+      "rabljeno": 9529,
+      "delezNovogradenj": 0.1,
+      "medianaCenaM2Novo": 1644,
+      "medianaCenaM2Rabljeno": 1565,
+      "razlikaCene": 5
+    },
+    "2008": {
+      "skupaj": 6585,
+      "novogradnje": 20,
+      "rabljeno": 6565,
+      "delezNovogradenj": 0.3,
+      "medianaCenaM2Novo": 1574,
+      "medianaCenaM2Rabljeno": 1517,
+      "razlikaCene": 3.7
+    },
+    "2009": {
+      "skupaj": 9243,
+      "novogradnje": 284,
+      "rabljeno": 8959,
+      "delezNovogradenj": 3.1,
+      "medianaCenaM2Novo": 1586,
+      "medianaCenaM2Rabljeno": 1493,
+      "razlikaCene": 6.2
+    },
+    "2010": {
+      "skupaj": 22638,
+      "novogradnje": 663,
+      "rabljeno": 21975,
+      "delezNovogradenj": 2.9,
+      "medianaCenaM2Novo": 1783,
+      "medianaCenaM2Rabljeno": 1579,
+      "razlikaCene": 12.9
+    },
+    "2011": {
+      "skupaj": 21899,
+      "novogradnje": 461,
+      "rabljeno": 21438,
+      "delezNovogradenj": 2.1,
+      "medianaCenaM2Novo": 1737,
+      "medianaCenaM2Rabljeno": 1570,
+      "razlikaCene": 10.6
+    },
+    "2012": {
+      "skupaj": 19355,
+      "novogradnje": 291,
+      "rabljeno": 19064,
+      "delezNovogradenj": 1.5,
+      "medianaCenaM2Novo": 2030,
+      "medianaCenaM2Rabljeno": 1550,
+      "razlikaCene": 31
+    },
+    "2013": {
+      "skupaj": 16793,
+      "novogradnje": 369,
+      "rabljeno": 16424,
+      "delezNovogradenj": 2.2,
+      "medianaCenaM2Novo": 1789,
+      "medianaCenaM2Rabljeno": 1391,
+      "razlikaCene": 28.6
+    },
+    "2014": {
+      "skupaj": 11859,
+      "novogradnje": 835,
+      "rabljeno": 11024,
+      "delezNovogradenj": 7,
+      "medianaCenaM2Novo": 2062,
+      "medianaCenaM2Rabljeno": 941,
+      "razlikaCene": 119.1
+    },
+    "2015": {
+      "skupaj": 7433,
+      "novogradnje": 391,
+      "rabljeno": 7042,
+      "delezNovogradenj": 5.3,
+      "medianaCenaM2Novo": 2155,
+      "medianaCenaM2Rabljeno": 1017,
+      "razlikaCene": 111.9
+    },
+    "2016": {
+      "skupaj": 9043,
+      "novogradnje": 396,
+      "rabljeno": 8647,
+      "delezNovogradenj": 4.4,
+      "medianaCenaM2Novo": 1708,
+      "medianaCenaM2Rabljeno": 1050,
+      "razlikaCene": 62.6
+    },
+    "2017": {
+      "skupaj": 9564,
+      "novogradnje": 293,
+      "rabljeno": 9271,
+      "delezNovogradenj": 3.1,
+      "medianaCenaM2Novo": 2332,
+      "medianaCenaM2Rabljeno": 1097,
+      "razlikaCene": 112.6
+    },
+    "2018": {
+      "skupaj": 9112,
+      "novogradnje": 391,
+      "rabljeno": 8721,
+      "delezNovogradenj": 4.3,
+      "medianaCenaM2Novo": 2310,
+      "medianaCenaM2Rabljeno": 1194,
+      "razlikaCene": 93.5
+    },
+    "2019": {
+      "skupaj": 9116,
+      "novogradnje": 267,
+      "rabljeno": 8849,
+      "delezNovogradenj": 2.9,
+      "medianaCenaM2Novo": 2410,
+      "medianaCenaM2Rabljeno": 1250,
+      "razlikaCene": 92.8
+    },
+    "2020": {
+      "skupaj": 1656,
+      "novogradnje": 47,
+      "rabljeno": 1609,
+      "delezNovogradenj": 2.8,
+      "medianaCenaM2Novo": 2797,
+      "medianaCenaM2Rabljeno": 1125,
+      "razlikaCene": 148.6
+    },
+    "2021": {
+      "skupaj": 1189,
+      "novogradnje": 290,
+      "rabljeno": 899,
+      "delezNovogradenj": 24.4,
+      "medianaCenaM2Novo": 3444,
+      "medianaCenaM2Rabljeno": 861,
+      "razlikaCene": 300
+    },
+    "2022": {
+      "skupaj": 1191,
+      "novogradnje": 258,
+      "rabljeno": 933,
+      "delezNovogradenj": 21.7,
+      "medianaCenaM2Novo": 3579,
+      "medianaCenaM2Rabljeno": 932,
+      "razlikaCene": 284
+    },
+    "2023": {
+      "skupaj": 4937,
+      "novogradnje": 456,
+      "rabljeno": 4481,
+      "delezNovogradenj": 9.2,
+      "medianaCenaM2Novo": 3918,
+      "medianaCenaM2Rabljeno": 2080,
+      "razlikaCene": 88.3
+    },
+    "2024": {
+      "skupaj": 4538,
+      "novogradnje": 252,
+      "rabljeno": 4286,
+      "delezNovogradenj": 5.6,
+      "medianaCenaM2Novo": 3820,
+      "medianaCenaM2Rabljeno": 2373,
+      "razlikaCene": 61
+    },
+    "2025": {
+      "skupaj": 609,
+      "novogradnje": 6,
+      "rabljeno": 603,
+      "delezNovogradenj": 1,
+      "medianaCenaM2Novo": 3046,
+      "medianaCenaM2Rabljeno": 2508,
+      "razlikaCene": 21.5
+    }
+  },
+  "poObcini": [
+    {
+      "obcina": "SVETI JURIJ V SLOVENSKIH GORICAH",
+      "novogradnje": 10,
+      "rabljeno": 1,
+      "delezNovogradenj": 90.9,
+      "medianaCenaM2Novo": 1429
+    },
+    {
+      "obcina": "BENEDIKT",
+      "novogradnje": 47,
+      "rabljeno": 124,
+      "delezNovogradenj": 27.5,
+      "medianaCenaM2Novo": 1302
+    },
+    {
+      "obcina": "ŠKOFLJICA",
+      "novogradnje": 175,
+      "rabljeno": 552,
+      "delezNovogradenj": 24.1,
+      "medianaCenaM2Novo": 2150
+    },
+    {
+      "obcina": "BOROVNICA",
+      "novogradnje": 61,
+      "rabljeno": 195,
+      "delezNovogradenj": 23.8,
+      "medianaCenaM2Novo": 1292
+    },
+    {
+      "obcina": "CERKVENJAK",
+      "novogradnje": 15,
+      "rabljeno": 49,
+      "delezNovogradenj": 23.4,
+      "medianaCenaM2Novo": 1453
+    },
+    {
+      "obcina": "ŠENTJERNEJ",
+      "novogradnje": 37,
+      "rabljeno": 144,
+      "delezNovogradenj": 20.4,
+      "medianaCenaM2Novo": 1561
+    },
+    {
+      "obcina": "MOZIRJE",
+      "novogradnje": 41,
+      "rabljeno": 192,
+      "delezNovogradenj": 17.6,
+      "medianaCenaM2Novo": 1632
+    },
+    {
+      "obcina": "RAČE-FRAM",
+      "novogradnje": 68,
+      "rabljeno": 360,
+      "delezNovogradenj": 15.9,
+      "medianaCenaM2Novo": 1374
+    },
+    {
+      "obcina": "LENART",
+      "novogradnje": 121,
+      "rabljeno": 655,
+      "delezNovogradenj": 15.6,
+      "medianaCenaM2Novo": 1330
+    },
+    {
+      "obcina": "VOJNIK",
+      "novogradnje": 59,
+      "rabljeno": 322,
+      "delezNovogradenj": 15.5,
+      "medianaCenaM2Novo": 2275
+    },
+    {
+      "obcina": "ŠMARJEŠKE TOPLICE",
+      "novogradnje": 35,
+      "rabljeno": 191,
+      "delezNovogradenj": 15.5,
+      "medianaCenaM2Novo": 3456
+    },
+    {
+      "obcina": "DOL PRI LJUBLJANI",
+      "novogradnje": 51,
+      "rabljeno": 283,
+      "delezNovogradenj": 15.3,
+      "medianaCenaM2Novo": 1674
+    },
+    {
+      "obcina": "VIPAVA",
+      "novogradnje": 28,
+      "rabljeno": 202,
+      "delezNovogradenj": 12.2,
+      "medianaCenaM2Novo": 1799
+    },
+    {
+      "obcina": "BREZOVICA",
+      "novogradnje": 61,
+      "rabljeno": 447,
+      "delezNovogradenj": 12,
+      "medianaCenaM2Novo": 1864
+    },
+    {
+      "obcina": "DOMŽALE",
+      "novogradnje": 345,
+      "rabljeno": 2683,
+      "delezNovogradenj": 11.4,
+      "medianaCenaM2Novo": 2449
+    },
+    {
+      "obcina": "MARKOVCI",
+      "novogradnje": 10,
+      "rabljeno": 81,
+      "delezNovogradenj": 11,
+      "medianaCenaM2Novo": 710
+    },
+    {
+      "obcina": "DIVAČA",
+      "novogradnje": 33,
+      "rabljeno": 302,
+      "delezNovogradenj": 9.9,
+      "medianaCenaM2Novo": 1144
+    },
+    {
+      "obcina": "KOMENDA",
+      "novogradnje": 30,
+      "rabljeno": 302,
+      "delezNovogradenj": 9,
+      "medianaCenaM2Novo": 2174
+    },
+    {
+      "obcina": "TREBNJE",
+      "novogradnje": 62,
+      "rabljeno": 644,
+      "delezNovogradenj": 8.8,
+      "medianaCenaM2Novo": 1339
+    },
+    {
+      "obcina": "HRPELJE-KOZINA",
+      "novogradnje": 22,
+      "rabljeno": 232,
+      "delezNovogradenj": 8.7,
+      "medianaCenaM2Novo": 1685
+    },
+    {
+      "obcina": "IVANČNA GORICA",
+      "novogradnje": 65,
+      "rabljeno": 705,
+      "delezNovogradenj": 8.4,
+      "medianaCenaM2Novo": 1897
+    },
+    {
+      "obcina": "LOGATEC",
+      "novogradnje": 83,
+      "rabljeno": 959,
+      "delezNovogradenj": 8,
+      "medianaCenaM2Novo": 1932
+    },
+    {
+      "obcina": "PESNICA",
+      "novogradnje": 18,
+      "rabljeno": 208,
+      "delezNovogradenj": 8,
+      "medianaCenaM2Novo": 1885
+    },
+    {
+      "obcina": "MIKLAVŽ NA DRAVSKEM POLJU",
+      "novogradnje": 26,
+      "rabljeno": 342,
+      "delezNovogradenj": 7.1,
+      "medianaCenaM2Novo": 1546
+    },
+    {
+      "obcina": "CERKNICA",
+      "novogradnje": 38,
+      "rabljeno": 546,
+      "delezNovogradenj": 6.5,
+      "medianaCenaM2Novo": 1086
+    },
+    {
+      "obcina": "KOBARID",
+      "novogradnje": 11,
+      "rabljeno": 162,
+      "delezNovogradenj": 6.4,
+      "medianaCenaM2Novo": 1990
+    },
+    {
+      "obcina": "ŠENTILJ",
+      "novogradnje": 28,
+      "rabljeno": 420,
+      "delezNovogradenj": 6.3,
+      "medianaCenaM2Novo": 1298
+    },
+    {
+      "obcina": "VRHNIKA",
+      "novogradnje": 75,
+      "rabljeno": 1172,
+      "delezNovogradenj": 6,
+      "medianaCenaM2Novo": 3222
+    },
+    {
+      "obcina": "KUNGOTA",
+      "novogradnje": 11,
+      "rabljeno": 210,
+      "delezNovogradenj": 5,
+      "medianaCenaM2Novo": 1314
+    },
+    {
+      "obcina": "NOVO MESTO",
+      "novogradnje": 114,
+      "rabljeno": 2262,
+      "delezNovogradenj": 4.8,
+      "medianaCenaM2Novo": 1862
+    },
+    {
+      "obcina": "ŠENTJUR",
+      "novogradnje": 33,
+      "rabljeno": 658,
+      "delezNovogradenj": 4.8,
+      "medianaCenaM2Novo": 1211
+    },
+    {
+      "obcina": "SLOVENSKA BISTRICA",
+      "novogradnje": 73,
+      "rabljeno": 1469,
+      "delezNovogradenj": 4.7,
+      "medianaCenaM2Novo": 1491
+    },
+    {
+      "obcina": "ŽIROVNICA",
+      "novogradnje": 10,
+      "rabljeno": 204,
+      "delezNovogradenj": 4.7,
+      "medianaCenaM2Novo": 1700
+    },
+    {
+      "obcina": "RIBNICA",
+      "novogradnje": 16,
+      "rabljeno": 333,
+      "delezNovogradenj": 4.6,
+      "medianaCenaM2Novo": 1865
+    },
+    {
+      "obcina": "ŠTORE",
+      "novogradnje": 14,
+      "rabljeno": 296,
+      "delezNovogradenj": 4.5,
+      "medianaCenaM2Novo": 1222
+    },
+    {
+      "obcina": "KOPER",
+      "novogradnje": 197,
+      "rabljeno": 4250,
+      "delezNovogradenj": 4.4,
+      "medianaCenaM2Novo": 2537
+    },
+    {
+      "obcina": "NOVA GORICA",
+      "novogradnje": 95,
+      "rabljeno": 2130,
+      "delezNovogradenj": 4.3,
+      "medianaCenaM2Novo": 2213
+    },
+    {
+      "obcina": "LJUBLJANA",
+      "novogradnje": 2141,
+      "rabljeno": 49857,
+      "delezNovogradenj": 4.1,
+      "medianaCenaM2Novo": 2766
+    },
+    {
+      "obcina": "HOČE-SLIVNICA",
+      "novogradnje": 24,
+      "rabljeno": 588,
+      "delezNovogradenj": 3.9,
+      "medianaCenaM2Novo": 1469
+    },
+    {
+      "obcina": "RADLJE OB DRAVI",
+      "novogradnje": 10,
+      "rabljeno": 244,
+      "delezNovogradenj": 3.9,
+      "medianaCenaM2Novo": 1379
+    },
+    {
+      "obcina": "CERKLJE NA GORENJSKEM",
+      "novogradnje": 16,
+      "rabljeno": 407,
+      "delezNovogradenj": 3.8,
+      "medianaCenaM2Novo": 1750
+    },
+    {
+      "obcina": "GROSUPLJE",
+      "novogradnje": 45,
+      "rabljeno": 1171,
+      "delezNovogradenj": 3.7,
+      "medianaCenaM2Novo": 1624
+    },
+    {
+      "obcina": "POSTOJNA",
+      "novogradnje": 59,
+      "rabljeno": 1525,
+      "delezNovogradenj": 3.7,
+      "medianaCenaM2Novo": 1436
+    },
+    {
+      "obcina": "BREŽICE",
+      "novogradnje": 47,
+      "rabljeno": 1226,
+      "delezNovogradenj": 3.7,
+      "medianaCenaM2Novo": 1538
+    },
+    {
+      "obcina": "IZOLA",
+      "novogradnje": 86,
+      "rabljeno": 2309,
+      "delezNovogradenj": 3.6,
+      "medianaCenaM2Novo": 2401
+    },
+    {
+      "obcina": "KRANJ",
+      "novogradnje": 204,
+      "rabljeno": 5678,
+      "delezNovogradenj": 3.5,
+      "medianaCenaM2Novo": 2314
+    },
+    {
+      "obcina": "AJDOVŠČINA",
+      "novogradnje": 32,
+      "rabljeno": 881,
+      "delezNovogradenj": 3.5,
+      "medianaCenaM2Novo": 2080
+    },
+    {
+      "obcina": "LITIJA",
+      "novogradnje": 35,
+      "rabljeno": 1054,
+      "delezNovogradenj": 3.2,
+      "medianaCenaM2Novo": 2209
+    },
+    {
+      "obcina": "PTUJ",
+      "novogradnje": 56,
+      "rabljeno": 1745,
+      "delezNovogradenj": 3.1,
+      "medianaCenaM2Novo": 1852
+    },
+    {
+      "obcina": "SLOVENSKE KONJICE",
+      "novogradnje": 23,
+      "rabljeno": 814,
+      "delezNovogradenj": 2.7,
+      "medianaCenaM2Novo": 1106
+    },
+    {
+      "obcina": "KRŠKO",
+      "novogradnje": 32,
+      "rabljeno": 1153,
+      "delezNovogradenj": 2.7,
+      "medianaCenaM2Novo": 1364
+    },
+    {
+      "obcina": "RUŠE",
+      "novogradnje": 18,
+      "rabljeno": 652,
+      "delezNovogradenj": 2.7,
+      "medianaCenaM2Novo": 1194
+    },
+    {
+      "obcina": "KAMNIK",
+      "novogradnje": 48,
+      "rabljeno": 1994,
+      "delezNovogradenj": 2.4,
+      "medianaCenaM2Novo": 1917
+    },
+    {
+      "obcina": "GORNJA RADGONA",
+      "novogradnje": 14,
+      "rabljeno": 588,
+      "delezNovogradenj": 2.3,
+      "medianaCenaM2Novo": 10355
+    },
+    {
+      "obcina": "VELENJE",
+      "novogradnje": 64,
+      "rabljeno": 3392,
+      "delezNovogradenj": 1.9,
+      "medianaCenaM2Novo": 1612
+    },
+    {
+      "obcina": "MURSKA SOBOTA",
+      "novogradnje": 29,
+      "rabljeno": 1589,
+      "delezNovogradenj": 1.8,
+      "medianaCenaM2Novo": 1625
+    },
+    {
+      "obcina": "MEDVODE",
+      "novogradnje": 27,
+      "rabljeno": 1493,
+      "delezNovogradenj": 1.8,
+      "medianaCenaM2Novo": 1951
+    },
+    {
+      "obcina": "MARIBOR",
+      "novogradnje": 291,
+      "rabljeno": 16927,
+      "delezNovogradenj": 1.7,
+      "medianaCenaM2Novo": 1566
+    },
+    {
+      "obcina": "SEŽANA",
+      "novogradnje": 15,
+      "rabljeno": 976,
+      "delezNovogradenj": 1.5,
+      "medianaCenaM2Novo": 1350
+    },
+    {
+      "obcina": "BOHINJ",
+      "novogradnje": 10,
+      "rabljeno": 779,
+      "delezNovogradenj": 1.3,
+      "medianaCenaM2Novo": 2241
+    },
+    {
+      "obcina": "JESENICE",
+      "novogradnje": 30,
+      "rabljeno": 2691,
+      "delezNovogradenj": 1.1,
+      "medianaCenaM2Novo": 1200
+    },
+    {
+      "obcina": "RADOVLJICA",
+      "novogradnje": 17,
+      "rabljeno": 1510,
+      "delezNovogradenj": 1.1,
+      "medianaCenaM2Novo": 1789
+    },
+    {
+      "obcina": "KRANJSKA GORA",
+      "novogradnje": 12,
+      "rabljeno": 1155,
+      "delezNovogradenj": 1,
+      "medianaCenaM2Novo": 2515
+    },
+    {
+      "obcina": "CELJE",
+      "novogradnje": 64,
+      "rabljeno": 6373,
+      "delezNovogradenj": 1,
+      "medianaCenaM2Novo": 1474
+    },
+    {
+      "obcina": "PIRAN",
+      "novogradnje": 20,
+      "rabljeno": 2127,
+      "delezNovogradenj": 0.9,
+      "medianaCenaM2Novo": 3228
+    },
+    {
+      "obcina": "TRŽIČ",
+      "novogradnje": 11,
+      "rabljeno": 1268,
+      "delezNovogradenj": 0.9,
+      "medianaCenaM2Novo": 1032
+    },
+    {
+      "obcina": "ŠKOFJA LOKA",
+      "novogradnje": 10,
+      "rabljeno": 1321,
+      "delezNovogradenj": 0.8,
+      "medianaCenaM2Novo": 2045
+    }
+  ],
+  "poTipu": {
+    "stanovanja": {
+      "novo": 5391,
+      "rabljeno": 98853,
+      "delez": 5.2
+    },
+    "hise": {
+      "novo": 586,
+      "rabljeno": 71466,
+      "delez": 0.8
+    }
+  },
+  "starostObProdaji": {
+    "Novogradnja (0-2)": 8229,
+    "3-5 let": 5651,
+    "6-10 let": 9989,
+    "11-20 let": 11717,
+    "21-40 let": 55016,
+    "41-60 let": 45376,
+    "Več kot 60 let": 39296,
+    "Neznano": 1022
+  }
+}

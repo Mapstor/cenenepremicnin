@@ -1,0 +1,38 @@
+# CeneNepremičnin.com
+
+> Slovenian real estate price visualization portal
+
+## Overview
+CeneNepremičnin.com is an interactive data visualization website showing real estate transaction prices across Slovenia. All data comes from official government sources (GURS ETN, SI-STAT, Eurostat).
+
+## Key Facts
+- Coverage: 100% of Slovenia (212 municipalities, 2,600+ cadastral communities)
+- Data period: 2007-2025 (18+ years of transactions)
+- Transaction count: 300,000+ recorded sales
+- Update frequency: Quarterly (following GURS ETN releases)
+- Language: Slovenian
+
+## Main Sections
+- / - Interactive price heatmap of Slovenia
+- /statistika - National market statistics and trends
+- /statistika/[municipality] - Per-municipality price analysis (212 pages)
+- /lestvice - Rankings and leaderboards
+- /lestvice/novogradnje - New construction analysis
+- /prodaje - Recent transaction feed
+- /lokacija - Address-based price lookup
+
+## Data Sources
+1. GURS ETN (Geodetska uprava RS, Evidenca trga nepremičnin) - Transaction records
+2. SI-STAT (Statistični urad RS) - Price indices
+3. Eurostat - EU House Price Index comparison
+
+## How to Cite
+Source: CeneNepremičnin.com, data from GURS ETN 2007-2025
+URL: https://cenenepremicnin.com
+
+## Contact
+Email: info@cenenepremicnin.com
+Website: https://cenenepremicnin.com
+
+## More Information
+See /llms-full.txt for detailed documentation

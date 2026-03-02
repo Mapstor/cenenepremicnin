@@ -1,0 +1,230 @@
+[
+  {
+    "leto": 2007,
+    "stanovanja": {
+      "stevilo": 3445,
+      "medianaCenaM2": 1559
+    },
+    "hise": {
+      "stevilo": 6091,
+      "medianaCenaM2": 1574
+    },
+    "skupaj": 13424
+  },
+  {
+    "leto": 2008,
+    "stanovanja": {
+      "stevilo": 4459,
+      "medianaCenaM2": 1561
+    },
+    "hise": {
+      "stevilo": 2126,
+      "medianaCenaM2": 1335
+    },
+    "skupaj": 8814
+  },
+  {
+    "leto": 2009,
+    "stanovanja": {
+      "stevilo": 4896,
+      "medianaCenaM2": 1583
+    },
+    "hise": {
+      "stevilo": 4347,
+      "medianaCenaM2": 1401
+    },
+    "skupaj": 13765
+  },
+  {
+    "leto": 2010,
+    "stanovanja": {
+      "stevilo": 9179,
+      "medianaCenaM2": 1646
+    },
+    "hise": {
+      "stevilo": 13459,
+      "medianaCenaM2": 1534
+    },
+    "skupaj": 35898
+  },
+  {
+    "leto": 2011,
+    "stanovanja": {
+      "stevilo": 9389,
+      "medianaCenaM2": 1583
+    },
+    "hise": {
+      "stevilo": 12510,
+      "medianaCenaM2": 1573
+    },
+    "skupaj": 34994
+  },
+  {
+    "leto": 2012,
+    "stanovanja": {
+      "stevilo": 8529,
+      "medianaCenaM2": 1497
+    },
+    "hise": {
+      "stevilo": 10826,
+      "medianaCenaM2": 1560
+    },
+    "skupaj": 31165
+  },
+  {
+    "leto": 2013,
+    "stanovanja": {
+      "stevilo": 7811,
+      "medianaCenaM2": 1349
+    },
+    "hise": {
+      "stevilo": 8982,
+      "medianaCenaM2": 1514
+    },
+    "skupaj": 26094
+  },
+  {
+    "leto": 2014,
+    "stanovanja": {
+      "stevilo": 7966,
+      "medianaCenaM2": 1205
+    },
+    "hise": {
+      "stevilo": 3893,
+      "medianaCenaM2": 610
+    },
+    "skupaj": 19080
+  },
+  {
+    "leto": 2015,
+    "stanovanja": {
+      "stevilo": 6166,
+      "medianaCenaM2": 1140
+    },
+    "hise": {
+      "stevilo": 1267,
+      "medianaCenaM2": 643
+    },
+    "skupaj": 10598
+  },
+  {
+    "leto": 2016,
+    "stanovanja": {
+      "stevilo": 7561,
+      "medianaCenaM2": 1156
+    },
+    "hise": {
+      "stevilo": 1482,
+      "medianaCenaM2": 638
+    },
+    "skupaj": 12662
+  },
+  {
+    "leto": 2017,
+    "stanovanja": {
+      "stevilo": 7853,
+      "medianaCenaM2": 1219
+    },
+    "hise": {
+      "stevilo": 1711,
+      "medianaCenaM2": 680
+    },
+    "skupaj": 13469
+  },
+  {
+    "leto": 2018,
+    "stanovanja": {
+      "stevilo": 7533,
+      "medianaCenaM2": 1339
+    },
+    "hise": {
+      "stevilo": 1579,
+      "medianaCenaM2": 723
+    },
+    "skupaj": 13029
+  },
+  {
+    "leto": 2019,
+    "stanovanja": {
+      "stevilo": 7502,
+      "medianaCenaM2": 1422
+    },
+    "hise": {
+      "stevilo": 1614,
+      "medianaCenaM2": 696
+    },
+    "skupaj": 12611
+  },
+  {
+    "leto": 2020,
+    "stanovanja": {
+      "stevilo": 1166,
+      "medianaCenaM2": 1381
+    },
+    "hise": {
+      "stevilo": 490,
+      "medianaCenaM2": 590
+    },
+    "skupaj": 2681
+  },
+  {
+    "leto": 2021,
+    "stanovanja": {
+      "stevilo": 765,
+      "medianaCenaM2": 2592
+    },
+    "hise": {
+      "stevilo": 424,
+      "medianaCenaM2": 488
+    },
+    "skupaj": 2348
+  },
+  {
+    "leto": 2022,
+    "stanovanja": {
+      "stevilo": 745,
+      "medianaCenaM2": 2069
+    },
+    "hise": {
+      "stevilo": 446,
+      "medianaCenaM2": 560
+    },
+    "skupaj": 2142
+  },
+  {
+    "leto": 2023,
+    "stanovanja": {
+      "stevilo": 4514,
+      "medianaCenaM2": 2332
+    },
+    "hise": {
+      "stevilo": 423,
+      "medianaCenaM2": 678
+    },
+    "skupaj": 6853
+  },
+  {
+    "leto": 2024,
+    "stanovanja": {
+      "stevilo": 4200,
+      "medianaCenaM2": 2519
+    },
+    "hise": {
+      "stevilo": 338,
+      "medianaCenaM2": 821
+    },
+    "skupaj": 6122
+  },
+  {
+    "leto": 2025,
+    "stanovanja": {
+      "stevilo": 565,
+      "medianaCenaM2": 2680
+    },
+    "hise": {
+      "stevilo": 44,
+      "medianaCenaM2": 510
+    },
+    "skupaj": 802
+  }
+]

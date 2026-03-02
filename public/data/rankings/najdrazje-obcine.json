@@ -1,0 +1,302 @@
+[
+  {
+    "rank": 1,
+    "obcina": "BREZOVICA",
+    "medianaCenaM2": 5593,
+    "steviloTransakcij": 34
+  },
+  {
+    "rank": 2,
+    "obcina": "LJUBLJANA",
+    "medianaCenaM2": 4074,
+    "steviloTransakcij": 1796
+  },
+  {
+    "rank": 3,
+    "obcina": "CERKLJE NA GORENJSKEM",
+    "medianaCenaM2": 4003,
+    "steviloTransakcij": 10
+  },
+  {
+    "rank": 4,
+    "obcina": "PIRAN",
+    "medianaCenaM2": 3994,
+    "steviloTransakcij": 93
+  },
+  {
+    "rank": 5,
+    "obcina": "IZOLA",
+    "medianaCenaM2": 3978,
+    "steviloTransakcij": 82
+  },
+  {
+    "rank": 6,
+    "obcina": "KRANJSKA GORA",
+    "medianaCenaM2": 3805,
+    "steviloTransakcij": 51
+  },
+  {
+    "rank": 7,
+    "obcina": "MEDVODE",
+    "medianaCenaM2": 3648,
+    "steviloTransakcij": 30
+  },
+  {
+    "rank": 8,
+    "obcina": "ANKARAN",
+    "medianaCenaM2": 3648,
+    "steviloTransakcij": 13
+  },
+  {
+    "rank": 9,
+    "obcina": "GROSUPLJE",
+    "medianaCenaM2": 3645,
+    "steviloTransakcij": 47
+  },
+  {
+    "rank": 10,
+    "obcina": "KOPER",
+    "medianaCenaM2": 3643,
+    "steviloTransakcij": 178
+  },
+  {
+    "rank": 11,
+    "obcina": "ŠMARJEŠKE TOPLICE",
+    "medianaCenaM2": 3629,
+    "steviloTransakcij": 11
+  },
+  {
+    "rank": 12,
+    "obcina": "ŠEMPETER-VRTOJBA",
+    "medianaCenaM2": 3565,
+    "steviloTransakcij": 37
+  },
+  {
+    "rank": 13,
+    "obcina": "DOMŽALE",
+    "medianaCenaM2": 3532,
+    "steviloTransakcij": 170
+  },
+  {
+    "rank": 14,
+    "obcina": "ŠKOFLJICA",
+    "medianaCenaM2": 3377,
+    "steviloTransakcij": 15
+  },
+  {
+    "rank": 15,
+    "obcina": "VRHNIKA",
+    "medianaCenaM2": 3222,
+    "steviloTransakcij": 43
+  },
+  {
+    "rank": 16,
+    "obcina": "IG",
+    "medianaCenaM2": 3217,
+    "steviloTransakcij": 11
+  },
+  {
+    "rank": 17,
+    "obcina": "BLED",
+    "medianaCenaM2": 3195,
+    "steviloTransakcij": 16
+  },
+  {
+    "rank": 18,
+    "obcina": "MENGEŠ",
+    "medianaCenaM2": 3053,
+    "steviloTransakcij": 24
+  },
+  {
+    "rank": 19,
+    "obcina": "VOJNIK",
+    "medianaCenaM2": 2964,
+    "steviloTransakcij": 55
+  },
+  {
+    "rank": 20,
+    "obcina": "ŠKOFJA LOKA",
+    "medianaCenaM2": 2929,
+    "steviloTransakcij": 62
+  },
+  {
+    "rank": 21,
+    "obcina": "BOROVNICA",
+    "medianaCenaM2": 2906,
+    "steviloTransakcij": 11
+  },
+  {
+    "rank": 22,
+    "obcina": "KAMNIK",
+    "medianaCenaM2": 2885,
+    "steviloTransakcij": 82
+  },
+  {
+    "rank": 23,
+    "obcina": "LOGATEC",
+    "medianaCenaM2": 2847,
+    "steviloTransakcij": 39
+  },
+  {
+    "rank": 24,
+    "obcina": "RADOVLJICA",
+    "medianaCenaM2": 2793,
+    "steviloTransakcij": 59
+  },
+  {
+    "rank": 25,
+    "obcina": "KRANJ",
+    "medianaCenaM2": 2747,
+    "steviloTransakcij": 252
+  },
+  {
+    "rank": 26,
+    "obcina": "BOVEC",
+    "medianaCenaM2": 2741,
+    "steviloTransakcij": 12
+  },
+  {
+    "rank": 27,
+    "obcina": "IVANČNA GORICA",
+    "medianaCenaM2": 2682,
+    "steviloTransakcij": 17
+  },
+  {
+    "rank": 28,
+    "obcina": "NOVO MESTO",
+    "medianaCenaM2": 2596,
+    "steviloTransakcij": 151
+  },
+  {
+    "rank": 29,
+    "obcina": "BOHINJ",
+    "medianaCenaM2": 2572,
+    "steviloTransakcij": 10
+  },
+  {
+    "rank": 30,
+    "obcina": "LITIJA",
+    "medianaCenaM2": 2505,
+    "steviloTransakcij": 67
+  },
+  {
+    "rank": 31,
+    "obcina": "PREBOLD",
+    "medianaCenaM2": 2297,
+    "steviloTransakcij": 10
+  },
+  {
+    "rank": 32,
+    "obcina": "NOVA GORICA",
+    "medianaCenaM2": 2218,
+    "steviloTransakcij": 84
+  },
+  {
+    "rank": 33,
+    "obcina": "AJDOVŠČINA",
+    "medianaCenaM2": 2200,
+    "steviloTransakcij": 26
+  },
+  {
+    "rank": 34,
+    "obcina": "POSTOJNA",
+    "medianaCenaM2": 2196,
+    "steviloTransakcij": 45
+  },
+  {
+    "rank": 35,
+    "obcina": "DUPLEK",
+    "medianaCenaM2": 2189,
+    "steviloTransakcij": 15
+  },
+  {
+    "rank": 36,
+    "obcina": "SEŽANA",
+    "medianaCenaM2": 2167,
+    "steviloTransakcij": 28
+  },
+  {
+    "rank": 37,
+    "obcina": "TREBNJE",
+    "medianaCenaM2": 2162,
+    "steviloTransakcij": 21
+  },
+  {
+    "rank": 38,
+    "obcina": "TRŽIČ",
+    "medianaCenaM2": 2155,
+    "steviloTransakcij": 49
+  },
+  {
+    "rank": 39,
+    "obcina": "JESENICE",
+    "medianaCenaM2": 2132,
+    "steviloTransakcij": 99
+  },
+  {
+    "rank": 40,
+    "obcina": "KOMENDA",
+    "medianaCenaM2": 2127,
+    "steviloTransakcij": 10
+  },
+  {
+    "rank": 41,
+    "obcina": "CELJE",
+    "medianaCenaM2": 2124,
+    "steviloTransakcij": 293
+  },
+  {
+    "rank": 42,
+    "obcina": "ŽALEC",
+    "medianaCenaM2": 2076,
+    "steviloTransakcij": 47
+  },
+  {
+    "rank": 43,
+    "obcina": "VELENJE",
+    "medianaCenaM2": 2038,
+    "steviloTransakcij": 145
+  },
+  {
+    "rank": 44,
+    "obcina": "MARIBOR",
+    "medianaCenaM2": 2037,
+    "steviloTransakcij": 818
+  },
+  {
+    "rank": 45,
+    "obcina": "TOLMIN",
+    "medianaCenaM2": 2007,
+    "steviloTransakcij": 18
+  },
+  {
+    "rank": 46,
+    "obcina": "STARŠE",
+    "medianaCenaM2": 1942,
+    "steviloTransakcij": 10
+  },
+  {
+    "rank": 47,
+    "obcina": "ŠENTJUR",
+    "medianaCenaM2": 1928,
+    "steviloTransakcij": 32
+  },
+  {
+    "rank": 48,
+    "obcina": "CERKNICA",
+    "medianaCenaM2": 1905,
+    "steviloTransakcij": 22
+  },
+  {
+    "rank": 49,
+    "obcina": "PESNICA",
+    "medianaCenaM2": 1899,
+    "steviloTransakcij": 56
+  },
+  {
+    "rank": 50,
+    "obcina": "RIBNICA",
+    "medianaCenaM2": 1889,
+    "steviloTransakcij": 33
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "rank": 1,
+    "obcina": "KOZJE",
+    "medianaCenaM2": 784,
+    "steviloTransakcij": 10
+  },
+  {
+    "rank": 2,
+    "obcina": "LOVRENC NA POHORJU",
+    "medianaCenaM2": 791,
+    "steviloTransakcij": 12
+  },
+  {
+    "rank": 3,
+    "obcina": "RADENCI",
+    "medianaCenaM2": 904,
+    "steviloTransakcij": 10
+  },
+  {
+    "rank": 4,
+    "obcina": "PREVALJE",
+    "medianaCenaM2": 970,
+    "steviloTransakcij": 10
+  },
+  {
+    "rank": 5,
+    "obcina": "ORMOŽ",
+    "medianaCenaM2": 1085,
+    "steviloTransakcij": 19
+  },
+  {
+    "rank": 6,
+    "obcina": "ČRNOMELJ",
+    "medianaCenaM2": 1119,
+    "steviloTransakcij": 30
+  },
+  {
+    "rank": 7,
+    "obcina": "ČRNA NA KOROŠKEM",
+    "medianaCenaM2": 1147,
+    "steviloTransakcij": 12
+  },
+  {
+    "rank": 8,
+    "obcina": "LENDAVA",
+    "medianaCenaM2": 1175,
+    "steviloTransakcij": 22
+  },
+  {
+    "rank": 9,
+    "obcina": "SELNICA OB DRAVI",
+    "medianaCenaM2": 1192,
+    "steviloTransakcij": 14
+  },
+  {
+    "rank": 10,
+    "obcina": "RADEČE",
+    "medianaCenaM2": 1218,
+    "steviloTransakcij": 11
+  },
+  {
+    "rank": 11,
+    "obcina": "GORNJA RADGONA",
+    "medianaCenaM2": 1221,
+    "steviloTransakcij": 14
+  },
+  {
+    "rank": 12,
+    "obcina": "SEVNICA",
+    "medianaCenaM2": 1309,
+    "steviloTransakcij": 22
+  },
+  {
+    "rank": 13,
+    "obcina": "LJUTOMER",
+    "medianaCenaM2": 1336,
+    "steviloTransakcij": 25
+  },
+  {
+    "rank": 14,
+    "obcina": "ŠENTJERNEJ",
+    "medianaCenaM2": 1359,
+    "steviloTransakcij": 11
+  },
+  {
+    "rank": 15,
+    "obcina": "MAJŠPERK",
+    "medianaCenaM2": 1413,
+    "steviloTransakcij": 11
+  },
+  {
+    "rank": 16,
+    "obcina": "KIDRIČEVO",
+    "medianaCenaM2": 1417,
+    "steviloTransakcij": 14
+  },
+  {
+    "rank": 17,
+    "obcina": "ŠTORE",
+    "medianaCenaM2": 1457,
+    "steviloTransakcij": 34
+  },
+  {
+    "rank": 18,
+    "obcina": "ILIRSKA BISTRICA",
+    "medianaCenaM2": 1471,
+    "steviloTransakcij": 17
+  },
+  {
+    "rank": 19,
+    "obcina": "TRBOVLJE",
+    "medianaCenaM2": 1473,
+    "steviloTransakcij": 97
+  },
+  {
+    "rank": 20,
+    "obcina": "DRAVOGRAD",
+    "medianaCenaM2": 1477,
+    "steviloTransakcij": 17
+  },
+  {
+    "rank": 21,
+    "obcina": "METLIKA",
+    "medianaCenaM2": 1477,
+    "steviloTransakcij": 17
+  },
+  {
+    "rank": 22,
+    "obcina": "ŠMARJE PRI JELŠAH",
+    "medianaCenaM2": 1490,
+    "steviloTransakcij": 19
+  },
+  {
+    "rank": 23,
+    "obcina": "MURSKA SOBOTA",
+    "medianaCenaM2": 1495,
+    "steviloTransakcij": 54
+  },
+  {
+    "rank": 24,
+    "obcina": "LAŠKO",
+    "medianaCenaM2": 1504,
+    "steviloTransakcij": 45
+  },
+  {
+    "rank": 25,
+    "obcina": "PIVKA",
+    "medianaCenaM2": 1505,
+    "steviloTransakcij": 11
+  },
+  {
+    "rank": 26,
+    "obcina": "ŠENTILJ",
+    "medianaCenaM2": 1522,
+    "steviloTransakcij": 30
+  },
+  {
+    "rank": 27,
+    "obcina": "ROGAŠKA SLATINA",
+    "medianaCenaM2": 1560,
+    "steviloTransakcij": 24
+  },
+  {
+    "rank": 28,
+    "obcina": "MIKLAVŽ NA DRAVSKEM POLJU",
+    "medianaCenaM2": 1568,
+    "steviloTransakcij": 19
+  },
+  {
+    "rank": 29,
+    "obcina": "RAVNE NA KOROŠKEM",
+    "medianaCenaM2": 1574,
+    "steviloTransakcij": 33
+  },
+  {
+    "rank": 30,
+    "obcina": "HOČE-SLIVNICA",
+    "medianaCenaM2": 1581,
+    "steviloTransakcij": 19
+  },
+  {
+    "rank": 31,
+    "obcina": "KOČEVJE",
+    "medianaCenaM2": 1584,
+    "steviloTransakcij": 51
+  },
+  {
+    "rank": 32,
+    "obcina": "RAČE-FRAM",
+    "medianaCenaM2": 1622,
+    "steviloTransakcij": 12
+  },
+  {
+    "rank": 33,
+    "obcina": "RUŠE",
+    "medianaCenaM2": 1624,
+    "steviloTransakcij": 38
+  },
+  {
+    "rank": 34,
+    "obcina": "KANAL",
+    "medianaCenaM2": 1664,
+    "steviloTransakcij": 10
+  },
+  {
+    "rank": 35,
+    "obcina": "KRŠKO",
+    "medianaCenaM2": 1670,
+    "steviloTransakcij": 41
+  },
+  {
+    "rank": 36,
+    "obcina": "ŠOŠTANJ",
+    "medianaCenaM2": 1697,
+    "steviloTransakcij": 19
+  },
+  {
+    "rank": 37,
+    "obcina": "SLOVENSKE KONJICE",
+    "medianaCenaM2": 1717,
+    "steviloTransakcij": 19
+  },
+  {
+    "rank": 38,
+    "obcina": "ZREČE",
+    "medianaCenaM2": 1752,
+    "steviloTransakcij": 15
+  },
+  {
+    "rank": 39,
+    "obcina": "LENART",
+    "medianaCenaM2": 1759,
+    "steviloTransakcij": 40
+  },
+  {
+    "rank": 40,
+    "obcina": "MOZIRJE",
+    "medianaCenaM2": 1770,
+    "steviloTransakcij": 14
+  },
+  {
+    "rank": 41,
+    "obcina": "SLOVENJ GRADEC",
+    "medianaCenaM2": 1786,
+    "steviloTransakcij": 32
+  },
+  {
+    "rank": 42,
+    "obcina": "BREŽICE",
+    "medianaCenaM2": 1790,
+    "steviloTransakcij": 46
+  },
+  {
+    "rank": 43,
+    "obcina": "ZAGORJE OB SAVI",
+    "medianaCenaM2": 1790,
+    "steviloTransakcij": 20
+  },
+  {
+    "rank": 44,
+    "obcina": "SLOVENSKA BISTRICA",
+    "medianaCenaM2": 1851,
+    "steviloTransakcij": 102
+  },
+  {
+    "rank": 45,
+    "obcina": "PTUJ",
+    "medianaCenaM2": 1882,
+    "steviloTransakcij": 109
+  },
+  {
+    "rank": 46,
+    "obcina": "RIBNICA",
+    "medianaCenaM2": 1889,
+    "steviloTransakcij": 33
+  },
+  {
+    "rank": 47,
+    "obcina": "PESNICA",
+    "medianaCenaM2": 1899,
+    "steviloTransakcij": 56
+  },
+  {
+    "rank": 48,
+    "obcina": "CERKNICA",
+    "medianaCenaM2": 1905,
+    "steviloTransakcij": 22
+  },
+  {
+    "rank": 49,
+    "obcina": "ŠENTJUR",
+    "medianaCenaM2": 1928,
+    "steviloTransakcij": 32
+  },
+  {
+    "rank": 50,
+    "obcina": "STARŠE",
+    "medianaCenaM2": 1942,
+    "steviloTransakcij": 10
+  }
+]

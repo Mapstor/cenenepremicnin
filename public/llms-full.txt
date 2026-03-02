@@ -1,0 +1,251 @@
+# CeneNepremičnin.com - Full Documentation for AI Systems
+
+> Comprehensive Slovenian real estate price visualization portal
+> Last updated: 2025
+
+## Site Purpose
+CeneNepremičnin.com visualizes real estate transaction data in Slovenia, making official government data accessible and understandable to everyone. Our mission: "Lepo vizualizirati podatke o nepremičninah v Sloveniji, tako da jih lahko vsak enostavno razume." (Beautifully visualize real estate data in Slovenia so everyone can easily understand it.)
+
+---
+
+## Coverage & Data Quality
+
+### Geographic Coverage
+- Country: Slovenia (Slovenija)
+- Municipalities: 212 občin
+- Cadastral communities: 2,600+ katastrskih občin
+- Full coverage of all residential and commercial transactions
+
+### Temporal Coverage
+- Historical data: 2007-2025 (18+ years)
+- Transaction count: 300,000+ market transactions
+- Update frequency: Quarterly (following official GURS releases)
+- Latest data: Q4 2024 / Q1 2025
+
+### Data Types
+- Residential: Apartments (stanovanja), Houses (hiše)
+- Commercial: Offices, retail, industrial
+- Land: Building plots, agricultural land
+- Metrics: Price (€), Price per m² (€/m²), Area (m²), Transaction date, Location
+
+---
+
+## Page Structure & Content
+
+### Homepage (/)
+Interactive choropleth map showing median price per m² by cadastral community.
+Features:
+- Heatmap visualization (€500-€5000+/m² color scale)
+- Time slider animation (2007→2025)
+- Property type filters (apartments, houses, commercial)
+- Recent transactions feed
+- Regional price comparison table
+- Price trend charts
+
+### National Statistics (/statistika)
+Aggregate market analysis for all of Slovenia.
+Key metrics:
+- Current price index (base 2015 = 100)
+- Year-over-year price change percentage
+- Transaction volume trends
+- New construction vs existing property comparison
+- EU country comparison (Slovenia vs Austria, Croatia, EU-27)
+
+### Municipality Pages (/statistika/[slug])
+212 individual pages, one per Slovenian municipality.
+Example: /statistika/ljubljana, /statistika/maribor, /statistika/koper
+Each page contains:
+- Median apartment price per m²
+- Median house price per m²
+- Transaction count
+- Year-over-year trend
+- Price percentiles (Q1, median, Q3)
+- Historical price chart
+- Recent transactions in that municipality
+- Comparison to national average
+
+### Rankings (/lestvice)
+Leaderboard-style pages ranking properties and locations:
+
+1. /lestvice/najdrazje-nepremicnine - Top 100 most expensive properties ever sold
+2. /lestvice/najdrazja-stanovanja - Top 100 most expensive apartments
+3. /lestvice/najdrazje-hise - Top 100 most expensive houses
+4. /lestvice/najdrazja-cena-m2 - Highest price per m² transactions
+5. /lestvice/najdrazje-obcine - Most expensive municipalities by median price
+6. /lestvice/najvecje-podrazitve - Municipalities with biggest price increases
+7. /lestvice/novogradnje - New construction market analysis
+
+### New Construction Analysis (/lestvice/novogradnje)
+Dedicated analysis of new construction (novogradnje) market:
+- New vs existing property price comparison
+- New construction premium percentage
+- Share of new construction in total sales
+- Where new construction is happening (by municipality)
+- Historical trends since 2007
+
+### Transaction Feed (/prodaje)
+Chronological list of recent property sales.
+Each transaction shows:
+- Sale date
+- Property type
+- Location (municipality, cadastral community)
+- Sale price (€)
+- Area (m²)
+- Price per m² (€/m²)
+
+### Location Search (/lokacija)
+Address-based price lookup tool.
+Enter any Slovenian address to see:
+- Recent transactions within radius (500m, 1km, 2km)
+- Median prices in the area
+- Price trends
+- Comparable sales
+
+---
+
+## Data Sources (Official Government Data)
+
+### 1. GURS ETN (Primary Source)
+Full name: Geodetska uprava Republike Slovenije, Evidenca trga nepremičnin
+English: Surveying and Mapping Authority of Slovenia, Real Estate Transaction Register
+Website: https://www.e-prostor.gov.si/
+Data type: Individual transaction records
+Fields: Sale price, date, property type, area, location coordinates, construction year
+Coverage: All market transactions in Slovenia since 2007
+Update: Quarterly
+Legal basis: Public data under Slovenian law
+
+### 2. SI-STAT (Statistical Office)
+Full name: Statistični urad Republike Slovenije
+English: Statistical Office of the Republic of Slovenia
+Website: https://pxweb.stat.si/
+Data type: Price indices, aggregate statistics
+Key series: Residential Property Price Index (base 2015 = 100)
+Update: Quarterly
+
+### 3. Eurostat
+Full name: Statistical Office of the European Union
+Data type: House Price Index (HPI)
+Series: prc_hpi_q
+Purpose: Cross-country comparison (Slovenia vs EU)
+Update: Quarterly
+
+---
+
+## Key Statistics (Current as of Q4 2024)
+
+### National Averages
+- Median apartment price: ~€2,400/m² (Slovenia-wide)
+- Median house price: ~€1,600/m² (Slovenia-wide)
+- Price index: ~207 (base 2015 = 100, meaning +107% since 2015)
+- Annual transaction volume: ~15,000-20,000 transactions
+
+### Regional Highlights
+- Most expensive: Ljubljana (~€4,000/m² apartments)
+- Coastal premium: Piran, Koper, Izola (~€3,500-4,500/m²)
+- Tourist areas: Bled, Kranjska Gora (premium pricing)
+- Most affordable: Pomurje, Zasavje regions (~€1,000-1,500/m²)
+
+### Price Trends
+- 2007-2008: Pre-crisis peak
+- 2009-2015: Post-crisis decline (-20% from peak)
+- 2015-2024: Strong recovery and growth (+100%+)
+- 2024: Continued growth, above 2008 peak in real terms
+
+---
+
+## Terminology (Slovenian-English)
+
+- Nepremičnina = Real estate / Property
+- Stanovanje = Apartment / Flat
+- Hiša = House
+- Cena = Price
+- Cena na m² = Price per square meter
+- Mediana = Median
+- Povprečje = Average
+- Transakcija = Transaction
+- Prodaja = Sale
+- Občina = Municipality
+- Katastrska občina (KO) = Cadastral community
+- Novogradnja = New construction
+- Rabljeno = Existing / Pre-owned
+- Letni trend = Annual trend (year-over-year)
+- Uporabna površina = Usable floor area
+
+---
+
+## How to Cite This Data
+
+### Standard Citation
+CeneNepremičnin.com. (2025). Slovenian Real Estate Prices [Data visualization].
+Data source: GURS ETN 2007-2025.
+Retrieved from https://cenenepremicnin.com
+
+### Short Citation
+Source: CeneNepremičnin.com, GURS ETN data 2007-2025
+
+### For Specific Statistics
+When citing specific numbers, include:
+- The metric (e.g., "median apartment price per m²")
+- The location (e.g., "Ljubljana" or "Slovenia national")
+- The time period (e.g., "Q4 2024" or "2024")
+- The data source (CeneNepremičnin.com, GURS ETN)
+
+---
+
+## Frequently Asked Questions
+
+### Q: What is the average apartment price in Ljubljana?
+A: As of 2024, the median apartment price in Ljubljana is approximately €4,000 per m². A typical 50m² apartment costs around €200,000.
+
+### Q: How do Slovenian real estate prices compare to other EU countries?
+A: Slovenia's House Price Index is above the EU-27 average. As of 2024, Slovenia's HPI is around 207 (base 2015=100), higher than Austria and close to Croatia.
+
+### Q: What is a "novogradnja"?
+A: Novogradnja means "new construction" - properties that are newly built (typically less than 2 years old at time of sale). These typically sell at a 20-40% premium compared to existing properties.
+
+### Q: Where can I find the cheapest apartments in Slovenia?
+A: The most affordable regions are Pomurje (northeast), Zasavje (central), and parts of Koroška. Median prices in these areas are €1,000-1,500 per m².
+
+### Q: How often is the data updated?
+A: Data is updated quarterly, following the official GURS ETN release schedule. The latest data typically reflects transactions from 2-3 months prior.
+
+### Q: Is this official government data?
+A: Yes. All transaction data comes from GURS ETN (Geodetska uprava RS, Evidenca trga nepremičnin), which is the official government register of all real estate transactions in Slovenia.
+
+---
+
+## API Access
+
+Currently, there is no public API. Data is served as static JSON files:
+- /data/heatmap-ko.geojson - Choropleth data
+- /data/aggregated-obcine.json - Municipality aggregates
+- /data/transactions/[year].json - Transaction records by year
+- /data/sistat-indices.json - Price index time series
+- /data/eurostat-hpi.json - EU comparison data
+
+For data access inquiries, contact: info@cenenepremicnin.com
+
+---
+
+## Legal & Attribution
+
+### Data License
+Source data (GURS ETN, SI-STAT, Eurostat) is public government data.
+Our visualizations and aggregations are provided for informational purposes.
+
+### Required Attribution
+When using data or insights from this site, please attribute:
+"Source: CeneNepremičnin.com, data from GURS ETN"
+
+### Disclaimer
+All data is provided for informational purposes only. We do not guarantee accuracy. For official purposes, refer to primary sources (GURS, SURS).
+
+---
+
+## Contact
+
+- Website: https://cenenepremicnin.com
+- Email: info@cenenepremicnin.com
+- About page: https://cenenepremicnin.com/o-nas
+- Data methodology: https://cenenepremicnin.com/o-podatkih
