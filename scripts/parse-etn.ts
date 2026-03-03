@@ -2,7 +2,16 @@
  * ETN CSV Parser
  *
  * Parses ETN (Evidenca trga nepremičnin) CSV files from GURS.
- * Filters, joins POSLI with DELISTAVB, converts coordinates, and saves as JSON.
+ *
+ * CRITICAL: Each ETN folder contains transactions from MANY years, not just that year.
+ * The folder year indicates when GURS published the export, not the contract year.
+ *
+ * Processing strategy:
+ * 1. Collect ALL POSLI from ALL folders, dedupe by ID_POSLA keeping latest update
+ * 2. Collect ALL DELISTAVB from ALL folders, dedupe by ID_POSLA + STEVILKA_DELA_STAVBE
+ * 3. THEN join deduplicated POSLI with deduplicated DELISTAVB
+ * 4. Apply filters (TRZNOST_POSLA, etc.)
+ * 5. Group by contract year (DATUM_SKLENITVE_POGODBE)
  *
  * Usage: npx tsx scripts/parse-etn.ts
  */
@@ -24,6 +33,7 @@ interface PosliRow {
   VRSTA_KUPOPRODAJNEGA_POSLA: string;
   DATUM_UVELJAVITVE: string;
   DATUM_SKLENITVE_POGODBE: string;
+  DATUM_ZADNJE_SPREMEMBE_POSLA: string;
   POGODBENA_CENA_ODSKODNINA: string;
   VKLJUCENOST_DDV: string;
   STOPNJA_DDV: string;
@@ -180,59 +190,187 @@ function parseCSV<T>(filePath: string): T[] {
 }
 
 /**
- * Process a single year of ETN data
+ * Main processing function
  */
-function processYear(yearDir: string, year: number): Transaction[] {
-  const files = fs.readdirSync(yearDir);
+async function main() {
+  const etnDir = path.join(process.cwd(), 'data', 'gurs', 'etn');
+  const outputDir = path.join(process.cwd(), 'public', 'data', 'transactions');
 
-  // Find POSLI and DELISTAVB files
-  const posliFile = files.find(f => f.includes('_POSLI_'));
-  const delistavbFile = files.find(f => f.includes('_DELISTAVB_'));
-
-  if (!posliFile || !delistavbFile) {
-    console.warn(`  Missing POSLI or DELISTAVB file for year ${year}`);
-    return [];
+  // Ensure output directory exists
+  if (!fs.existsSync(outputDir)) {
+    fs.mkdirSync(outputDir, { recursive: true });
   }
 
-  console.log(`  Parsing ${posliFile}...`);
-  const posli = parseCSV<PosliRow>(path.join(yearDir, posliFile));
+  // Find all ETN year directories
+  const dirs = fs.readdirSync(etnDir)
+    .filter(d => d.startsWith('ETN_SLO_') && fs.statSync(path.join(etnDir, d)).isDirectory())
+    .sort();
 
-  console.log(`  Parsing ${delistavbFile}...`);
-  const delistavb = parseCSV<DelistavbRow>(path.join(yearDir, delistavbFile));
+  console.log(`Found ${dirs.length} ETN directories\n`);
 
-  // Filter POSLI
-  const filteredPosli = posli.filter(row => {
+  // ============================================================
+  // STEP 1: Collect ALL POSLI from ALL folders, dedupe by ID_POSLA
+  // ============================================================
+  console.log('=== STEP 1: Collecting all POSLI records ===\n');
+
+  const allPosliMap = new Map<string, PosliRow & { _updateDate: string }>();
+  let totalPosliRaw = 0;
+
+  for (const dir of dirs) {
+    const match = dir.match(/ETN_SLO_(\d{4})_/);
+    if (!match) continue;
+
+    const folderYear = parseInt(match[1], 10);
+    const folderPath = path.join(etnDir, dir);
+    const files = fs.readdirSync(folderPath);
+
+    const posliFile = files.find(f => f.includes('_POSLI_'));
+    if (!posliFile) {
+      console.warn(`  No POSLI file in folder ${folderYear}`);
+      continue;
+    }
+
+    console.log(`  Loading POSLI from folder ${folderYear}...`);
+    const posliData = parseCSV<PosliRow>(path.join(folderPath, posliFile));
+    totalPosliRaw += posliData.length;
+
+    let added = 0;
+    let updated = 0;
+
+    for (const row of posliData) {
+      const id = row.ID_POSLA;
+      const updateDate = convertDateFormat(row.DATUM_ZADNJE_SPREMEMBE_POSLA || '');
+
+      const existing = allPosliMap.get(id);
+      if (!existing) {
+        allPosliMap.set(id, { ...row, _updateDate: updateDate });
+        added++;
+      } else {
+        // Keep the one with latest update date
+        if (updateDate > existing._updateDate) {
+          allPosliMap.set(id, { ...row, _updateDate: updateDate });
+          updated++;
+        }
+      }
+    }
+
+    console.log(`    ${posliData.length} rows, added: ${added}, updated: ${updated}`);
+  }
+
+  console.log(`\nTotal raw POSLI rows: ${totalPosliRaw.toLocaleString()}`);
+  console.log(`Unique POSLI after dedup: ${allPosliMap.size.toLocaleString()}\n`);
+
+  // ============================================================
+  // STEP 2: Collect ALL DELISTAVB from ALL folders, dedupe
+  // ============================================================
+  console.log('=== STEP 2: Collecting all DELISTAVB records ===\n');
+
+  // Key: ID_POSLA + '_' + STEVILKA_DELA_STAVBE
+  const allDelistavbMap = new Map<string, DelistavbRow>();
+  let totalDelistavbRaw = 0;
+
+  for (const dir of dirs) {
+    const match = dir.match(/ETN_SLO_(\d{4})_/);
+    if (!match) continue;
+
+    const folderYear = parseInt(match[1], 10);
+    const folderPath = path.join(etnDir, dir);
+    const files = fs.readdirSync(folderPath);
+
+    const delistavbFile = files.find(f => f.includes('_DELISTAVB_'));
+    if (!delistavbFile) {
+      console.warn(`  No DELISTAVB file in folder ${folderYear}`);
+      continue;
+    }
+
+    console.log(`  Loading DELISTAVB from folder ${folderYear}...`);
+    const delistavbData = parseCSV<DelistavbRow>(path.join(folderPath, delistavbFile));
+    totalDelistavbRaw += delistavbData.length;
+
+    let added = 0;
+    let updated = 0;
+
+    for (const row of delistavbData) {
+      // Composite key: ID_POSLA + STEVILKA_DELA_STAVBE
+      const key = `${row.ID_POSLA}_${row.STEVILKA_DELA_STAVBE || '0'}`;
+
+      const existing = allDelistavbMap.get(key);
+      if (!existing) {
+        allDelistavbMap.set(key, row);
+        added++;
+      } else {
+        // For DELISTAVB, prefer newer data (later folders have corrections)
+        // We'll just overwrite since later folders are processed last
+        allDelistavbMap.set(key, row);
+        updated++;
+      }
+    }
+
+    console.log(`    ${delistavbData.length} rows, added: ${added}, updated: ${updated}`);
+  }
+
+  console.log(`\nTotal raw DELISTAVB rows: ${totalDelistavbRaw.toLocaleString()}`);
+  console.log(`Unique DELISTAVB after dedup: ${allDelistavbMap.size.toLocaleString()}\n`);
+
+  // ============================================================
+  // STEP 3: Filter POSLI and create lookup
+  // ============================================================
+  console.log('=== STEP 3: Filtering POSLI ===\n');
+
+  const filteredPosliMap = new Map<string, PosliRow>();
+  let posliFiltered = 0;
+  let posliFilterReasons = {
+    trznost: 0,
+    vrstaKpp: 0,
+    vrstaAkta: 0,
+    noCena: 0,
+  };
+
+  for (const [id, row] of allPosliMap) {
     const trznost = parseInt(row.TRZNOST_POSLA, 10);
     const vrstaKpp = parseInt(row.VRSTA_KUPOPRODAJNEGA_POSLA, 10);
     const vrstaAkta = parseInt(row.VRSTA_AKTA, 10);
     const cena = parseFloat(row.POGODBENA_CENA_ODSKODNINA);
 
-    return (
-      (trznost === 1 || trznost === 4) && // Tržen posel or Neopredeljen posel
-      (vrstaKpp === 1 || vrstaKpp === 2) && // Prosti trg or Javna dražba
-      vrstaAkta === 1 &&                  // Osnovna pogodba
-      cena > 0                            // Has price
-    );
-  });
+    // Filter criteria
+    if (!(trznost === 1 || trznost === 4 || trznost === 5)) {
+      posliFilterReasons.trznost++;
+      continue;
+    }
+    if (!(vrstaKpp === 1 || vrstaKpp === 2)) {
+      posliFilterReasons.vrstaKpp++;
+      continue;
+    }
+    if (vrstaAkta !== 1) {
+      posliFilterReasons.vrstaAkta++;
+      continue;
+    }
+    if (isNaN(cena) || cena <= 0) {
+      posliFilterReasons.noCena++;
+      continue;
+    }
 
-  console.log(`  Filtered POSLI: ${filteredPosli.length} / ${posli.length}`);
-
-  // Create lookup map for filtered POSLI
-  const posliMap = new Map<string, PosliRow>();
-  for (const row of filteredPosli) {
-    posliMap.set(row.ID_POSLA, row);
+    filteredPosliMap.set(id, row);
+    posliFiltered++;
   }
 
-  // Join with DELISTAVB and create transactions
+  console.log(`POSLI after filtering: ${posliFiltered.toLocaleString()} / ${allPosliMap.size.toLocaleString()}`);
+  console.log(`  Filtered out - TRZNOST: ${posliFilterReasons.trznost}, VRSTA_KPP: ${posliFilterReasons.vrstaKpp}, VRSTA_AKTA: ${posliFilterReasons.vrstaAkta}, No price: ${posliFilterReasons.noCena}\n`);
+
+  // ============================================================
+  // STEP 4: Join DELISTAVB with filtered POSLI
+  // ============================================================
+  console.log('=== STEP 4: Joining DELISTAVB with POSLI ===\n');
+
   const transactions: Transaction[] = [];
+  let skippedNoMatch = 0;
   let skippedNoCoords = 0;
   let skippedOutOfBounds = 0;
   let skippedNoArea = 0;
   let skippedPriceRange = 0;
-  let skippedNoMatch = 0;
 
-  for (const ds of delistavb) {
-    const posliRow = posliMap.get(ds.ID_POSLA);
+  for (const [key, ds] of allDelistavbMap) {
+    const posliRow = filteredPosliMap.get(ds.ID_POSLA);
     if (!posliRow) {
       skippedNoMatch++;
       continue;
@@ -255,11 +393,10 @@ function processYear(yearDir: string, year: number): Transaction[] {
       continue;
     }
 
-    // Get area - prefer PRODANA_UPORABNA_POVRSINA_DELA_STAVBE, fallback to PRODANA_POVRSINA_DELA_STAVBE
+    // Get area - prefer PRODANA_UPORABNA_POVRSINA_DELA_STAVBE
     let uporabnaPovrsina = parseFloat(ds.PRODANA_UPORABNA_POVRSINA_DELA_STAVBE);
     let povrsina = parseFloat(ds.PRODANA_POVRSINA_DELA_STAVBE);
 
-    // Also check PRODANA_POVRSINA as another fallback
     if (isNaN(povrsina) || povrsina <= 0) {
       povrsina = parseFloat(ds.PRODANA_POVRSINA);
     }
@@ -335,74 +472,93 @@ function processYear(yearDir: string, year: number): Transaction[] {
     });
   }
 
-  console.log(`  Skipped - No match: ${skippedNoMatch}, No coords: ${skippedNoCoords}, Out of bounds: ${skippedOutOfBounds}, No area: ${skippedNoArea}, Price range: ${skippedPriceRange}`);
-  console.log(`  Valid transactions: ${transactions.length}`);
+  console.log(`Joined transactions: ${transactions.length.toLocaleString()}`);
+  console.log(`  Skipped - No POSLI match: ${skippedNoMatch.toLocaleString()}`);
+  console.log(`  Skipped - No coords: ${skippedNoCoords.toLocaleString()}`);
+  console.log(`  Skipped - Out of bounds: ${skippedOutOfBounds.toLocaleString()}`);
+  console.log(`  Skipped - No area: ${skippedNoArea.toLocaleString()}`);
+  console.log(`  Skipped - Price range: ${skippedPriceRange.toLocaleString()}\n`);
 
-  return transactions;
-}
+  // ============================================================
+  // STEP 5: Deduplicate transactions by ID (same ID can have multiple parts)
+  // Actually, we want to KEEP multiple parts for same ID_POSLA
+  // But we need to ensure no exact duplicates
+  // ============================================================
+  console.log('=== STEP 5: Final deduplication ===\n');
 
-/**
- * Main processing function
- */
-async function main() {
-  const etnDir = path.join(process.cwd(), 'data', 'gurs', 'etn');
-  const outputDir = path.join(process.cwd(), 'public', 'data', 'transactions');
-
-  // Ensure output directory exists
-  if (!fs.existsSync(outputDir)) {
-    fs.mkdirSync(outputDir, { recursive: true });
+  // Create a unique key for each transaction part
+  const uniqueTransactions = new Map<string, Transaction>();
+  for (const tx of transactions) {
+    // Key includes ID and distinguishing features for multi-part transactions
+    const key = `${tx.id}_${tx.sifraKo}_${tx.uporabnaPovrsina}_${tx.cena}`;
+    if (!uniqueTransactions.has(key)) {
+      uniqueTransactions.set(key, tx);
+    }
   }
 
-  // Find all ETN year directories
-  const dirs = fs.readdirSync(etnDir)
-    .filter(d => d.startsWith('ETN_SLO_') && fs.statSync(path.join(etnDir, d)).isDirectory())
-    .sort();
+  console.log(`After final dedup: ${uniqueTransactions.size.toLocaleString()} (from ${transactions.length.toLocaleString()})\n`);
 
-  console.log(`Found ${dirs.length} ETN directories\n`);
+  // ============================================================
+  // STEP 6: Group by contract year
+  // ============================================================
+  console.log('=== STEP 6: Grouping by contract year ===\n');
+
+  const byYear = new Map<number, Transaction[]>();
+
+  for (const tx of uniqueTransactions.values()) {
+    const year = parseInt(tx.datum.substring(0, 4), 10);
+
+    if (isNaN(year) || year < 2000 || year > 2030) {
+      console.warn(`  Invalid year in datum: ${tx.datum} for ID ${tx.id}`);
+      continue;
+    }
+
+    if (!byYear.has(year)) {
+      byYear.set(year, []);
+    }
+    byYear.get(year)!.push(tx);
+  }
+
+  // ============================================================
+  // STEP 7: Save each year to JSON
+  // ============================================================
+  console.log('=== STEP 7: Saving JSON files ===\n');
 
   const stats: { [year: string]: { total: number; byType: { [type: string]: number } } } = {};
   let totalTransactions = 0;
 
-  for (const dir of dirs) {
-    // Extract year from directory name (ETN_SLO_2024_KPP_20260301)
-    const match = dir.match(/ETN_SLO_(\d{4})_/);
-    if (!match) continue;
+  const sortedYears = [...byYear.keys()].sort((a, b) => a - b);
 
-    const year = parseInt(match[1], 10);
-    console.log(`Processing year ${year}...`);
+  for (const year of sortedYears) {
+    const yearTransactions = byYear.get(year)!;
 
-    const yearPath = path.join(etnDir, dir);
-    const transactions = processYear(yearPath, year);
-
-    if (transactions.length === 0) {
-      console.log(`  No transactions for year ${year}\n`);
-      continue;
-    }
+    // Sort by date descending within each year
+    yearTransactions.sort((a, b) => b.datum.localeCompare(a.datum));
 
     // Save to JSON
     const outputPath = path.join(outputDir, `${year}.json`);
-    fs.writeFileSync(outputPath, JSON.stringify(transactions, null, 2));
-    console.log(`  Saved to ${outputPath}\n`);
+    fs.writeFileSync(outputPath, JSON.stringify(yearTransactions, null, 2));
+    console.log(`Saved ${year}.json: ${yearTransactions.length.toLocaleString()} transactions`);
 
     // Collect stats
     const byType: { [type: string]: number } = {};
-    for (const tx of transactions) {
+    for (const tx of yearTransactions) {
       byType[tx.tipNaziv] = (byType[tx.tipNaziv] || 0) + 1;
     }
 
     stats[year.toString()] = {
-      total: transactions.length,
+      total: yearTransactions.length,
       byType,
     };
 
-    totalTransactions += transactions.length;
+    totalTransactions += yearTransactions.length;
   }
 
   // Print summary
   console.log('\n========== SUMMARY ==========\n');
-  console.log(`Total transactions: ${totalTransactions.toLocaleString()}\n`);
+  console.log(`Total unique transactions: ${totalTransactions.toLocaleString()}\n`);
 
-  console.log('By year:');
+  console.log('By contract year:');
   for (const [year, data] of Object.entries(stats).sort()) {
     console.log(`  ${year}: ${data.total.toLocaleString()}`);
   }

@@ -14,32 +14,6 @@
   },
   {
     "rank": 2,
-    "id": -515921,
-    "datum": "2010-11-17",
-    "cena": 700000,
-    "tip": 4,
-    "tipNaziv": "Garaža",
-    "povrsina": 35,
-    "cenaNaM2": 20000,
-    "obcina": "PIRAN",
-    "naslov": "STARA CESTA 5A, PORTOROŽ",
-    "leto": 2010
-  },
-  {
-    "rank": 3,
-    "id": -546186,
-    "datum": "2008-01-23",
-    "cena": 490000,
-    "tip": 15,
-    "tipNaziv": "Drugo",
-    "povrsina": 24.5,
-    "cenaNaM2": 20000,
-    "obcina": "LJUBLJANA",
-    "naslov": "PRUŠNIKOVA ULICA 104, LJUBLJANA",
-    "leto": 2008
-  },
-  {
-    "rank": 4,
     "id": -538735,
     "datum": "2011-03-11",
     "cena": 922537,
@@ -52,7 +26,7 @@
     "leto": 2011
   },
   {
-    "rank": 5,
+    "rank": 3,
     "id": 155617,
     "datum": "2014-06-27",
     "cena": 1398335,
@@ -65,20 +39,20 @@
     "leto": 2014
   },
   {
-    "rank": 6,
-    "id": -400500,
-    "datum": "2009-01-07",
-    "cena": 679000,
-    "tip": 15,
-    "tipNaziv": "Drugo",
-    "povrsina": 34.1,
-    "cenaNaM2": 19912,
-    "obcina": "LJUBLJANA",
-    "naslov": "MENCINGERJEVA ULICA 7, LJUBLJANA",
-    "leto": 2009
+    "rank": 4,
+    "id": 965203,
+    "datum": "2025-09-19",
+    "cena": 470000,
+    "tip": 13,
+    "tipNaziv": "Kmetijski objekt",
+    "povrsina": 23.6,
+    "cenaNaM2": 19915,
+    "obcina": "CERKNICA",
+    "naslov": "UNEC",
+    "leto": 2025
   },
   {
-    "rank": 7,
+    "rank": 5,
     "id": -538735,
     "datum": "2011-03-11",
     "cena": 922537,
@@ -91,7 +65,7 @@
     "leto": 2011
   },
   {
-    "rank": 8,
+    "rank": 6,
     "id": -136838,
     "datum": "2007-05-11",
     "cena": 34300000,
@@ -104,7 +78,7 @@
     "leto": 2007
   },
   {
-    "rank": 9,
+    "rank": 7,
     "id": 149006,
     "datum": "2014-05-16",
     "cena": 1240328,
@@ -117,7 +91,7 @@
     "leto": 2014
   },
   {
-    "rank": 10,
+    "rank": 8,
     "id": -581137,
     "datum": "2011-11-30",
     "cena": 3600000,
@@ -130,7 +104,7 @@
     "leto": 2011
   },
   {
-    "rank": 11,
+    "rank": 9,
     "id": 316326,
     "datum": "2017-03-02",
     "cena": 715000,
@@ -143,7 +117,20 @@
     "leto": 2017
   },
   {
-    "rank": 12,
+    "rank": 10,
+    "id": 377570,
+    "datum": "2018-04-18",
+    "cena": 5738000,
+    "tip": 14,
+    "tipNaziv": "Tehnični ali pomožni prostori",
+    "povrsina": 289,
+    "cenaNaM2": 19855,
+    "obcina": "LJUBLJANA",
+    "naslov": "DUNAJSKA CESTA 119, LJUBLJANA",
+    "leto": 2018
+  },
+  {
+    "rank": 11,
     "id": -511051,
     "datum": "2010-09-15",
     "cena": 433000,
@@ -156,59 +143,20 @@
     "leto": 2010
   },
   {
+    "rank": 12,
+    "id": 195579,
+    "datum": "2014-12-16",
+    "cena": 416493,
+    "tip": 5,
+    "tipNaziv": "Pisarniški prostori",
+    "povrsina": 21,
+    "cenaNaM2": 19833,
+    "obcina": "ŠENTJUR",
+    "naslov": "PLANINA PRI SEVNICI 47A",
+    "leto": 2014
+  },
+  {
     "rank": 13,
-    "id": 195579,
-    "datum": "2014-12-16",
-    "cena": 416493,
-    "tip": 5,
-    "tipNaziv": "Pisarniški prostori",
-    "povrsina": 21,
-    "cenaNaM2": 19833,
-    "obcina": "ŠENTJUR",
-    "naslov": "PLANINA PRI SEVNICI 47A",
-    "leto": 2014
-  },
-  {
-    "rank": 14,
-    "id": 195579,
-    "datum": "2014-12-16",
-    "cena": 416493,
-    "tip": 5,
-    "tipNaziv": "Pisarniški prostori",
-    "povrsina": 21,
-    "cenaNaM2": 19833,
-    "obcina": "ŠENTJUR",
-    "naslov": "PLANINA PRI SEVNICI 47A",
-    "leto": 2014
-  },
-  {
-    "rank": 15,
-    "id": -620962,
-    "datum": "2012-11-09",
-    "cena": 460000,
-    "tip": 15,
-    "tipNaziv": "Drugo",
-    "povrsina": 23.2,
-    "cenaNaM2": 19828,
-    "obcina": "CELJE",
-    "naslov": "TRUBARJEVA ULICA 11, CELJE",
-    "leto": 2012
-  },
-  {
-    "rank": 16,
-    "id": -601581,
-    "datum": "2012-06-18",
-    "cena": 410000,
-    "tip": 4,
-    "tipNaziv": "Garaža",
-    "povrsina": 20.7,
-    "cenaNaM2": 19807,
-    "obcina": "MARIBOR",
-    "naslov": "KAMNICA",
-    "leto": 2012
-  },
-  {
-    "rank": 17,
     "id": -611986,
     "datum": "2012-06-18",
     "cena": 410000,
@@ -221,7 +169,7 @@
     "leto": 2012
   },
   {
-    "rank": 18,
+    "rank": 14,
     "id": 808343,
     "datum": "2023-10-01",
     "cena": 1485000,
@@ -234,20 +182,7 @@
     "leto": 2023
   },
   {
-    "rank": 19,
-    "id": 808343,
-    "datum": "2023-10-01",
-    "cena": 1485000,
-    "tip": 15,
-    "tipNaziv": "Drugo",
-    "povrsina": 75,
-    "cenaNaM2": 19800,
-    "obcina": "PTUJ",
-    "naslov": "PTUJ",
-    "leto": 2023
-  },
-  {
-    "rank": 20,
+    "rank": 15,
     "id": -142011,
     "datum": "2007-08-21",
     "cena": 2000000,
@@ -260,20 +195,7 @@
     "leto": 2007
   },
   {
-    "rank": 21,
-    "id": 166249,
-    "datum": "2014-09-25",
-    "cena": 1482476,
-    "tip": 6,
-    "tipNaziv": "Prostori za poslovanje s strankami",
-    "povrsina": 75,
-    "cenaNaM2": 19766,
-    "obcina": "LJUBLJANA",
-    "naslov": "AJDOVŠČINA",
-    "leto": 2014
-  },
-  {
-    "rank": 22,
+    "rank": 16,
     "id": -563544,
     "datum": "2011-07-23",
     "cena": 421000,
@@ -286,7 +208,7 @@
     "leto": 2011
   },
   {
-    "rank": 23,
+    "rank": 17,
     "id": 808343,
     "datum": "2023-10-01",
     "cena": 1485000,
@@ -299,20 +221,7 @@
     "leto": 2023
   },
   {
-    "rank": 24,
-    "id": 808343,
-    "datum": "2023-10-01",
-    "cena": 1485000,
-    "tip": 15,
-    "tipNaziv": "Drugo",
-    "povrsina": 75.2,
-    "cenaNaM2": 19747,
-    "obcina": "PTUJ",
-    "naslov": "PTUJ",
-    "leto": 2023
-  },
-  {
-    "rank": 25,
+    "rank": 18,
     "id": 185215,
     "datum": "2014-11-26",
     "cena": 690000,
@@ -325,7 +234,7 @@
     "leto": 2014
   },
   {
-    "rank": 26,
+    "rank": 19,
     "id": -511875,
     "datum": "2010-09-17",
     "cena": 413756,
@@ -338,7 +247,7 @@
     "leto": 2010
   },
   {
-    "rank": 27,
+    "rank": 20,
     "id": 753538,
     "datum": "2023-01-16",
     "cena": 1672722,
@@ -351,7 +260,7 @@
     "leto": 2023
   },
   {
-    "rank": 28,
+    "rank": 21,
     "id": 88051,
     "datum": "2013-10-21",
     "cena": 1801822,
@@ -364,7 +273,7 @@
     "leto": 2013
   },
   {
-    "rank": 29,
+    "rank": 22,
     "id": 22959,
     "datum": "2009-03-17",
     "cena": 417338,
@@ -377,7 +286,7 @@
     "leto": 2009
   },
   {
-    "rank": 30,
+    "rank": 23,
     "id": 84432,
     "datum": "2013-12-27",
     "cena": 2224000,
@@ -390,20 +299,7 @@
     "leto": 2013
   },
   {
-    "rank": 31,
-    "id": 159485,
-    "datum": "2014-07-10",
-    "cena": 610000,
-    "tip": 4,
-    "tipNaziv": "Garaža",
-    "povrsina": 31,
-    "cenaNaM2": 19677,
-    "obcina": "PIRAN",
-    "naslov": "PORTOROŽ",
-    "leto": 2014
-  },
-  {
-    "rank": 32,
+    "rank": 24,
     "id": 88051,
     "datum": "2013-10-21",
     "cena": 1801822,
@@ -416,20 +312,20 @@
     "leto": 2013
   },
   {
-    "rank": 33,
-    "id": 148858,
-    "datum": "2014-05-16",
-    "cena": 570387,
-    "tip": 15,
-    "tipNaziv": "Drugo",
-    "povrsina": 29,
-    "cenaNaM2": 19669,
-    "obcina": "MARIBOR",
-    "naslov": "OB ŽELEZNICI",
-    "leto": 2014
+    "rank": 25,
+    "id": 908808,
+    "datum": "2025-04-30",
+    "cena": 534747,
+    "tip": 5,
+    "tipNaziv": "Pisarniški prostori",
+    "povrsina": 27.2,
+    "cenaNaM2": 19660,
+    "obcina": "GORENJA VAS-POLJANE",
+    "naslov": "DOLENJA DOBRAVA",
+    "leto": 2025
   },
   {
-    "rank": 34,
+    "rank": 26,
     "id": -622737,
     "datum": "2012-11-20",
     "cena": 450000,
@@ -442,7 +338,7 @@
     "leto": 2012
   },
   {
-    "rank": 35,
+    "rank": 27,
     "id": -136838,
     "datum": "2007-05-11",
     "cena": 34300000,
@@ -455,20 +351,7 @@
     "leto": 2007
   },
   {
-    "rank": 36,
-    "id": -489737,
-    "datum": "2010-03-08",
-    "cena": 986460,
-    "tip": 15,
-    "tipNaziv": "Drugo",
-    "povrsina": 50.2,
-    "cenaNaM2": 19651,
-    "obcina": "ŽALEC",
-    "naslov": "ŽALEC",
-    "leto": 2010
-  },
-  {
-    "rank": 37,
+    "rank": 28,
     "id": -505398,
     "datum": "2010-08-04",
     "cena": 1152716,
@@ -481,33 +364,7 @@
     "leto": 2010
   },
   {
-    "rank": 38,
-    "id": -505398,
-    "datum": "2010-08-04",
-    "cena": 1152716,
-    "tip": 8,
-    "tipNaziv": "Trgovski ali storitveni lokal",
-    "povrsina": 58.7,
-    "cenaNaM2": 19637,
-    "obcina": "LJUBLJANA",
-    "naslov": "BARJANSKA CESTA 66, LJUBLJANA",
-    "leto": 2010
-  },
-  {
-    "rank": 39,
-    "id": -505398,
-    "datum": "2010-08-04",
-    "cena": 1152716,
-    "tip": 8,
-    "tipNaziv": "Trgovski ali storitveni lokal",
-    "povrsina": 58.7,
-    "cenaNaM2": 19637,
-    "obcina": "LJUBLJANA",
-    "naslov": "BARJANSKA CESTA 66, LJUBLJANA",
-    "leto": 2010
-  },
-  {
-    "rank": 40,
+    "rank": 29,
     "id": 292539,
     "datum": "2016-09-30",
     "cena": 4860000,
@@ -520,7 +377,20 @@
     "leto": 2016
   },
   {
-    "rank": 41,
+    "rank": 30,
+    "id": 962678,
+    "datum": "2025-07-14",
+    "cena": 463000,
+    "tip": 14,
+    "tipNaziv": "Tehnični ali pomožni prostori",
+    "povrsina": 23.6,
+    "cenaNaM2": 19619,
+    "obcina": "LJUBLJANA",
+    "naslov": "ZGORNJA ŠIŠKA",
+    "leto": 2025
+  },
+  {
+    "rank": 31,
     "id": -502327,
     "datum": "2009-10-15",
     "cena": 391883,
@@ -533,7 +403,7 @@
     "leto": 2009
   },
   {
-    "rank": 42,
+    "rank": 32,
     "id": -502289,
     "datum": "2009-10-15",
     "cena": 584579,
@@ -546,20 +416,7 @@
     "leto": 2009
   },
   {
-    "rank": 43,
-    "id": -400500,
-    "datum": "2009-01-07",
-    "cena": 679000,
-    "tip": 15,
-    "tipNaziv": "Drugo",
-    "povrsina": 34.6,
-    "cenaNaM2": 19607,
-    "obcina": "LJUBLJANA",
-    "naslov": "Mencingerjeva ulica 7 , Ljubljana",
-    "leto": 2009
-  },
-  {
-    "rank": 44,
+    "rank": 33,
     "id": 143615,
     "datum": "2013-08-06",
     "cena": 430000,
@@ -572,7 +429,7 @@
     "leto": 2013
   },
   {
-    "rank": 45,
+    "rank": 34,
     "id": -56452,
     "datum": "2007-06-19",
     "cena": 680000,
@@ -585,7 +442,20 @@
     "leto": 2007
   },
   {
-    "rank": 46,
+    "rank": 35,
+    "id": 902300,
+    "datum": "2025-02-21",
+    "cena": 1424000,
+    "tip": 2,
+    "tipNaziv": "Stanovanje",
+    "povrsina": 72.9,
+    "cenaNaM2": 19534,
+    "obcina": "KOBARID",
+    "naslov": "GREGORČIČEVA ULICA 6, KOBARID",
+    "leto": 2025
+  },
+  {
+    "rank": 36,
     "id": 149006,
     "datum": "2014-05-16",
     "cena": 1240328,
@@ -598,7 +468,7 @@
     "leto": 2014
   },
   {
-    "rank": 47,
+    "rank": 37,
     "id": -531366,
     "datum": "2010-11-16",
     "cena": 1380000,
@@ -611,7 +481,7 @@
     "leto": 2010
   },
   {
-    "rank": 48,
+    "rank": 38,
     "id": 178756,
     "datum": "2014-10-20",
     "cena": 390000,
@@ -624,20 +494,20 @@
     "leto": 2014
   },
   {
-    "rank": 49,
-    "id": 178756,
-    "datum": "2014-10-20",
-    "cena": 390000,
-    "tip": 4,
-    "tipNaziv": "Garaža",
-    "povrsina": 20,
-    "cenaNaM2": 19500,
+    "rank": 39,
+    "id": 977017,
+    "datum": "2025-12-10",
+    "cena": 498720,
+    "tip": 3,
+    "tipNaziv": "Parkirni prostor",
+    "povrsina": 25.6,
+    "cenaNaM2": 19481,
     "obcina": "LJUBLJANA",
-    "naslov": "JURČKOVA CESTA 21A, LJUBLJANA",
-    "leto": 2014
+    "naslov": "ŽELEZNA CESTA 14, LJUBLJANA",
+    "leto": 2025
   },
   {
-    "rank": 50,
+    "rank": 40,
     "id": 149006,
     "datum": "2014-05-16",
     "cena": 1240328,
@@ -650,7 +520,7 @@
     "leto": 2014
   },
   {
-    "rank": 51,
+    "rank": 41,
     "id": 172007,
     "datum": "2014-09-15",
     "cena": 465000,
@@ -663,20 +533,7 @@
     "leto": 2014
   },
   {
-    "rank": 52,
-    "id": 145174,
-    "datum": "2014-03-31",
-    "cena": 389000,
-    "tip": 4,
-    "tipNaziv": "Garaža",
-    "povrsina": 20,
-    "cenaNaM2": 19450,
-    "obcina": "LJUBLJANA",
-    "naslov": "TRNOVSKO PREDMESTJE",
-    "leto": 2014
-  },
-  {
-    "rank": 53,
+    "rank": 42,
     "id": -19516,
     "datum": "2007-05-28",
     "cena": 455700,
@@ -689,7 +546,7 @@
     "leto": 2007
   },
   {
-    "rank": 54,
+    "rank": 43,
     "id": 196575,
     "datum": "2013-11-13",
     "cena": 700000,
@@ -702,7 +559,7 @@
     "leto": 2013
   },
   {
-    "rank": 55,
+    "rank": 44,
     "id": -511875,
     "datum": "2010-09-17",
     "cena": 413756,
@@ -715,7 +572,7 @@
     "leto": 2010
   },
   {
-    "rank": 56,
+    "rank": 45,
     "id": 883049,
     "datum": "2024-09-30",
     "cena": 450000,
@@ -728,85 +585,7 @@
     "leto": 2024
   },
   {
-    "rank": 57,
-    "id": 42966,
-    "datum": "2013-09-03",
-    "cena": 504000,
-    "tip": 15,
-    "tipNaziv": "Drugo",
-    "povrsina": 26,
-    "cenaNaM2": 19385,
-    "obcina": "CELJE",
-    "naslov": "BUKOVŽLAK",
-    "leto": 2013
-  },
-  {
-    "rank": 58,
-    "id": 42977,
-    "datum": "2013-09-03",
-    "cena": 504000,
-    "tip": 15,
-    "tipNaziv": "Drugo",
-    "povrsina": 26,
-    "cenaNaM2": 19385,
-    "obcina": "CELJE",
-    "naslov": "BUKOVŽLAK",
-    "leto": 2013
-  },
-  {
-    "rank": 59,
-    "id": 42999,
-    "datum": "2013-09-03",
-    "cena": 504000,
-    "tip": 15,
-    "tipNaziv": "Drugo",
-    "povrsina": 26,
-    "cenaNaM2": 19385,
-    "obcina": "CELJE",
-    "naslov": "BUKOVŽLAK",
-    "leto": 2013
-  },
-  {
-    "rank": 60,
-    "id": 43010,
-    "datum": "2013-09-03",
-    "cena": 504000,
-    "tip": 15,
-    "tipNaziv": "Drugo",
-    "povrsina": 26,
-    "cenaNaM2": 19385,
-    "obcina": "CELJE",
-    "naslov": "BUKOVŽLAK",
-    "leto": 2013
-  },
-  {
-    "rank": 61,
-    "id": 43021,
-    "datum": "2013-09-03",
-    "cena": 504000,
-    "tip": 15,
-    "tipNaziv": "Drugo",
-    "povrsina": 26,
-    "cenaNaM2": 19385,
-    "obcina": "CELJE",
-    "naslov": "BUKOVŽLAK",
-    "leto": 2013
-  },
-  {
-    "rank": 62,
-    "id": 42988,
-    "datum": "2013-09-03",
-    "cena": 504000,
-    "tip": 15,
-    "tipNaziv": "Drugo",
-    "povrsina": 26,
-    "cenaNaM2": 19385,
-    "obcina": "CELJE",
-    "naslov": "BUKOVŽLAK",
-    "leto": 2013
-  },
-  {
-    "rank": 63,
+    "rank": 46,
     "id": -136838,
     "datum": "2007-05-11",
     "cena": 34300000,
@@ -819,7 +598,7 @@
     "leto": 2007
   },
   {
-    "rank": 64,
+    "rank": 47,
     "id": -521936,
     "datum": "2010-11-19",
     "cena": 595000,
@@ -832,7 +611,7 @@
     "leto": 2010
   },
   {
-    "rank": 65,
+    "rank": 48,
     "id": 168542,
     "datum": "2014-09-15",
     "cena": 465000,
@@ -845,7 +624,7 @@
     "leto": 2014
   },
   {
-    "rank": 66,
+    "rank": 49,
     "id": 485740,
     "datum": "2019-04-15",
     "cena": 5250000,
@@ -858,7 +637,7 @@
     "leto": 2019
   },
   {
-    "rank": 67,
+    "rank": 50,
     "id": -387880,
     "datum": "2009-01-14",
     "cena": 859000,
@@ -871,7 +650,20 @@
     "leto": 2009
   },
   {
-    "rank": 68,
+    "rank": 51,
+    "id": 956845,
+    "datum": "2025-06-05",
+    "cena": 422000,
+    "tip": 13,
+    "tipNaziv": "Kmetijski objekt",
+    "povrsina": 21.8,
+    "cenaNaM2": 19358,
+    "obcina": "ŠENČUR",
+    "naslov": "VISOKO",
+    "leto": 2025
+  },
+  {
+    "rank": 52,
     "id": 676533,
     "datum": "2022-10-27",
     "cena": 600000,
@@ -884,7 +676,20 @@
     "leto": 2022
   },
   {
-    "rank": 69,
+    "rank": 53,
+    "id": 645235,
+    "datum": "2022-02-26",
+    "cena": 600000,
+    "tip": 9,
+    "tipNaziv": "Gostinski lokal",
+    "povrsina": 31,
+    "cenaNaM2": 19355,
+    "obcina": "SLOVENJ GRADEC",
+    "naslov": "GLAVNI TRG 29, SLOVENJ GRADEC",
+    "leto": 2022
+  },
+  {
+    "rank": 54,
     "id": -505398,
     "datum": "2010-08-04",
     "cena": 1152716,
@@ -897,33 +702,7 @@
     "leto": 2010
   },
   {
-    "rank": 70,
-    "id": -505398,
-    "datum": "2010-08-04",
-    "cena": 1152716,
-    "tip": 8,
-    "tipNaziv": "Trgovski ali storitveni lokal",
-    "povrsina": 59.6,
-    "cenaNaM2": 19341,
-    "obcina": "LJUBLJANA",
-    "naslov": "BARJANSKA CESTA 66, LJUBLJANA",
-    "leto": 2010
-  },
-  {
-    "rank": 71,
-    "id": -505398,
-    "datum": "2010-08-04",
-    "cena": 1152716,
-    "tip": 8,
-    "tipNaziv": "Trgovski ali storitveni lokal",
-    "povrsina": 59.6,
-    "cenaNaM2": 19341,
-    "obcina": "LJUBLJANA",
-    "naslov": "BARJANSKA CESTA 66, LJUBLJANA",
-    "leto": 2010
-  },
-  {
-    "rank": 72,
+    "rank": 55,
     "id": -607229,
     "datum": "2012-07-18",
     "cena": 2200000,
@@ -936,7 +715,7 @@
     "leto": 2012
   },
   {
-    "rank": 73,
+    "rank": 56,
     "id": 355901,
     "datum": "2017-11-10",
     "cena": 850000,
@@ -949,7 +728,7 @@
     "leto": 2017
   },
   {
-    "rank": 74,
+    "rank": 57,
     "id": -521936,
     "datum": "2010-11-19",
     "cena": 595000,
@@ -962,20 +741,7 @@
     "leto": 2010
   },
   {
-    "rank": 75,
-    "id": 443355,
-    "datum": "2019-08-13",
-    "cena": 560000,
-    "tip": 14,
-    "tipNaziv": "Tehnični ali pomožni prostori",
-    "povrsina": 29,
-    "cenaNaM2": 19310,
-    "obcina": "PIRAN",
-    "naslov": "PORTOROŽ",
-    "leto": 2019
-  },
-  {
-    "rank": 76,
+    "rank": 58,
     "id": -136838,
     "datum": "2007-05-11",
     "cena": 34300000,
@@ -988,7 +754,7 @@
     "leto": 2007
   },
   {
-    "rank": 77,
+    "rank": 59,
     "id": -595508,
     "datum": "2012-03-23",
     "cena": 556560,
@@ -1001,7 +767,7 @@
     "leto": 2012
   },
   {
-    "rank": 78,
+    "rank": 60,
     "id": -136838,
     "datum": "2007-05-11",
     "cena": 34300000,
@@ -1014,7 +780,7 @@
     "leto": 2007
   },
   {
-    "rank": 79,
+    "rank": 61,
     "id": 653474,
     "datum": "2022-05-04",
     "cena": 750000,
@@ -1027,7 +793,20 @@
     "leto": 2022
   },
   {
-    "rank": 80,
+    "rank": 62,
+    "id": 905761,
+    "datum": "2025-04-04",
+    "cena": 724684,
+    "tip": 8,
+    "tipNaziv": "Trgovski ali storitveni lokal",
+    "povrsina": 37.7,
+    "cenaNaM2": 19222,
+    "obcina": "LJUBLJANA",
+    "naslov": "GALLUSOVO NABREŽJE 1, LJUBLJANA",
+    "leto": 2025
+  },
+  {
+    "rank": 63,
     "id": -595362,
     "datum": "2012-04-04",
     "cena": 440000,
@@ -1040,7 +819,20 @@
     "leto": 2012
   },
   {
-    "rank": 81,
+    "rank": 64,
+    "id": 955809,
+    "datum": "2025-05-19",
+    "cena": 1050352,
+    "tip": 1,
+    "tipNaziv": "Stanovanjska hiša",
+    "povrsina": 54.7,
+    "cenaNaM2": 19202,
+    "obcina": "KRŠKO",
+    "naslov": "ULICA 11. NOVEMBRA 45, LESKOVEC PRI KRŠKEM",
+    "leto": 2025
+  },
+  {
+    "rank": 65,
     "id": -521936,
     "datum": "2010-11-19",
     "cena": 595000,
@@ -1053,7 +845,7 @@
     "leto": 2010
   },
   {
-    "rank": 82,
+    "rank": 66,
     "id": -480068,
     "datum": "2010-01-07",
     "cena": 2280000,
@@ -1066,7 +858,7 @@
     "leto": 2010
   },
   {
-    "rank": 83,
+    "rank": 67,
     "id": -628902,
     "datum": "2012-10-02",
     "cena": 727314,
@@ -1079,7 +871,7 @@
     "leto": 2012
   },
   {
-    "rank": 84,
+    "rank": 68,
     "id": -515055,
     "datum": "2010-07-28",
     "cena": 966280,
@@ -1092,20 +884,7 @@
     "leto": 2010
   },
   {
-    "rank": 85,
-    "id": -515055,
-    "datum": "2010-07-28",
-    "cena": 966280,
-    "tip": 2,
-    "tipNaziv": "Stanovanje",
-    "povrsina": 50.5,
-    "cenaNaM2": 19130,
-    "obcina": "NOVA GORICA",
-    "naslov": "ŠEMPAS 9",
-    "leto": 2010
-  },
-  {
-    "rank": 86,
+    "rank": 69,
     "id": -136838,
     "datum": "2007-05-11",
     "cena": 34300000,
@@ -1118,20 +897,7 @@
     "leto": 2007
   },
   {
-    "rank": 87,
-    "id": -507688,
-    "datum": "2010-08-09",
-    "cena": 6825256,
-    "tip": 11,
-    "tipNaziv": "Industrijski prostori",
-    "povrsina": 357,
-    "cenaNaM2": 19118,
-    "obcina": "LJUBLJANA",
-    "naslov": "SPODNJA ŠIŠKA",
-    "leto": 2010
-  },
-  {
-    "rank": 88,
+    "rank": 70,
     "id": 368385,
     "datum": "2017-09-29",
     "cena": 487422,
@@ -1144,20 +910,7 @@
     "leto": 2017
   },
   {
-    "rank": 89,
-    "id": 368385,
-    "datum": "2017-09-29",
-    "cena": 487422,
-    "tip": 3,
-    "tipNaziv": "Parkirni prostor",
-    "povrsina": 25.5,
-    "cenaNaM2": 19115,
-    "obcina": "IZOLA",
-    "naslov": "IZOLA",
-    "leto": 2017
-  },
-  {
-    "rank": 90,
+    "rank": 71,
     "id": -480068,
     "datum": "2010-01-07",
     "cena": 2280000,
@@ -1170,20 +923,7 @@
     "leto": 2010
   },
   {
-    "rank": 91,
-    "id": -647659,
-    "datum": "2013-03-28",
-    "cena": 550000,
-    "tip": 15,
-    "tipNaziv": "Drugo",
-    "povrsina": 28.8,
-    "cenaNaM2": 19097,
-    "obcina": "LJUBLJANA",
-    "naslov": "ŠTEPANJA VAS",
-    "leto": 2013
-  },
-  {
-    "rank": 92,
+    "rank": 72,
     "id": -480068,
     "datum": "2010-01-07",
     "cena": 2280000,
@@ -1196,7 +936,7 @@
     "leto": 2010
   },
   {
-    "rank": 93,
+    "rank": 73,
     "id": 355028,
     "datum": "2017-11-09",
     "cena": 420000,
@@ -1209,20 +949,7 @@
     "leto": 2017
   },
   {
-    "rank": 94,
-    "id": -509207,
-    "datum": "2010-08-23",
-    "cena": 500000,
-    "tip": 15,
-    "tipNaziv": "Drugo",
-    "povrsina": 26.2,
-    "cenaNaM2": 19084,
-    "obcina": "LJUBLJANA",
-    "naslov": "ŠMARTINSKA CESTA 4, LJUBLJANA",
-    "leto": 2010
-  },
-  {
-    "rank": 95,
+    "rank": 74,
     "id": -518099,
     "datum": "2010-08-23",
     "cena": 500000,
@@ -1235,7 +962,20 @@
     "leto": 2010
   },
   {
-    "rank": 96,
+    "rank": 75,
+    "id": 960913,
+    "datum": "2025-06-05",
+    "cena": 500000,
+    "tip": 13,
+    "tipNaziv": "Kmetijski objekt",
+    "povrsina": 26.2,
+    "cenaNaM2": 19084,
+    "obcina": "DOMŽALE",
+    "naslov": "PŠATA",
+    "leto": 2025
+  },
+  {
+    "rank": 76,
     "id": 25858,
     "datum": "2009-10-15",
     "cena": 1718720,
@@ -1248,7 +988,7 @@
     "leto": 2009
   },
   {
-    "rank": 97,
+    "rank": 77,
     "id": -481694,
     "datum": "2010-03-02",
     "cena": 1643612,
@@ -1261,7 +1001,7 @@
     "leto": 2010
   },
   {
-    "rank": 98,
+    "rank": 78,
     "id": 558994,
     "datum": "2021-08-30",
     "cena": 1428276,
@@ -1274,20 +1014,7 @@
     "leto": 2021
   },
   {
-    "rank": 99,
-    "id": -473135,
-    "datum": "2009-11-19",
-    "cena": 1150000,
-    "tip": 15,
-    "tipNaziv": "Drugo",
-    "povrsina": 60.4,
-    "cenaNaM2": 19040,
-    "obcina": "NOVO MESTO",
-    "naslov": "KANDIJA",
-    "leto": 2009
-  },
-  {
-    "rank": 100,
+    "rank": 79,
     "id": 159661,
     "datum": "2014-07-23",
     "cena": 495000,
@@ -1298,5 +1025,278 @@
     "obcina": "LJUBLJANA",
     "naslov": "DRAVLJE",
     "leto": 2014
+  },
+  {
+    "rank": 80,
+    "id": -525345,
+    "datum": "2011-01-11",
+    "cena": 1220000,
+    "tip": 2,
+    "tipNaziv": "Stanovanje",
+    "povrsina": 64.1,
+    "cenaNaM2": 19033,
+    "obcina": "KRANJ",
+    "naslov": "CESTA JAKA PLATIŠE 1, KRANJ",
+    "leto": 2011
+  },
+  {
+    "rank": 81,
+    "id": 908416,
+    "datum": "2025-04-25",
+    "cena": 1066553,
+    "tip": 2,
+    "tipNaziv": "Stanovanje",
+    "povrsina": 56.2,
+    "cenaNaM2": 18978,
+    "obcina": "NOVO MESTO",
+    "naslov": "DRSKA 46, NOVO MESTO",
+    "leto": 2025
+  },
+  {
+    "rank": 82,
+    "id": -19516,
+    "datum": "2007-05-28",
+    "cena": 455700,
+    "tip": 1,
+    "tipNaziv": "Stanovanjska hiša",
+    "povrsina": 24.1,
+    "cenaNaM2": 18948,
+    "obcina": "CELJE",
+    "naslov": "BREG 16, CELJE",
+    "leto": 2007
+  },
+  {
+    "rank": 83,
+    "id": 893197,
+    "datum": "2024-12-02",
+    "cena": 610000,
+    "tip": 6,
+    "tipNaziv": "Prostori za poslovanje s strankami",
+    "povrsina": 32.2,
+    "cenaNaM2": 18944,
+    "obcina": "RIBNICA",
+    "naslov": "ŠKRABČEV TRG 20, RIBNICA",
+    "leto": 2024
+  },
+  {
+    "rank": 84,
+    "id": -560896,
+    "datum": "2011-09-12",
+    "cena": 1040000,
+    "tip": 15,
+    "tipNaziv": "Drugo",
+    "povrsina": 55,
+    "cenaNaM2": 18909,
+    "obcina": "DIVAČA",
+    "naslov": "SENOŽEČE 153 ",
+    "leto": 2011
+  },
+  {
+    "rank": 85,
+    "id": -563544,
+    "datum": "2011-07-23",
+    "cena": 421000,
+    "tip": 1,
+    "tipNaziv": "Stanovanjska hiša",
+    "povrsina": 22.3,
+    "cenaNaM2": 18845,
+    "obcina": "LJUBLJANA",
+    "naslov": "SLOVENSKA CESTA 25, LJUBLJANA",
+    "leto": 2011
+  },
+  {
+    "rank": 86,
+    "id": 89823,
+    "datum": "2013-09-30",
+    "cena": 446592,
+    "tip": 3,
+    "tipNaziv": "Parkirni prostor",
+    "povrsina": 23.7,
+    "cenaNaM2": 18844,
+    "obcina": "NOVA GORICA",
+    "naslov": "Sedejeva ulica 2A, Nova Gorica",
+    "leto": 2013
+  },
+  {
+    "rank": 87,
+    "id": -443725,
+    "datum": "2009-03-17",
+    "cena": 471338,
+    "tip": 8,
+    "tipNaziv": "Trgovski ali storitveni lokal",
+    "povrsina": 25,
+    "cenaNaM2": 18838,
+    "obcina": "ŠENČUR",
+    "naslov": "POSLOVNA CONA A 18, ŠENČUR",
+    "leto": 2009
+  },
+  {
+    "rank": 88,
+    "id": -622737,
+    "datum": "2012-11-20",
+    "cena": 450000,
+    "tip": 1,
+    "tipNaziv": "Stanovanjska hiša",
+    "povrsina": 23.9,
+    "cenaNaM2": 18836,
+    "obcina": "LJUBLJANA",
+    "naslov": "MESTNI TRG 19, LJUBLJANA",
+    "leto": 2012
+  },
+  {
+    "rank": 89,
+    "id": -555804,
+    "datum": "2011-06-28",
+    "cena": 495000,
+    "tip": 1,
+    "tipNaziv": "Stanovanjska hiša",
+    "povrsina": 26.3,
+    "cenaNaM2": 18828,
+    "obcina": "DOMŽALE",
+    "naslov": "PIONIRSKA ULICA 3, NOŽICE",
+    "leto": 2011
+  },
+  {
+    "rank": 90,
+    "id": 955809,
+    "datum": "2025-05-19",
+    "cena": 1050352,
+    "tip": 15,
+    "tipNaziv": "Drugo",
+    "povrsina": 55.8,
+    "cenaNaM2": 18824,
+    "obcina": "KRŠKO",
+    "naslov": "ULICA 11. NOVEMBRA 45, LESKOVEC PRI KRŠKEM",
+    "leto": 2025
+  },
+  {
+    "rank": 91,
+    "id": -19516,
+    "datum": "2007-05-28",
+    "cena": 455700,
+    "tip": 1,
+    "tipNaziv": "Stanovanjska hiša",
+    "povrsina": 24.3,
+    "cenaNaM2": 18784,
+    "obcina": "CELJE",
+    "naslov": "BREG 16, CELJE",
+    "leto": 2007
+  },
+  {
+    "rank": 92,
+    "id": 668749,
+    "datum": "2022-08-22",
+    "cena": 450000,
+    "tip": 13,
+    "tipNaziv": "Kmetijski objekt",
+    "povrsina": 24,
+    "cenaNaM2": 18750,
+    "obcina": "ZAGORJE OB SAVI",
+    "naslov": "RŽIŠE",
+    "leto": 2022
+  },
+  {
+    "rank": 93,
+    "id": 368385,
+    "datum": "2017-09-29",
+    "cena": 487422,
+    "tip": 3,
+    "tipNaziv": "Parkirni prostor",
+    "povrsina": 26,
+    "cenaNaM2": 18747,
+    "obcina": "IZOLA",
+    "naslov": "IZOLA",
+    "leto": 2017
+  },
+  {
+    "rank": 94,
+    "id": -595508,
+    "datum": "2012-03-23",
+    "cena": 556560,
+    "tip": 1,
+    "tipNaziv": "Stanovanjska hiša",
+    "povrsina": 29.7,
+    "cenaNaM2": 18746,
+    "obcina": "LJUBLJANA",
+    "naslov": "CANKARJEVA CESTA 6, LJUBLJANA",
+    "leto": 2012
+  },
+  {
+    "rank": 95,
+    "id": -591908,
+    "datum": "2012-03-01",
+    "cena": 636450,
+    "tip": 15,
+    "tipNaziv": "Drugo",
+    "povrsina": 34,
+    "cenaNaM2": 18719,
+    "obcina": "ORMOŽ",
+    "naslov": "ŽEROVINCI 26",
+    "leto": 2012
+  },
+  {
+    "rank": 96,
+    "id": -521936,
+    "datum": "2010-11-19",
+    "cena": 595000,
+    "tip": 9,
+    "tipNaziv": "Gostinski lokal",
+    "povrsina": 31.8,
+    "cenaNaM2": 18711,
+    "obcina": "MARIBOR",
+    "naslov": "ŽITNA ULICA 12, MARIBOR",
+    "leto": 2010
+  },
+  {
+    "rank": 97,
+    "id": -19516,
+    "datum": "2007-05-28",
+    "cena": 455700,
+    "tip": 1,
+    "tipNaziv": "Stanovanjska hiša",
+    "povrsina": 24.4,
+    "cenaNaM2": 18699,
+    "obcina": "CELJE",
+    "naslov": "BREG 16, CELJE",
+    "leto": 2007
+  },
+  {
+    "rank": 98,
+    "id": 143615,
+    "datum": "2013-08-06",
+    "cena": 430000,
+    "tip": 11,
+    "tipNaziv": "Industrijski prostori",
+    "povrsina": 23,
+    "cenaNaM2": 18696,
+    "obcina": "TRBOVLJE",
+    "naslov": "Nasipi 47, Trbovlje",
+    "leto": 2013
+  },
+  {
+    "rank": 99,
+    "id": 971152,
+    "datum": "2025-10-27",
+    "cena": 400000,
+    "tip": 4,
+    "tipNaziv": "Garaža",
+    "povrsina": 21.4,
+    "cenaNaM2": 18692,
+    "obcina": "NOVO MESTO",
+    "naslov": "ŠMIHEL PRI NOVEM MESTU",
+    "leto": 2025
+  },
+  {
+    "rank": 100,
+    "id": -335997,
+    "datum": "2008-10-06",
+    "cena": 1650000,
+    "tip": 15,
+    "tipNaziv": "Drugo",
+    "povrsina": 88.4,
+    "cenaNaM2": 18665,
+    "obcina": "MURSKA SOBOTA",
+    "naslov": "OBRTNA ULICA 39, MURSKA SOBOTA",
+    "leto": 2008
   }
 ]

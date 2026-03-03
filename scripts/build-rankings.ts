@@ -53,6 +53,9 @@ interface ObcinaStats {
   medianaCenaM2: number | null;
   medianaCenaM2Stanovanja: number | null;
   medianaCenaM2Hise: number | null;
+  povprecjeCenaM2: number | null;
+  povprecjeCenaM2Stanovanja: number | null;
+  povprecjeCenaM2Hise: number | null;
   steviloTransakcij: number;
   trendYoY: number | null;
 }
@@ -110,6 +113,14 @@ function median(values: number[]): number {
   return sorted.length % 2 === 0
     ? (sorted[mid - 1] + sorted[mid]) / 2
     : sorted[mid];
+}
+
+/**
+ * Calculate average
+ */
+function average(values: number[]): number {
+  if (values.length === 0) return 0;
+  return values.reduce((sum, val) => sum + val, 0) / values.length;
 }
 
 /**
@@ -299,6 +310,7 @@ async function main() {
       rank: i + 1,
       obcina: o.obcina,
       medianaCenaM2: o.medianaCenaM2Stanovanja,
+      povprecjeCenaM2: o.povprecjeCenaM2Stanovanja,
       steviloTransakcij: o.steviloTransakcij,
     }));
 
@@ -318,6 +330,7 @@ async function main() {
       rank: i + 1,
       obcina: o.obcina,
       medianaCenaM2: o.medianaCenaM2Stanovanja,
+      povprecjeCenaM2: o.povprecjeCenaM2Stanovanja,
       steviloTransakcij: o.steviloTransakcij,
     }));
 
@@ -338,6 +351,7 @@ async function main() {
       obcina: o.obcina,
       trendYoY: o.trendYoY,
       medianaCenaM2: o.medianaCenaM2,
+      povprecjeCenaM2: o.povprecjeCenaM2,
       steviloTransakcij: o.steviloTransakcij,
     }));
 
@@ -358,6 +372,7 @@ async function main() {
       obcina: o.obcina,
       trendYoY: o.trendYoY,
       medianaCenaM2: o.medianaCenaM2,
+      povprecjeCenaM2: o.povprecjeCenaM2,
       steviloTransakcij: o.steviloTransakcij,
     }));
 
@@ -387,11 +402,17 @@ async function main() {
         medianaCenaM2: byTip.stanovanja
           ? Math.round(median(byTip.stanovanja.map(tx => tx.cenaNaM2)))
           : null,
+        povprecjeCenaM2: byTip.stanovanja
+          ? Math.round(average(byTip.stanovanja.map(tx => tx.cenaNaM2)))
+          : null,
       },
       hise: {
         stevilo: byTip.hise?.length || 0,
         medianaCenaM2: byTip.hise
           ? Math.round(median(byTip.hise.map(tx => tx.cenaNaM2)))
+          : null,
+        povprecjeCenaM2: byTip.hise
+          ? Math.round(average(byTip.hise.map(tx => tx.cenaNaM2)))
           : null,
       },
       skupaj: (byTip.stanovanja?.length || 0) + (byTip.hise?.length || 0) + (byTip.drugo?.length || 0),

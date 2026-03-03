@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import { Clock, ArrowRight, Building, Home, MapPin } from 'lucide-react';
+import { Clock, ArrowRight, Building, Home, MapPin, Sparkles } from 'lucide-react';
 import { formatPrice, formatPricePerM2, formatArea, formatDateShort } from '@/lib/format';
 
 interface Transaction {
@@ -16,6 +16,10 @@ interface Transaction {
   cenaNaM2: number;
   obcina: string;
   naslov: string;
+  letoIzgradnje: number | null;
+  novogradnja: boolean;
+  steviloSob: number | null;
+  nadstropje: string | null;
 }
 
 export default function RecentTransactions() {
@@ -26,27 +30,33 @@ export default function RecentTransactions() {
   useEffect(() => {
     const loadTransactions = async () => {
       try {
-        // Try 2025 first, then 2024
-        let data: Transaction[] = [];
+        // Load both 2026 and 2025 data and merge
+        const allData: Transaction[] = [];
 
+        // Load 2026 (newest data)
+        try {
+          const res2026 = await fetch('/data/transactions/2026.json');
+          if (res2026.ok) {
+            const data2026 = await res2026.json();
+            allData.push(...data2026);
+          }
+        } catch {
+          // 2026 might not exist yet
+        }
+
+        // Load 2025
         try {
           const res2025 = await fetch('/data/transactions/2025.json');
           if (res2025.ok) {
-            data = await res2025.json();
+            const data2025 = await res2025.json();
+            allData.push(...data2025);
           }
         } catch {
-          // Fallback to 2024
-        }
-
-        if (data.length === 0) {
-          const res2024 = await fetch('/data/transactions/2024.json');
-          if (res2024.ok) {
-            data = await res2024.json();
-          }
+          // Fallback error
         }
 
         // Sort by date descending and take top 10
-        const sorted = data
+        const sorted = allData
           .sort((a, b) => new Date(b.datum).getTime() - new Date(a.datum).getTime())
           .slice(0, 10);
 
@@ -104,12 +114,15 @@ export default function RecentTransactions() {
             <div>
               <h2 className="text-2xl font-bold text-gray-900">Zadnje prodaje</h2>
               <p className="text-sm text-gray-500">
-                Vir: GURS ETN · Posodobljeno tedensko
+                Vir: GURS Evidenca trga nepremičnin · Stanje baze: marec 2026
                 {latestDate && (
                   <span className="ml-1">
-                    · Zadnji vnos: {formatDateShort(latestDate)}
+                    · Najnovejša pogodba: {formatDateShort(latestDate)}
                   </span>
                 )}
+              </p>
+              <p className="text-xs text-gray-400 mt-0.5">
+                GURS objavlja podatke z zamikom. Naslednja osvežitev: april 2026.
               </p>
             </div>
           </div>
@@ -133,6 +146,7 @@ export default function RecentTransactions() {
                 <th className="text-right py-3 px-4 text-sm font-semibold text-gray-600">Površina</th>
                 <th className="text-right py-3 px-4 text-sm font-semibold text-gray-600">€/m²</th>
                 <th className="text-right py-3 px-4 text-sm font-semibold text-gray-600">Datum</th>
+                <th className="text-center py-3 px-4 text-sm font-semibold text-gray-600"></th>
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-100">
@@ -142,8 +156,16 @@ export default function RecentTransactions() {
                     <div className="flex items-center gap-2">
                       <MapPin className="w-4 h-4 text-gray-400 flex-shrink-0" />
                       <div>
-                        <div className="font-medium text-gray-900 text-sm truncate max-w-[200px]">
-                          {tx.naslov}
+                        <div className="flex items-center gap-2">
+                          <span className="font-medium text-gray-900 text-sm truncate max-w-[200px]">
+                            {tx.naslov}
+                          </span>
+                          {tx.novogradnja && (
+                            <span className="inline-flex items-center gap-1 bg-emerald-100 text-emerald-700 text-xs font-medium px-1.5 py-0.5 rounded-full">
+                              <Sparkles className="w-3 h-3" />
+                              Novo
+                            </span>
+                          )}
                         </div>
                         <div className="text-xs text-gray-500">{tx.obcina}</div>
                       </div>
@@ -167,6 +189,14 @@ export default function RecentTransactions() {
                   <td className="py-3 px-4 text-right text-gray-500 text-sm">
                     {formatDateShort(tx.datum)}
                   </td>
+                  <td className="py-3 px-4 text-center">
+                    <Link
+                      href={`/zemljevid/${tx.id}`}
+                      className="inline-flex items-center gap-1 text-emerald-600 hover:text-emerald-700 text-sm"
+                    >
+                      <MapPin className="w-4 h-4" />
+                    </Link>
+                  </td>
                 </tr>
               ))}
             </tbody>
@@ -187,6 +217,11 @@ export default function RecentTransactions() {
                     <span className="font-medium text-gray-900 text-sm truncate">
                       {tx.naslov}
                     </span>
+                    {tx.novogradnja && (
+                      <span className="inline-flex items-center gap-1 bg-emerald-100 text-emerald-700 text-xs font-medium px-1.5 py-0.5 rounded-full">
+                        <Sparkles className="w-3 h-3" />
+                      </span>
+                    )}
                   </div>
                   <div className="text-xs text-gray-500 ml-6">{tx.obcina}</div>
                 </div>
@@ -205,6 +240,13 @@ export default function RecentTransactions() {
                   <div className="text-xs text-gray-500">{formatDateShort(tx.datum)}</div>
                 </div>
               </div>
+              <Link
+                href={`/zemljevid/${tx.id}`}
+                className="flex items-center justify-center gap-1.5 mt-3 pt-3 border-t border-gray-100 text-emerald-600 hover:text-emerald-700 text-sm font-medium"
+              >
+                <MapPin className="w-4 h-4" />
+                Prikaži na zemljevidu
+              </Link>
             </div>
           ))}
         </div>

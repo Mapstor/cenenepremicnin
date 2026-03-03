@@ -160,32 +160,6 @@
     },
     {
       "rank": 3,
-      "id": 283475,
-      "datum": "2016-08-08",
-      "cena": 79800,
-      "tip": 2,
-      "tipNaziv": "Stanovanje",
-      "povrsina": 608,
-      "cenaNaM2": 131,
-      "obcina": "LJUBLJANA",
-      "naslov": "VESELOVA ULICA 17, LJUBLJANA",
-      "leto": 2016
-    },
-    {
-      "rank": 4,
-      "id": 282898,
-      "datum": "2016-08-08",
-      "cena": 79800,
-      "tip": 2,
-      "tipNaziv": "Stanovanje",
-      "povrsina": 608,
-      "cenaNaM2": 131,
-      "obcina": "LJUBLJANA",
-      "naslov": "VESELOVA ULICA 17, LJUBLJANA",
-      "leto": 2016
-    },
-    {
-      "rank": 5,
       "id": 321570,
       "datum": "2016-03-27",
       "cena": 12000,
@@ -198,7 +172,7 @@
       "leto": 2016
     },
     {
-      "rank": 6,
+      "rank": 4,
       "id": 284549,
       "datum": "2016-07-08",
       "cena": 10500,
@@ -211,7 +185,7 @@
       "leto": 2016
     },
     {
-      "rank": 7,
+      "rank": 5,
       "id": 283077,
       "datum": "2016-08-12",
       "cena": 120000,
@@ -224,7 +198,7 @@
       "leto": 2016
     },
     {
-      "rank": 8,
+      "rank": 6,
       "id": 263260,
       "datum": "2016-03-24",
       "cena": 12000,
@@ -237,7 +211,7 @@
       "leto": 2016
     },
     {
-      "rank": 9,
+      "rank": 7,
       "id": 302664,
       "datum": "2016-12-01",
       "cena": 55000,
@@ -250,7 +224,7 @@
       "leto": 2016
     },
     {
-      "rank": 10,
+      "rank": 8,
       "id": 262722,
       "datum": "2016-04-20",
       "cena": 82000,
@@ -260,6 +234,32 @@
       "cenaNaM2": 219,
       "obcina": "LJUBLJANA",
       "naslov": "REDELONGHIJEVA ULICA 26A, LJUBLJANA",
+      "leto": 2016
+    },
+    {
+      "rank": 9,
+      "id": 257913,
+      "datum": "2016-03-09",
+      "cena": 23770,
+      "tip": 2,
+      "tipNaziv": "Stanovanje",
+      "povrsina": 102,
+      "cenaNaM2": 233,
+      "obcina": "LJUBLJANA",
+      "naslov": "SOJERJEVA ULICA 21, LJUBLJANA",
+      "leto": 2016
+    },
+    {
+      "rank": 10,
+      "id": 264300,
+      "datum": "2016-03-18",
+      "cena": 28000,
+      "tip": 2,
+      "tipNaziv": "Stanovanje",
+      "povrsina": 110,
+      "cenaNaM2": 255,
+      "obcina": "LJUBLJANA",
+      "naslov": "KARINGERJEVA ULICA 32, LJUBLJANA",
       "leto": 2016
     }
   ],
@@ -279,19 +279,6 @@
     },
     {
       "rank": 2,
-      "id": 319191,
-      "datum": "2017-01-16",
-      "cena": 14000,
-      "tip": 2,
-      "tipNaziv": "Stanovanje",
-      "povrsina": 127,
-      "cenaNaM2": 110,
-      "obcina": "LJUBLJANA",
-      "naslov": "KAŠELJ",
-      "leto": 2017
-    },
-    {
-      "rank": 3,
       "id": 335546,
       "datum": "2017-07-11",
       "cena": 10002,
@@ -304,7 +291,7 @@
       "leto": 2017
     },
     {
-      "rank": 4,
+      "rank": 3,
       "id": 325657,
       "datum": "2017-05-22",
       "cena": 5500,
@@ -317,7 +304,7 @@
       "leto": 2017
     },
     {
-      "rank": 5,
+      "rank": 4,
       "id": 319191,
       "datum": "2017-01-16",
       "cena": 14000,
@@ -330,20 +317,7 @@
       "leto": 2017
     },
     {
-      "rank": 6,
-      "id": 319191,
-      "datum": "2017-01-16",
-      "cena": 14000,
-      "tip": 2,
-      "tipNaziv": "Stanovanje",
-      "povrsina": 78,
-      "cenaNaM2": 179,
-      "obcina": "LJUBLJANA",
-      "naslov": "KAŠELJ",
-      "leto": 2017
-    },
-    {
-      "rank": 7,
+      "rank": 5,
       "id": 336681,
       "datum": "2017-05-31",
       "cena": 18000,
@@ -356,7 +330,7 @@
       "leto": 2017
     },
     {
-      "rank": 8,
+      "rank": 6,
       "id": 366522,
       "datum": "2017-12-14",
       "cena": 50000,
@@ -369,7 +343,7 @@
       "leto": 2017
     },
     {
-      "rank": 9,
+      "rank": 7,
       "id": 356459,
       "datum": "2017-10-13",
       "cena": 10000,
@@ -382,7 +356,7 @@
       "leto": 2017
     },
     {
-      "rank": 10,
+      "rank": 8,
       "id": 356774,
       "datum": "2017-10-13",
       "cena": 10000,
@@ -392,6 +366,32 @@
       "cenaNaM2": 208,
       "obcina": "LJUBLJANA",
       "naslov": "ROŽIČEVA ULICA 9, LJUBLJANA",
+      "leto": 2017
+    },
+    {
+      "rank": 9,
+      "id": 355767,
+      "datum": "2017-11-08",
+      "cena": 17924,
+      "tip": 2,
+      "tipNaziv": "Stanovanje",
+      "povrsina": 74,
+      "cenaNaM2": 242,
+      "obcina": "LJUBLJANA",
+      "naslov": "ŠARHOVA ULICA 26, LJUBLJANA",
+      "leto": 2017
+    },
+    {
+      "rank": 10,
+      "id": 335594,
+      "datum": "2017-07-20",
+      "cena": 32430,
+      "tip": 2,
+      "tipNaziv": "Stanovanje",
+      "povrsina": 117,
+      "cenaNaM2": 277,
+      "obcina": "LJUBLJANA",
+      "naslov": "KARLOVŠKA CESTA 3, LJUBLJANA",
       "leto": 2017
     }
   ],
@@ -543,6 +543,19 @@
     },
     {
       "rank": 2,
+      "id": 424919,
+      "datum": "2019-04-08",
+      "cena": 22442,
+      "tip": 2,
+      "tipNaziv": "Stanovanje",
+      "povrsina": 119,
+      "cenaNaM2": 189,
+      "obcina": "LJUBLJANA",
+      "naslov": "GRAJZERJEVA ULICA 27A, LJUBLJANA",
+      "leto": 2019
+    },
+    {
+      "rank": 3,
       "id": 438807,
       "datum": "2019-06-21",
       "cena": 12000,
@@ -555,7 +568,7 @@
       "leto": 2019
     },
     {
-      "rank": 3,
+      "rank": 4,
       "id": 489641,
       "datum": "2019-11-20",
       "cena": 42465,
@@ -568,7 +581,7 @@
       "leto": 2019
     },
     {
-      "rank": 4,
+      "rank": 5,
       "id": 425953,
       "datum": "2019-03-25",
       "cena": 15000,
@@ -581,7 +594,7 @@
       "leto": 2019
     },
     {
-      "rank": 5,
+      "rank": 6,
       "id": 481025,
       "datum": "2019-02-06",
       "cena": 21780,
@@ -594,7 +607,7 @@
       "leto": 2019
     },
     {
-      "rank": 6,
+      "rank": 7,
       "id": 440144,
       "datum": "2019-07-08",
       "cena": 17620,
@@ -607,7 +620,7 @@
       "leto": 2019
     },
     {
-      "rank": 7,
+      "rank": 8,
       "id": 425688,
       "datum": "2019-04-02",
       "cena": 24000,
@@ -620,7 +633,7 @@
       "leto": 2019
     },
     {
-      "rank": 8,
+      "rank": 9,
       "id": 448359,
       "datum": "2019-08-30",
       "cena": 33000,
@@ -633,7 +646,7 @@
       "leto": 2019
     },
     {
-      "rank": 9,
+      "rank": 10,
       "id": 478948,
       "datum": "2019-12-10",
       "cena": 65000,
@@ -643,19 +656,6 @@
       "cenaNaM2": 346,
       "obcina": "LJUBLJANA",
       "naslov": "LESKOŠKOVA CESTA 9E, LJUBLJANA",
-      "leto": 2019
-    },
-    {
-      "rank": 10,
-      "id": 424012,
-      "datum": "2019-02-11",
-      "cena": 23000,
-      "tip": 2,
-      "tipNaziv": "Stanovanje",
-      "povrsina": 66,
-      "cenaNaM2": 348,
-      "obcina": "LJUBLJANA",
-      "naslov": "ROJČEVA ULICA 22, LJUBLJANA",
       "leto": 2019
     }
   ],
@@ -675,19 +675,6 @@
     },
     {
       "rank": 2,
-      "id": 522862,
-      "datum": "2020-11-19",
-      "cena": 13134,
-      "tip": 2,
-      "tipNaziv": "Stanovanje",
-      "povrsina": 99,
-      "cenaNaM2": 133,
-      "obcina": "LJUBLJANA",
-      "naslov": "PARTIZANSKA ULICA 6, LJUBLJANA",
-      "leto": 2020
-    },
-    {
-      "rank": 3,
       "id": 493063,
       "datum": "2020-03-04",
       "cena": 19896,
@@ -700,7 +687,7 @@
       "leto": 2020
     },
     {
-      "rank": 4,
+      "rank": 3,
       "id": 511825,
       "datum": "2020-07-06",
       "cena": 56299,
@@ -713,7 +700,7 @@
       "leto": 2020
     },
     {
-      "rank": 5,
+      "rank": 4,
       "id": 498670,
       "datum": "2020-06-01",
       "cena": 21250,
@@ -726,7 +713,7 @@
       "leto": 2020
     },
     {
-      "rank": 6,
+      "rank": 5,
       "id": 522742,
       "datum": "2020-11-18",
       "cena": 55000,
@@ -739,7 +726,7 @@
       "leto": 2020
     },
     {
-      "rank": 7,
+      "rank": 6,
       "id": 487958,
       "datum": "2020-02-06",
       "cena": 63000,
@@ -752,7 +739,7 @@
       "leto": 2020
     },
     {
-      "rank": 8,
+      "rank": 7,
       "id": 495795,
       "datum": "2020-05-05",
       "cena": 30000,
@@ -765,7 +752,7 @@
       "leto": 2020
     },
     {
-      "rank": 9,
+      "rank": 8,
       "id": 520515,
       "datum": "2020-11-21",
       "cena": 26622,
@@ -778,7 +765,7 @@
       "leto": 2020
     },
     {
-      "rank": 10,
+      "rank": 9,
       "id": 483445,
       "datum": "2020-01-22",
       "cena": 18000,
@@ -788,6 +775,19 @@
       "cenaNaM2": 375,
       "obcina": "LJUBLJANA",
       "naslov": "ULICA 28. MAJA 71, LJUBLJANA",
+      "leto": 2020
+    },
+    {
+      "rank": 10,
+      "id": 495224,
+      "datum": "2020-03-27",
+      "cena": 90000,
+      "tip": 2,
+      "tipNaziv": "Stanovanje",
+      "povrsina": 157,
+      "cenaNaM2": 573,
+      "obcina": "LJUBLJANA",
+      "naslov": "SMREKARJEVA ULICA 34, LJUBLJANA",
       "leto": 2020
     }
   ],
@@ -833,6 +833,45 @@
     },
     {
       "rank": 4,
+      "id": 640923,
+      "datum": "2021-12-20",
+      "cena": 22241,
+      "tip": 2,
+      "tipNaziv": "Stanovanje",
+      "povrsina": 91,
+      "cenaNaM2": 244,
+      "obcina": "LJUBLJANA",
+      "naslov": "TRPINČEVA ULICA 72, LJUBLJANA",
+      "leto": 2021
+    },
+    {
+      "rank": 5,
+      "id": 640922,
+      "datum": "2021-12-17",
+      "cena": 22241,
+      "tip": 2,
+      "tipNaziv": "Stanovanje",
+      "povrsina": 91,
+      "cenaNaM2": 244,
+      "obcina": "LJUBLJANA",
+      "naslov": "TRPINČEVA ULICA 72, LJUBLJANA",
+      "leto": 2021
+    },
+    {
+      "rank": 6,
+      "id": 640921,
+      "datum": "2021-12-17",
+      "cena": 22241,
+      "tip": 2,
+      "tipNaziv": "Stanovanje",
+      "povrsina": 91,
+      "cenaNaM2": 244,
+      "obcina": "LJUBLJANA",
+      "naslov": "TRPINČEVA ULICA 72, LJUBLJANA",
+      "leto": 2021
+    },
+    {
+      "rank": 7,
       "id": 559759,
       "datum": "2021-09-24",
       "cena": 50000,
@@ -845,7 +884,7 @@
       "leto": 2021
     },
     {
-      "rank": 5,
+      "rank": 8,
       "id": 554445,
       "datum": "2021-08-03",
       "cena": 25000,
@@ -858,7 +897,7 @@
       "leto": 2021
     },
     {
-      "rank": 6,
+      "rank": 9,
       "id": 581732,
       "datum": "2021-09-17",
       "cena": 12250,
@@ -871,7 +910,7 @@
       "leto": 2021
     },
     {
-      "rank": 7,
+      "rank": 10,
       "id": 583722,
       "datum": "2021-10-06",
       "cena": 40000,
@@ -881,45 +920,6 @@
       "cenaNaM2": 412,
       "obcina": "LJUBLJANA",
       "naslov": "ZADOBROVŠKA CESTA 20A, LJUBLJANA",
-      "leto": 2021
-    },
-    {
-      "rank": 8,
-      "id": 549916,
-      "datum": "2021-06-04",
-      "cena": 23000,
-      "tip": 2,
-      "tipNaziv": "Stanovanje",
-      "povrsina": 53,
-      "cenaNaM2": 434,
-      "obcina": "LJUBLJANA",
-      "naslov": "ZVONARSKA ULICA 13, LJUBLJANA",
-      "leto": 2021
-    },
-    {
-      "rank": 9,
-      "id": 552037,
-      "datum": "2021-07-14",
-      "cena": 8500,
-      "tip": 2,
-      "tipNaziv": "Stanovanje",
-      "povrsina": 19,
-      "cenaNaM2": 447,
-      "obcina": "LJUBLJANA",
-      "naslov": "GRADAŠKA ULICA 8A, LJUBLJANA",
-      "leto": 2021
-    },
-    {
-      "rank": 10,
-      "id": 628582,
-      "datum": "2021-10-12",
-      "cena": 30000,
-      "tip": 2,
-      "tipNaziv": "Stanovanje",
-      "povrsina": 60,
-      "cenaNaM2": 500,
-      "obcina": "LJUBLJANA",
-      "naslov": "TRATNIKOVA ULICA 8, LJUBLJANA",
       "leto": 2021
     }
   ],
@@ -978,19 +978,6 @@
     },
     {
       "rank": 5,
-      "id": 688869,
-      "datum": "2022-12-29",
-      "cena": 38180,
-      "tip": 2,
-      "tipNaziv": "Stanovanje",
-      "povrsina": 126,
-      "cenaNaM2": 303,
-      "obcina": "LJUBLJANA",
-      "naslov": "TRATNIKOVA ULICA 15, LJUBLJANA",
-      "leto": 2022
-    },
-    {
-      "rank": 6,
       "id": 646838,
       "datum": "2022-03-14",
       "cena": 20000,
@@ -1003,7 +990,7 @@
       "leto": 2022
     },
     {
-      "rank": 7,
+      "rank": 6,
       "id": 673955,
       "datum": "2022-10-01",
       "cena": 18000,
@@ -1016,7 +1003,7 @@
       "leto": 2022
     },
     {
-      "rank": 8,
+      "rank": 7,
       "id": 652974,
       "datum": "2022-04-21",
       "cena": 22000,
@@ -1029,7 +1016,7 @@
       "leto": 2022
     },
     {
-      "rank": 9,
+      "rank": 8,
       "id": 683284,
       "datum": "2022-12-23",
       "cena": 27500,
@@ -1042,7 +1029,7 @@
       "leto": 2022
     },
     {
-      "rank": 10,
+      "rank": 9,
       "id": 645697,
       "datum": "2022-03-01",
       "cena": 20000,
@@ -1052,6 +1039,19 @@
       "cenaNaM2": 455,
       "obcina": "LJUBLJANA",
       "naslov": "BILEČANSKA ULICA 2, LJUBLJANA",
+      "leto": 2022
+    },
+    {
+      "rank": 10,
+      "id": 642451,
+      "datum": "2022-02-10",
+      "cena": 100000,
+      "tip": 2,
+      "tipNaziv": "Stanovanje",
+      "povrsina": 193,
+      "cenaNaM2": 518,
+      "obcina": "LJUBLJANA",
+      "naslov": "JURČKOVA CESTA 86, LJUBLJANA",
       "leto": 2022
     }
   ],
@@ -1123,6 +1123,19 @@
     },
     {
       "rank": 6,
+      "id": 957973,
+      "datum": "2023-09-18",
+      "cena": 31100,
+      "tip": 2,
+      "tipNaziv": "Stanovanje",
+      "povrsina": 59.9,
+      "cenaNaM2": 519,
+      "obcina": "LJUBLJANA",
+      "naslov": "POD JEŽAMI 1, LJUBLJANA",
+      "leto": 2023
+    },
+    {
+      "rank": 7,
       "id": 738484,
       "datum": "2023-04-13",
       "cena": 26520,
@@ -1135,7 +1148,7 @@
       "leto": 2023
     },
     {
-      "rank": 7,
+      "rank": 8,
       "id": 737127,
       "datum": "2023-03-22",
       "cena": 78000,
@@ -1148,7 +1161,7 @@
       "leto": 2023
     },
     {
-      "rank": 8,
+      "rank": 9,
       "id": 792185,
       "datum": "2023-11-21",
       "cena": 35000,
@@ -1161,7 +1174,7 @@
       "leto": 2023
     },
     {
-      "rank": 9,
+      "rank": 10,
       "id": 737589,
       "datum": "2023-04-01",
       "cena": 30000,
@@ -1171,19 +1184,6 @@
       "cenaNaM2": 638,
       "obcina": "LJUBLJANA",
       "naslov": "SKETOVA ULICA 3, LJUBLJANA",
-      "leto": 2023
-    },
-    {
-      "rank": 10,
-      "id": 741123,
-      "datum": "2023-04-24",
-      "cena": 35000,
-      "tip": 2,
-      "tipNaziv": "Stanovanje",
-      "povrsina": 48,
-      "cenaNaM2": 729,
-      "obcina": "LJUBLJANA",
-      "naslov": "HUDOVERNIKOVA ULICA 9, LJUBLJANA",
       "leto": 2023
     }
   ],
@@ -1322,133 +1322,148 @@
   "2025": [
     {
       "rank": 1,
-      "id": 898828,
-      "datum": "2025-01-29",
-      "cena": 60000,
+      "id": 957711,
+      "datum": "2025-05-22",
+      "cena": 7433,
       "tip": 2,
       "tipNaziv": "Stanovanje",
-      "povrsina": 59.7,
-      "cenaNaM2": 1005,
+      "povrsina": 64.3,
+      "cenaNaM2": 116,
       "obcina": "LJUBLJANA",
-      "naslov": "PUHOVA ULICA 3, LJUBLJANA",
+      "naslov": "TRŽAŠKA CESTA 51, LJUBLJANA",
       "leto": 2025
     },
     {
       "rank": 2,
-      "id": 899233,
-      "datum": "2025-01-31",
-      "cena": 68800,
+      "id": 906639,
+      "datum": "2025-04-17",
+      "cena": 28000,
       "tip": 2,
       "tipNaziv": "Stanovanje",
-      "povrsina": 38,
-      "cenaNaM2": 1811,
+      "povrsina": 168,
+      "cenaNaM2": 167,
       "obcina": "LJUBLJANA",
-      "naslov": "ULICA HERMANA POTOČNIKA 3, LJUBLJANA",
+      "naslov": "CESTA V GORICE 4, LJUBLJANA",
       "leto": 2025
     },
     {
       "rank": 3,
-      "id": 900383,
-      "datum": "2025-02-04",
-      "cena": 150000,
+      "id": 902314,
+      "datum": "2025-02-25",
+      "cena": 8500,
       "tip": 2,
       "tipNaziv": "Stanovanje",
-      "povrsina": 66.2,
-      "cenaNaM2": 2266,
+      "povrsina": 47.7,
+      "cenaNaM2": 178,
       "obcina": "LJUBLJANA",
-      "naslov": "BRATOVŠEVA PLOŠČAD 8, LJUBLJANA",
+      "naslov": "ŠMARTINSKA CESTA 24, LJUBLJANA",
       "leto": 2025
     },
     {
       "rank": 4,
-      "id": 897457,
-      "datum": "2025-01-23",
-      "cena": 157000,
+      "id": 902314,
+      "datum": "2025-02-25",
+      "cena": 8500,
       "tip": 2,
       "tipNaziv": "Stanovanje",
-      "povrsina": 67.7,
-      "cenaNaM2": 2319,
+      "povrsina": 45.9,
+      "cenaNaM2": 185,
       "obcina": "LJUBLJANA",
-      "naslov": "GLONARJEVA ULICA 8, LJUBLJANA",
+      "naslov": "ŠMARTINSKA CESTA 24, LJUBLJANA",
       "leto": 2025
     },
     {
       "rank": 5,
-      "id": 898546,
-      "datum": "2025-01-09",
-      "cena": 270000,
+      "id": 902314,
+      "datum": "2025-02-25",
+      "cena": 8500,
       "tip": 2,
       "tipNaziv": "Stanovanje",
-      "povrsina": 95.3,
-      "cenaNaM2": 2833,
+      "povrsina": 35.8,
+      "cenaNaM2": 237,
       "obcina": "LJUBLJANA",
-      "naslov": "ULICA METODA MIKUŽA 6, LJUBLJANA",
+      "naslov": "ŠMARTINSKA CESTA 24, LJUBLJANA",
       "leto": 2025
     },
     {
       "rank": 6,
-      "id": 896249,
-      "datum": "2025-01-06",
-      "cena": 137500,
+      "id": 966244,
+      "datum": "2025-08-28",
+      "cena": 15000,
       "tip": 2,
       "tipNaziv": "Stanovanje",
-      "povrsina": 48.5,
-      "cenaNaM2": 2835,
+      "povrsina": 62.8,
+      "cenaNaM2": 239,
       "obcina": "LJUBLJANA",
-      "naslov": "FRANKOPANSKA ULICA 17, LJUBLJANA",
+      "naslov": "ZVEZDA 21, LJUBLJANA",
       "leto": 2025
     },
     {
       "rank": 7,
-      "id": 898784,
-      "datum": "2025-01-29",
-      "cena": 270000,
+      "id": 905346,
+      "datum": "2025-03-26",
+      "cena": 30000,
       "tip": 2,
       "tipNaziv": "Stanovanje",
-      "povrsina": 89.1,
-      "cenaNaM2": 3030,
+      "povrsina": 117.2,
+      "cenaNaM2": 256,
       "obcina": "LJUBLJANA",
-      "naslov": "BRODARJEV TRG 2, LJUBLJANA",
+      "naslov": "ŠENTPETER",
       "leto": 2025
     },
     {
       "rank": 8,
-      "id": 900285,
-      "datum": "2025-02-14",
-      "cena": 620000,
+      "id": 972882,
+      "datum": "2025-10-17",
+      "cena": 25000,
       "tip": 2,
       "tipNaziv": "Stanovanje",
-      "povrsina": 202,
-      "cenaNaM2": 3069,
+      "povrsina": 87.6,
+      "cenaNaM2": 285,
       "obcina": "LJUBLJANA",
-      "naslov": "KLJUČAVNIČARSKA ULICA 2, LJUBLJANA",
+      "naslov": "KOGOJEVA ULICA 1, LJUBLJANA",
       "leto": 2025
     },
     {
       "rank": 9,
-      "id": 897034,
-      "datum": "2025-01-15",
-      "cena": 435000,
+      "id": 965815,
+      "datum": "2025-08-20",
+      "cena": 25000,
       "tip": 2,
       "tipNaziv": "Stanovanje",
-      "povrsina": 140,
-      "cenaNaM2": 3107,
+      "povrsina": 87.6,
+      "cenaNaM2": 285,
       "obcina": "LJUBLJANA",
-      "naslov": "STARI TRG 17, LJUBLJANA",
+      "naslov": "KOGOJEVA ULICA 1, LJUBLJANA",
       "leto": 2025
     },
     {
       "rank": 10,
-      "id": 900557,
-      "datum": "2025-02-19",
-      "cena": 270000,
+      "id": 956303,
+      "datum": "2025-05-19",
+      "cena": 15167,
       "tip": 2,
       "tipNaziv": "Stanovanje",
-      "povrsina": 85.5,
-      "cenaNaM2": 3158,
+      "povrsina": 52,
+      "cenaNaM2": 292,
       "obcina": "LJUBLJANA",
-      "naslov": "BRODARJEV TRG 7, LJUBLJANA",
+      "naslov": "KAMNOGORIŠKA CESTA 47, LJUBLJANA",
       "leto": 2025
+    }
+  ],
+  "2026": [
+    {
+      "rank": 1,
+      "id": 978661,
+      "datum": "2026-01-14",
+      "cena": 220600,
+      "tip": 2,
+      "tipNaziv": "Stanovanje",
+      "povrsina": 43.1,
+      "cenaNaM2": 5118,
+      "obcina": "LJUBLJANA",
+      "naslov": "DUNAJSKA CESTA 219, LJUBLJANA",
+      "leto": 2026
     }
   ]
 }

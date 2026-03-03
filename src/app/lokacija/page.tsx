@@ -1,6 +1,7 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect, Suspense } from 'react';
+import { useSearchParams } from 'next/navigation';
 import { MapPin, Search, Info } from 'lucide-react';
 import AddressSearch from '@/components/search/AddressSearch';
 import LocationAnalysis from '@/components/search/LocationAnalysis';
@@ -12,8 +13,24 @@ interface SelectedLocation {
   address: string;
 }
 
-export default function LokacijaPage() {
+function LokacijaContent() {
+  const searchParams = useSearchParams();
   const [selectedLocation, setSelectedLocation] = useState<SelectedLocation | null>(null);
+
+  // Read location from URL params on mount
+  useEffect(() => {
+    const lat = searchParams.get('lat');
+    const lon = searchParams.get('lon');
+    const naslov = searchParams.get('naslov');
+
+    if (lat && lon) {
+      setSelectedLocation({
+        lat: parseFloat(lat),
+        lon: parseFloat(lon),
+        address: naslov || `${lat}, ${lon}`,
+      });
+    }
+  }, [searchParams]);
 
   const handleLocationSelect = (location: { lat: number; lon: number; address: string }) => {
     setSelectedLocation(location);
@@ -122,10 +139,18 @@ export default function LokacijaPage() {
       <section className="py-6 px-4 sm:px-6 lg:px-8 border-t">
         <div className="mx-auto max-w-7xl">
           <p className="text-center text-sm text-gray-500">
-            Vir: Geodetska uprava RS, Evidenca trga nepremičnin (2021–2025)
+            Vir: Geodetska uprava RS, Evidenca trga nepremičnin (2007–2025)
           </p>
         </div>
       </section>
     </div>
+  );
+}
+
+export default function LokacijaPage() {
+  return (
+    <Suspense fallback={<div className="flex items-center justify-center min-h-screen"><div className="text-gray-500">Nalaganje...</div></div>}>
+      <LokacijaContent />
+    </Suspense>
   );
 }

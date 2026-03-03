@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import { GeoJSON, useMap } from 'react-leaflet';
 import type { Feature, FeatureCollection, Geometry } from 'geojson';
 import type { Layer, PathOptions } from 'leaflet';
-import { getColor, HEATMAP_BREAKS, HEATMAP_COLORS } from '@/lib/constants';
+import { getColor, HEATMAP_BREAKS, HEATMAP_COLORS, HEATMAP_NO_DATA_COLOR } from '@/lib/constants';
 import { formatPricePerM2, formatNumber } from '@/lib/format';
 
 // National average prices for comparison (approximate)
@@ -23,6 +23,9 @@ interface HeatmapProperties {
   medianaCenaM2?: number | null;
   medianaCenaM2Stanovanja?: number | null;
   medianaCenaM2Hise?: number | null;
+  povprecjeCenaM2?: number | null;
+  povprecjeCenaM2Stanovanja?: number | null;
+  povprecjeCenaM2Hise?: number | null;
   steviloTransakcij?: number;
   trendYoY?: number | null;
   // Historical stats (all-time)
@@ -99,6 +102,8 @@ export default function HeatmapLayer({ type }: HeatmapLayerProps) {
     const name = props.NAZIV || props.obcina || props.imeKo || 'Neznano';
     const priceStanovanja = props.medianaCenaM2Stanovanja;
     const priceHise = props.medianaCenaM2Hise;
+    const avgStanovanja = props.povprecjeCenaM2Stanovanja;
+    const avgHise = props.povprecjeCenaM2Hise;
     const transactions = props.steviloTransakcij ?? 0;
     const trend = props.trendYoY;
     const slug = slugify(name);
@@ -170,34 +175,46 @@ export default function HeatmapLayer({ type }: HeatmapLayerProps) {
 
         <!-- Prices Section -->
         <div style="background: #f9fafb; border-radius: 8px; padding: 10px; margin-bottom: 10px;">
-          <div style="font-size: 11px; font-weight: 600; color: #6b7280; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px;">Mediane cene na m²</div>
+          <div style="font-size: 11px; font-weight: 600; color: #6b7280; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px;">Cene na m²</div>
 
           <!-- Stanovanja -->
-          <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 6px;">
-            <div style="display: flex; align-items: center; gap: 6px;">
-              <span style="font-size: 14px;">🏢</span>
-              <span style="font-size: 13px; color: #374151;">Stanovanja</span>
+          <div style="margin-bottom: 8px;">
+            <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 2px;">
+              <div style="display: flex; align-items: center; gap: 6px;">
+                <span style="font-size: 14px;">🏢</span>
+                <span style="font-size: 13px; color: #374151;">Stanovanja</span>
+              </div>
+              <div style="text-align: right;">
+                ${priceStanovanja
+                  ? `<span style="font-weight: 700; font-size: 14px; color: #111827;">${getPriceIndicator(priceStanovanja)}${formatPricePerM2(priceStanovanja)}</span>${getCompBadge(compStanovanja)}`
+                  : '<span style="font-size: 13px; color: #9ca3af;">Ni podatkov</span>'
+                }
+              </div>
             </div>
-            <div style="text-align: right;">
-              ${priceStanovanja
-                ? `<span style="font-weight: 700; font-size: 14px; color: #111827;">${getPriceIndicator(priceStanovanja)}${formatPricePerM2(priceStanovanja)}</span>${getCompBadge(compStanovanja)}`
-                : '<span style="font-size: 13px; color: #9ca3af;">Ni podatkov</span>'
-              }
-            </div>
+            ${avgStanovanja
+              ? `<div style="display: flex; justify-content: flex-end;"><span style="font-size: 11px; color: #6b7280;">povp. ${formatPricePerM2(avgStanovanja)}</span></div>`
+              : ''
+            }
           </div>
 
           <!-- Hiše -->
-          <div style="display: flex; align-items: center; justify-content: space-between;">
-            <div style="display: flex; align-items: center; gap: 6px;">
-              <span style="font-size: 14px;">🏠</span>
-              <span style="font-size: 13px; color: #374151;">Hiše</span>
+          <div>
+            <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 2px;">
+              <div style="display: flex; align-items: center; gap: 6px;">
+                <span style="font-size: 14px;">🏠</span>
+                <span style="font-size: 13px; color: #374151;">Hiše</span>
+              </div>
+              <div style="text-align: right;">
+                ${priceHise
+                  ? `<span style="font-weight: 700; font-size: 14px; color: #111827;">${getPriceIndicator(priceHise)}${formatPricePerM2(priceHise)}</span>${getCompBadge(compHise)}`
+                  : '<span style="font-size: 13px; color: #9ca3af;">Ni podatkov</span>'
+                }
+              </div>
             </div>
-            <div style="text-align: right;">
-              ${priceHise
-                ? `<span style="font-weight: 700; font-size: 14px; color: #111827;">${getPriceIndicator(priceHise)}${formatPricePerM2(priceHise)}</span>${getCompBadge(compHise)}`
-                : '<span style="font-size: 13px; color: #9ca3af;">Ni podatkov</span>'
-              }
-            </div>
+            ${avgHise
+              ? `<div style="display: flex; justify-content: flex-end;"><span style="font-size: 11px; color: #6b7280;">povp. ${formatPricePerM2(avgHise)}</span></div>`
+              : ''
+            }
           </div>
         </div>
 
@@ -322,7 +339,7 @@ function Legend() {
           <div className="flex items-center gap-2 mt-1 pt-1 border-t">
             <div
               className="w-5 h-4 rounded"
-              style={{ backgroundColor: '#cccccc' }}
+              style={{ backgroundColor: HEATMAP_NO_DATA_COLOR }}
             />
             <span className="text-xs text-gray-500">Ni podatkov</span>
           </div>

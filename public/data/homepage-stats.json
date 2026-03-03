@@ -1,0 +1,24 @@
+{
+  "statsYear": 2025,
+  "ljubljanaStanovanja": {
+    "medianaCenaM2": 4300,
+    "povprecjeCenaM2": 4330.7,
+    "stevilo": 1802,
+    "trendYoY": 4.8
+  },
+  "skupajTransakcij": 234708,
+  "najdrazjaNepremicnina": {
+    "cena": 34300000,
+    "tip": 15,
+    "tipNaziv": "Drugo",
+    "obcina": "LJUBLJANA",
+    "leto": 2007
+  },
+  "najdrazjeStanovanje": {
+    "cena": 4351300,
+    "obcina": "LJUBLJANA",
+    "leto": 2022,
+    "povrsina": 509.2
+  },
+  "generatedAt": "2026-03-03T18:32:45.318Z"
+}

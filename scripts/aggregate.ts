@@ -35,7 +35,14 @@ interface Transaction {
 // Quarterly data point
 interface QuarterData {
   mediana: number;
+  povprecje: number;
   stevilo: number;
+}
+
+// Per-type quarterly data (for separate charts)
+interface QuarterDataByType {
+  stanovanja: QuarterData | null;
+  hise: QuarterData | null;
 }
 
 // KO aggregated stats
@@ -46,6 +53,9 @@ interface KOStats {
   medianaCenaM2: number | null;
   medianaCenaM2Stanovanja: number | null;
   medianaCenaM2Hise: number | null;
+  povprecjeCenaM2: number | null;
+  povprecjeCenaM2Stanovanja: number | null;
+  povprecjeCenaM2Hise: number | null;
   steviloTransakcij: number;
   trendYoY: number | null;
   cetrtletja: { [quarter: string]: QuarterData };
@@ -85,9 +95,23 @@ interface ObcinaStats {
   medianaCenaM2: number | null;
   medianaCenaM2Stanovanja: number | null;
   medianaCenaM2Hise: number | null;
+  povprecjeCenaM2: number | null;
+  povprecjeCenaM2Stanovanja: number | null;
+  povprecjeCenaM2Hise: number | null;
   steviloTransakcij: number;
   trendYoY: number | null;
+  // Per-type YoY trends (2024 → 2025)
+  trendStanovanjaYoY: number | null;
+  trendHiseYoY: number | null;
+  // Transaction counts for 2025
+  steviloStanovanja2025: number;
+  steviloHise2025: number;
+  // Most expensive in 2025
+  najdrazjaStanovanje: { cena: number; povrsina: number } | null;
+  najdrazjaHisa: { cena: number; povrsina: number } | null;
   cetrtletja: { [quarter: string]: QuarterData };
+  // Per-type quarterly data for separate charts
+  cetrtletjaPoTipu: { [quarter: string]: QuarterDataByType };
   // New context fields
   priceRange: PriceRange | null;
   propertyBreakdown: PropertyBreakdown;
@@ -118,6 +142,14 @@ function median(values: number[]): number {
     return (sorted[mid - 1] + sorted[mid]) / 2;
   }
   return sorted[mid];
+}
+
+/**
+ * Calculate average (povprečje) of a number array
+ */
+function average(values: number[]): number {
+  if (values.length === 0) return 0;
+  return values.reduce((sum, v) => sum + v, 0) / values.length;
 }
 
 /**
@@ -244,8 +276,10 @@ function aggregateByKO(transactions: Transaction[], currentYear: number): KOStat
     const byQuarter = groupBy(residentialTx, tx => getQuarter(tx.datum));
     const cetrtletja: { [quarter: string]: QuarterData } = {};
     for (const [quarter, qTx] of byQuarter) {
+      const prices = qTx.map(tx => tx.cenaNaM2);
       cetrtletja[quarter] = {
-        mediana: Math.round(median(qTx.map(tx => tx.cenaNaM2))),
+        mediana: Math.round(median(prices)),
+        povprecje: Math.round(average(prices)),
         stevilo: qTx.length,
       };
     }
@@ -257,6 +291,9 @@ function aggregateByKO(transactions: Transaction[], currentYear: number): KOStat
       medianaCenaM2: allPrices.length >= 3 ? Math.round(median(allPrices)) : null,
       medianaCenaM2Stanovanja: stanovanjaPrices.length >= 3 ? Math.round(median(stanovanjaPrices)) : null,
       medianaCenaM2Hise: hisePrices.length >= 3 ? Math.round(median(hisePrices)) : null,
+      povprecjeCenaM2: allPrices.length >= 3 ? Math.round(average(allPrices)) : null,
+      povprecjeCenaM2Stanovanja: stanovanjaPrices.length >= 3 ? Math.round(average(stanovanjaPrices)) : null,
+      povprecjeCenaM2Hise: hisePrices.length >= 3 ? Math.round(average(hisePrices)) : null,
       steviloTransakcij: recentTx.length,
       trendYoY: trend,
       cetrtletja,
@@ -287,7 +324,7 @@ function aggregateByObcina(transactions: Transaction[], currentYear: number): Ob
     const stanovanjaPrices = recentTx.filter(tx => tx.tip === 2).map(tx => tx.cenaNaM2);
     const hisePrices = recentTx.filter(tx => tx.tip === 1).map(tx => tx.cenaNaM2);
 
-    // Calculate trend
+    // Calculate trend (overall)
     const lastYearTx = obcinaTransactions.filter(tx => getYear(tx.datum) === trendYears.last);
     const prevYearTx = obcinaTransactions.filter(tx => getYear(tx.datum) === trendYears.prev);
     const trend = calculateTrend(
@@ -295,15 +332,77 @@ function aggregateByObcina(transactions: Transaction[], currentYear: number): Ob
       prevYearTx.map(tx => tx.cenaNaM2)
     );
 
+    // Per-type YoY trends (2024 → 2025)
+    const stanovanja2024 = obcinaTransactions.filter(tx => tx.tip === 2 && getYear(tx.datum) === trendYears.prev);
+    const stanovanja2025 = obcinaTransactions.filter(tx => tx.tip === 2 && getYear(tx.datum) === trendYears.last);
+    const hise2024 = obcinaTransactions.filter(tx => tx.tip === 1 && getYear(tx.datum) === trendYears.prev);
+    const hise2025 = obcinaTransactions.filter(tx => tx.tip === 1 && getYear(tx.datum) === trendYears.last);
+
+    const trendStanovanjaYoY = calculateTrend(
+      stanovanja2025.map(tx => tx.cenaNaM2),
+      stanovanja2024.map(tx => tx.cenaNaM2)
+    );
+    const trendHiseYoY = calculateTrend(
+      hise2025.map(tx => tx.cenaNaM2),
+      hise2024.map(tx => tx.cenaNaM2)
+    );
+
+    // Transaction counts for 2025
+    const steviloStanovanja2025 = stanovanja2025.length;
+    const steviloHise2025 = hise2025.length;
+
+    // Most expensive in 2025
+    const najdrazjaStanovanje = stanovanja2025.length > 0
+      ? stanovanja2025.reduce((max, tx) => tx.cena > max.cena ? tx : max, stanovanja2025[0])
+      : null;
+    const najdrazjaHisa = hise2025.length > 0
+      ? hise2025.reduce((max, tx) => tx.cena > max.cena ? tx : max, hise2025[0])
+      : null;
+
     // Calculate quarterly data for residential properties only
     // (excludes garages/parking which have extreme €/m² values that skew medians)
     const residentialTx = obcinaTransactions.filter(isResidential);
     const byQuarter = groupBy(residentialTx, tx => getQuarter(tx.datum));
     const cetrtletja: { [quarter: string]: QuarterData } = {};
     for (const [quarter, qTx] of byQuarter) {
+      const prices = qTx.map(tx => tx.cenaNaM2);
       cetrtletja[quarter] = {
-        mediana: Math.round(median(qTx.map(tx => tx.cenaNaM2))),
+        mediana: Math.round(median(prices)),
+        povprecje: Math.round(average(prices)),
         stevilo: qTx.length,
+      };
+    }
+
+    // Calculate per-type quarterly data for separate charts
+    const stanovanjaTxAll = obcinaTransactions.filter(tx => tx.tip === 2);
+    const hiseTxAll = obcinaTransactions.filter(tx => tx.tip === 1);
+    const byQuarterStanovanja = groupBy(stanovanjaTxAll, tx => getQuarter(tx.datum));
+    const byQuarterHise = groupBy(hiseTxAll, tx => getQuarter(tx.datum));
+
+    // Get all unique quarters
+    const allQuarters = new Set<string>();
+    for (const q of byQuarter.keys()) allQuarters.add(q);
+    for (const q of byQuarterStanovanja.keys()) allQuarters.add(q);
+    for (const q of byQuarterHise.keys()) allQuarters.add(q);
+
+    const cetrtletjaPoTipu: { [quarter: string]: QuarterDataByType } = {};
+    for (const quarter of allQuarters) {
+      const stanovanjaTxQ = byQuarterStanovanja.get(quarter) || [];
+      const hiseTxQ = byQuarterHise.get(quarter) || [];
+      const stanovanjaPricesQ = stanovanjaTxQ.map(tx => tx.cenaNaM2);
+      const hisePricesQ = hiseTxQ.map(tx => tx.cenaNaM2);
+
+      cetrtletjaPoTipu[quarter] = {
+        stanovanja: stanovanjaTxQ.length >= 1 ? {
+          mediana: Math.round(median(stanovanjaPricesQ)),
+          povprecje: Math.round(average(stanovanjaPricesQ)),
+          stevilo: stanovanjaTxQ.length,
+        } : null,
+        hise: hiseTxQ.length >= 1 ? {
+          mediana: Math.round(median(hisePricesQ)),
+          povprecje: Math.round(average(hisePricesQ)),
+          stevilo: hiseTxQ.length,
+        } : null,
       };
     }
 
@@ -358,10 +457,10 @@ function aggregateByObcina(transactions: Transaction[], currentYear: number): Ob
       }
     }
 
-    // Recent transactions (last 10 residential sales, sorted by date descending)
+    // Recent transactions (last 20 residential sales, sorted by date descending)
     const recentTransactions: RecentTransaction[] = recentResidential
       .sort((a, b) => b.datum.localeCompare(a.datum))
-      .slice(0, 10)
+      .slice(0, 20)
       .map(tx => ({
         id: tx.id,
         datum: tx.datum,
@@ -379,9 +478,28 @@ function aggregateByObcina(transactions: Transaction[], currentYear: number): Ob
       medianaCenaM2: allPrices.length >= 3 ? Math.round(median(allPrices)) : null,
       medianaCenaM2Stanovanja: stanovanjaPrices.length >= 3 ? Math.round(median(stanovanjaPrices)) : null,
       medianaCenaM2Hise: hisePrices.length >= 3 ? Math.round(median(hisePrices)) : null,
+      povprecjeCenaM2: allPrices.length >= 3 ? Math.round(average(allPrices)) : null,
+      povprecjeCenaM2Stanovanja: stanovanjaPrices.length >= 3 ? Math.round(average(stanovanjaPrices)) : null,
+      povprecjeCenaM2Hise: hisePrices.length >= 3 ? Math.round(average(hisePrices)) : null,
       steviloTransakcij: recentTx.length,
       trendYoY: trend,
+      // Per-type YoY trends
+      trendStanovanjaYoY,
+      trendHiseYoY,
+      // 2025 transaction counts
+      steviloStanovanja2025,
+      steviloHise2025,
+      // Most expensive 2025
+      najdrazjaStanovanje: najdrazjaStanovanje ? {
+        cena: najdrazjaStanovanje.cena,
+        povrsina: najdrazjaStanovanje.uporabnaPovrsina,
+      } : null,
+      najdrazjaHisa: najdrazjaHisa ? {
+        cena: najdrazjaHisa.cena,
+        povrsina: najdrazjaHisa.uporabnaPovrsina,
+      } : null,
       cetrtletja,
+      cetrtletjaPoTipu,
       // New context fields
       priceRange,
       propertyBreakdown,
@@ -393,6 +511,118 @@ function aggregateByObcina(transactions: Transaction[], currentYear: number): Ob
   }
 
   return stats.sort((a, b) => b.steviloTransakcij - a.steviloTransakcij);
+}
+
+// Homepage stats interface
+interface HomepageStats {
+  // Stats year (most recent year with significant data)
+  statsYear: number;
+  // Ljubljana stanovanja for stats year
+  ljubljanaStanovanja: {
+    medianaCenaM2: number;  // Exact to 2 decimals
+    povprecjeCenaM2: number;  // Exact to 2 decimals
+    stevilo: number;
+    trendYoY: number | null;
+  };
+  // Total transactions (all time)
+  skupajTransakcij: number;
+  // All-time most expensive property
+  najdrazjaNepremicnina: {
+    cena: number;
+    tip: number;
+    tipNaziv: string;
+    obcina: string;
+    leto: number;
+  };
+  // All-time most expensive flat (stanovanje)
+  najdrazjeStanovanje: {
+    cena: number;
+    obcina: string;
+    leto: number;
+    povrsina: number;
+  };
+  // Generated timestamp
+  generatedAt: string;
+}
+
+/**
+ * Calculate homepage stats from all transactions
+ */
+function calculateHomepageStats(transactions: Transaction[], currentYear: number): HomepageStats {
+  // Determine the most recent year with significant data (at least 100 LJ stanovanja transactions)
+  let statsYear = currentYear;
+  for (let y = currentYear; y >= 2020; y--) {
+    const ljCount = transactions.filter(
+      tx => tx.obcina === 'LJUBLJANA' && tx.tip === 2 && getYear(tx.datum) === y
+    ).length;
+    if (ljCount >= 100) {
+      statsYear = y;
+      break;
+    }
+  }
+
+  // Ljubljana stanovanja for the stats year
+  const ljubljanaStanovanja2025 = transactions.filter(
+    tx => tx.obcina === 'LJUBLJANA' && tx.tip === 2 && getYear(tx.datum) === statsYear
+  );
+  const ljubljanaStanovanja2024 = transactions.filter(
+    tx => tx.obcina === 'LJUBLJANA' && tx.tip === 2 && getYear(tx.datum) === statsYear - 1
+  );
+
+  // Calculate exact median and average (to 2 decimals)
+  const ljPrices2025 = ljubljanaStanovanja2025.map(tx => tx.cenaNaM2);
+  const sortedPrices = [...ljPrices2025].sort((a, b) => a - b);
+  let medianaCenaM2 = 0;
+  let povprecjeCenaM2 = 0;
+  if (sortedPrices.length > 0) {
+    const mid = Math.floor(sortedPrices.length / 2);
+    if (sortedPrices.length % 2 === 0) {
+      medianaCenaM2 = (sortedPrices[mid - 1] + sortedPrices[mid]) / 2;
+    } else {
+      medianaCenaM2 = sortedPrices[mid];
+    }
+    // Round to 2 decimals
+    medianaCenaM2 = Math.round(medianaCenaM2 * 100) / 100;
+    // Calculate average
+    povprecjeCenaM2 = Math.round((ljPrices2025.reduce((sum, p) => sum + p, 0) / ljPrices2025.length) * 100) / 100;
+  }
+
+  // YoY trend
+  const trendYoY = calculateTrend(ljPrices2025, ljubljanaStanovanja2024.map(tx => tx.cenaNaM2));
+
+  // All-time most expensive property
+  const sortedByCena = [...transactions].sort((a, b) => b.cena - a.cena);
+  const najdrazja = sortedByCena[0];
+
+  // All-time most expensive flat (stanovanje, tip=2)
+  const stanovanja = transactions.filter(tx => tx.tip === 2);
+  const sortedStanovanja = [...stanovanja].sort((a, b) => b.cena - a.cena);
+  const najdrazjeStanovanje = sortedStanovanja[0];
+
+  return {
+    statsYear,
+    ljubljanaStanovanja: {
+      medianaCenaM2,
+      povprecjeCenaM2,
+      stevilo: ljubljanaStanovanja2025.length,
+      trendYoY,
+    },
+    skupajTransakcij: transactions.length,
+    najdrazjaNepremicnina: {
+      cena: najdrazja.cena,
+      tip: najdrazja.tip,
+      tipNaziv: najdrazja.tipNaziv,
+      obcina: najdrazja.obcina,
+      leto: getYear(najdrazja.datum),
+    },
+    najdrazjeStanovanje: {
+      cena: najdrazjeStanovanje.cena,
+      obcina: najdrazjeStanovanje.obcina,
+      leto: getYear(najdrazjeStanovanje.datum),
+      povrsina: najdrazjeStanovanje.uporabnaPovrsina,
+    },
+    generatedAt: new Date().toISOString(),
+  };
 }
 
 /**
@@ -432,6 +662,18 @@ async function main() {
   const obcinaOutputPath = path.join(outputDir, 'aggregated-obcine.json');
   fs.writeFileSync(obcinaOutputPath, JSON.stringify(obcinaStats, null, 2));
   console.log(`Saved: ${obcinaOutputPath}`);
+
+  // Generate homepage stats
+  console.log('Generating homepage stats...');
+  const homepageStats = calculateHomepageStats(transactions, currentYear);
+  const homepageOutputPath = path.join(outputDir, 'homepage-stats.json');
+  fs.writeFileSync(homepageOutputPath, JSON.stringify(homepageStats, null, 2));
+  console.log(`Saved: ${homepageOutputPath}`);
+  console.log(`  Stats year: ${homepageStats.statsYear}`);
+  console.log(`  Ljubljana stanovanja ${homepageStats.statsYear}: mediana ${homepageStats.ljubljanaStanovanja.medianaCenaM2.toFixed(2)} €/m², povprečje ${homepageStats.ljubljanaStanovanja.povprecjeCenaM2.toFixed(2)} €/m² (${homepageStats.ljubljanaStanovanja.stevilo} transakcij)`);
+  console.log(`  YoY trend (${homepageStats.statsYear - 1}→${homepageStats.statsYear}): ${homepageStats.ljubljanaStanovanja.trendYoY !== null ? (homepageStats.ljubljanaStanovanja.trendYoY >= 0 ? '+' : '') + homepageStats.ljubljanaStanovanja.trendYoY.toFixed(1) + '%' : 'N/A'}`);
+  console.log(`  Najdražja nepremičnina: ${(homepageStats.najdrazjaNepremicnina.cena / 1000000).toFixed(1)} M € (${homepageStats.najdrazjaNepremicnina.tipNaziv}, ${homepageStats.najdrazjaNepremicnina.obcina} ${homepageStats.najdrazjaNepremicnina.leto})`);
+  console.log(`  Najdražje stanovanje: ${(homepageStats.najdrazjeStanovanje.cena / 1000000).toFixed(2)} M € (${homepageStats.najdrazjeStanovanje.obcina} ${homepageStats.najdrazjeStanovanje.leto})`);
 
   // Print summary stats
   console.log('\n========== SUMMARY ==========\n');

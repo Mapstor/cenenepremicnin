@@ -1,212 +1,242 @@
 [
   {
     "rank": 1,
-    "obcina": "ZAGORJE OB SAVI",
-    "trendYoY": -61,
-    "medianaCenaM2": 909,
-    "steviloTransakcij": 20
-  },
-  {
-    "rank": 2,
-    "obcina": "TREBNJE",
-    "trendYoY": -30.4,
-    "medianaCenaM2": 2067,
-    "steviloTransakcij": 21
-  },
-  {
-    "rank": 3,
-    "obcina": "KRANJ",
-    "trendYoY": -11.4,
-    "medianaCenaM2": 2664,
-    "steviloTransakcij": 252
-  },
-  {
-    "rank": 4,
-    "obcina": "LJUTOMER",
-    "trendYoY": -9.7,
-    "medianaCenaM2": 1106,
-    "steviloTransakcij": 25
-  },
-  {
-    "rank": 5,
-    "obcina": "PTUJ",
-    "trendYoY": -9.1,
-    "medianaCenaM2": 1746,
-    "steviloTransakcij": 109
-  },
-  {
-    "rank": 6,
-    "obcina": "ČRNOMELJ",
-    "trendYoY": -4.9,
-    "medianaCenaM2": 934,
-    "steviloTransakcij": 30
-  },
-  {
-    "rank": 7,
-    "obcina": "LAŠKO",
-    "trendYoY": -4.2,
-    "medianaCenaM2": 1408,
-    "steviloTransakcij": 45
-  },
-  {
-    "rank": 8,
-    "obcina": "VRHNIKA",
-    "trendYoY": -2.6,
-    "medianaCenaM2": 3222,
-    "steviloTransakcij": 43
-  },
-  {
-    "rank": 9,
-    "obcina": "LOGATEC",
-    "trendYoY": -2.6,
-    "medianaCenaM2": 2784,
+    "obcina": "ŠMARJEŠKE TOPLICE",
+    "trendYoY": -69.7,
+    "medianaCenaM2": 1098,
+    "povprecjeCenaM2": 1681,
     "steviloTransakcij": 39
   },
   {
-    "rank": 10,
-    "obcina": "RADOVLJICA",
-    "trendYoY": -1.3,
-    "medianaCenaM2": 2373,
-    "steviloTransakcij": 59
+    "rank": 2,
+    "obcina": "MIREN-KOSTANJEVICA",
+    "trendYoY": -67.7,
+    "medianaCenaM2": 1018,
+    "povprecjeCenaM2": 1953,
+    "steviloTransakcij": 39
   },
   {
-    "rank": 11,
-    "obcina": "SEŽANA",
-    "trendYoY": -1.3,
-    "medianaCenaM2": 2076,
-    "steviloTransakcij": 28
-  },
-  {
-    "rank": 12,
-    "obcina": "CERKNICA",
-    "trendYoY": -1.3,
-    "medianaCenaM2": 1875,
-    "steviloTransakcij": 22
-  },
-  {
-    "rank": 13,
-    "obcina": "LENART",
-    "trendYoY": -0.5,
-    "medianaCenaM2": 1597,
-    "steviloTransakcij": 40
-  },
-  {
-    "rank": 14,
-    "obcina": "VELENJE",
-    "trendYoY": 0,
-    "medianaCenaM2": 1994,
-    "steviloTransakcij": 145
-  },
-  {
-    "rank": 15,
-    "obcina": "DOMŽALE",
-    "trendYoY": 0.8,
-    "medianaCenaM2": 3191,
-    "steviloTransakcij": 170
-  },
-  {
-    "rank": 16,
-    "obcina": "NOVA GORICA",
-    "trendYoY": 1.2,
-    "medianaCenaM2": 2186,
-    "steviloTransakcij": 84
-  },
-  {
-    "rank": 17,
-    "obcina": "RAVNE NA KOROŠKEM",
-    "trendYoY": 1.4,
-    "medianaCenaM2": 1562,
-    "steviloTransakcij": 33
-  },
-  {
-    "rank": 18,
-    "obcina": "BREŽICE",
-    "trendYoY": 3.3,
-    "medianaCenaM2": 1668,
-    "steviloTransakcij": 46
-  },
-  {
-    "rank": 19,
-    "obcina": "IZOLA",
-    "trendYoY": 5.3,
-    "medianaCenaM2": 3759,
-    "steviloTransakcij": 82
-  },
-  {
-    "rank": 20,
-    "obcina": "CELJE",
-    "trendYoY": 6.1,
-    "medianaCenaM2": 2019,
-    "steviloTransakcij": 293
-  },
-  {
-    "rank": 21,
-    "obcina": "SLOVENJ GRADEC",
-    "trendYoY": 6.1,
-    "medianaCenaM2": 1654,
-    "steviloTransakcij": 32
-  },
-  {
-    "rank": 22,
-    "obcina": "ŠEMPETER-VRTOJBA",
-    "trendYoY": 6.2,
-    "medianaCenaM2": 3565,
+    "rank": 3,
+    "obcina": "ŠENTJERNEJ",
+    "trendYoY": -67,
+    "medianaCenaM2": 840,
+    "povprecjeCenaM2": 1560,
     "steviloTransakcij": 37
   },
   {
-    "rank": 23,
+    "rank": 4,
+    "obcina": "RADENCI",
+    "trendYoY": -64.5,
+    "medianaCenaM2": 988,
+    "povprecjeCenaM2": 2855,
+    "steviloTransakcij": 41
+  },
+  {
+    "rank": 5,
+    "obcina": "MORAVSKE TOPLICE",
+    "trendYoY": -59.8,
+    "medianaCenaM2": 791,
+    "povprecjeCenaM2": 1142,
+    "steviloTransakcij": 80
+  },
+  {
+    "rank": 6,
+    "obcina": "PIVKA",
+    "trendYoY": -59,
+    "medianaCenaM2": 1067,
+    "povprecjeCenaM2": 1813,
+    "steviloTransakcij": 39
+  },
+  {
+    "rank": 7,
+    "obcina": "TOLMIN",
+    "trendYoY": -53.8,
+    "medianaCenaM2": 767,
+    "povprecjeCenaM2": 1209,
+    "steviloTransakcij": 75
+  },
+  {
+    "rank": 8,
+    "obcina": "ŠENTJUR",
+    "trendYoY": -51.8,
+    "medianaCenaM2": 1254,
+    "povprecjeCenaM2": 1834,
+    "steviloTransakcij": 113
+  },
+  {
+    "rank": 9,
+    "obcina": "KOMENDA",
+    "trendYoY": -51.3,
+    "medianaCenaM2": 2342,
+    "povprecjeCenaM2": 2418,
+    "steviloTransakcij": 20
+  },
+  {
+    "rank": 10,
     "obcina": "AJDOVŠČINA",
-    "trendYoY": 6.2,
-    "medianaCenaM2": 2102,
-    "steviloTransakcij": 26
+    "trendYoY": -50.8,
+    "medianaCenaM2": 1509,
+    "povprecjeCenaM2": 2152,
+    "steviloTransakcij": 126
+  },
+  {
+    "rank": 11,
+    "obcina": "VIPAVA",
+    "trendYoY": -48.6,
+    "medianaCenaM2": 1124,
+    "povprecjeCenaM2": 1489,
+    "steviloTransakcij": 37
+  },
+  {
+    "rank": 12,
+    "obcina": "BOROVNICA",
+    "trendYoY": -48.2,
+    "medianaCenaM2": 1588,
+    "povprecjeCenaM2": 2858,
+    "steviloTransakcij": 21
+  },
+  {
+    "rank": 13,
+    "obcina": "ILIRSKA BISTRICA",
+    "trendYoY": -45.6,
+    "medianaCenaM2": 717,
+    "povprecjeCenaM2": 1050,
+    "steviloTransakcij": 74
+  },
+  {
+    "rank": 14,
+    "obcina": "PESNICA",
+    "trendYoY": -45.3,
+    "medianaCenaM2": 1075,
+    "povprecjeCenaM2": 2533,
+    "steviloTransakcij": 58
+  },
+  {
+    "rank": 15,
+    "obcina": "ŠEMPETER-VRTOJBA",
+    "trendYoY": -40.8,
+    "medianaCenaM2": 2210,
+    "povprecjeCenaM2": 4051,
+    "steviloTransakcij": 46
+  },
+  {
+    "rank": 16,
+    "obcina": "BREŽICE",
+    "trendYoY": -37.8,
+    "medianaCenaM2": 847,
+    "povprecjeCenaM2": 1276,
+    "steviloTransakcij": 197
+  },
+  {
+    "rank": 17,
+    "obcina": "KRŠKO",
+    "trendYoY": -37.6,
+    "medianaCenaM2": 919,
+    "povprecjeCenaM2": 2218,
+    "steviloTransakcij": 135
+  },
+  {
+    "rank": 18,
+    "obcina": "RIBNICA",
+    "trendYoY": -36.9,
+    "medianaCenaM2": 1315,
+    "povprecjeCenaM2": 2247,
+    "steviloTransakcij": 66
+  },
+  {
+    "rank": 19,
+    "obcina": "RADLJE OB DRAVI",
+    "trendYoY": -35.6,
+    "medianaCenaM2": 1231,
+    "povprecjeCenaM2": 2354,
+    "steviloTransakcij": 33
+  },
+  {
+    "rank": 20,
+    "obcina": "SEMIČ",
+    "trendYoY": -33.7,
+    "medianaCenaM2": 647,
+    "povprecjeCenaM2": 985,
+    "steviloTransakcij": 30
+  },
+  {
+    "rank": 21,
+    "obcina": "DUPLEK",
+    "trendYoY": -31.9,
+    "medianaCenaM2": 1491,
+    "povprecjeCenaM2": 2757,
+    "steviloTransakcij": 38
+  },
+  {
+    "rank": 22,
+    "obcina": "SEŽANA",
+    "trendYoY": -30.7,
+    "medianaCenaM2": 1852,
+    "povprecjeCenaM2": 2960,
+    "steviloTransakcij": 87
+  },
+  {
+    "rank": 23,
+    "obcina": "IG",
+    "trendYoY": -30.7,
+    "medianaCenaM2": 2336,
+    "povprecjeCenaM2": 2746,
+    "steviloTransakcij": 45
   },
   {
     "rank": 24,
-    "obcina": "KAMNIK",
-    "trendYoY": 6.4,
-    "medianaCenaM2": 2761,
-    "steviloTransakcij": 82
+    "obcina": "CERKLJE NA GORENJSKEM",
+    "trendYoY": -30.1,
+    "medianaCenaM2": 2474,
+    "povprecjeCenaM2": 2534,
+    "steviloTransakcij": 31
   },
   {
     "rank": 25,
-    "obcina": "MURSKA SOBOTA",
-    "trendYoY": 6.8,
-    "medianaCenaM2": 1332,
-    "steviloTransakcij": 54
+    "obcina": "LENART",
+    "trendYoY": -29.7,
+    "medianaCenaM2": 1113,
+    "povprecjeCenaM2": 1718,
+    "steviloTransakcij": 60
   },
   {
     "rank": 26,
-    "obcina": "SEVNICA",
-    "trendYoY": 6.9,
-    "medianaCenaM2": 1242,
-    "steviloTransakcij": 22
+    "obcina": "PTUJ",
+    "trendYoY": -29.1,
+    "medianaCenaM2": 1220,
+    "povprecjeCenaM2": 1875,
+    "steviloTransakcij": 175
   },
   {
     "rank": 27,
-    "obcina": "ŠKOFJA LOKA",
-    "trendYoY": 7.4,
-    "medianaCenaM2": 2791,
-    "steviloTransakcij": 62
+    "obcina": "MAJŠPERK",
+    "trendYoY": -28.7,
+    "medianaCenaM2": 745,
+    "povprecjeCenaM2": 1697,
+    "steviloTransakcij": 26
   },
   {
     "rank": 28,
-    "obcina": "MENGEŠ",
-    "trendYoY": 7.6,
-    "medianaCenaM2": 3022,
-    "steviloTransakcij": 24
+    "obcina": "IVANČNA GORICA",
+    "trendYoY": -28.4,
+    "medianaCenaM2": 1934,
+    "povprecjeCenaM2": 3227,
+    "steviloTransakcij": 84
   },
   {
     "rank": 29,
-    "obcina": "LJUBLJANA",
-    "trendYoY": 8.6,
-    "medianaCenaM2": 3865,
-    "steviloTransakcij": 1796
+    "obcina": "BREZOVICA",
+    "trendYoY": -28.3,
+    "medianaCenaM2": 2588,
+    "povprecjeCenaM2": 2694,
+    "steviloTransakcij": 24
   },
   {
     "rank": 30,
-    "obcina": "ROGAŠKA SLATINA",
-    "trendYoY": 9.4,
-    "medianaCenaM2": 1370,
-    "steviloTransakcij": 24
+    "obcina": "POLZELA",
+    "trendYoY": -28.2,
+    "medianaCenaM2": 1596,
+    "povprecjeCenaM2": 2607,
+    "steviloTransakcij": 32
   }
 ]

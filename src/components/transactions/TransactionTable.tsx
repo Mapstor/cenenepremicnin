@@ -2,7 +2,8 @@
 
 import { useEffect, useState } from 'react';
 import { formatPrice, formatPricePerM2, formatArea, formatDateShort } from '@/lib/format';
-import { Building, Home, Car, Factory, Wheat, MapPin } from 'lucide-react';
+import { Building, Home, Car, Factory, Wheat, MapPin, Calendar, Layers, DoorOpen, Sparkles } from 'lucide-react';
+import Link from 'next/link';
 
 interface Transaction {
   id: number;
@@ -125,6 +126,8 @@ export default function TransactionTable({
       <div className="space-y-3">
         {display.map((tx, index) => {
           const Icon = getTypeIcon(tx.tip);
+          const propertyAge = tx.letoIzgradnje ? new Date().getFullYear() - tx.letoIzgradnje : null;
+
           return (
             <div
               key={`${tx.id}-${index}`}
@@ -140,42 +143,120 @@ export default function TransactionTable({
                 <div className="flex-1 min-w-0">
                   <div className="flex items-start justify-between gap-4">
                     <div>
-                      <h3 className="font-medium text-gray-900 truncate">
-                        {tx.naslov || tx.imeKo}
-                      </h3>
-                      <div className="flex items-center gap-1 text-sm text-gray-500">
-                        <MapPin className="w-3.5 h-3.5" />
-                        <span>
-                          {tx.obcina.charAt(0).toUpperCase() +
-                            tx.obcina.slice(1).toLowerCase()}
+                      <div className="flex items-center gap-2">
+                        <h3 className="font-medium text-gray-900 truncate">
+                          {tx.naslov || tx.imeKo}
+                        </h3>
+                        {tx.novogradnja && (
+                          <span className="inline-flex items-center gap-1 bg-emerald-100 text-emerald-700 text-xs font-medium px-2 py-0.5 rounded-full">
+                            <Sparkles className="w-3 h-3" />
+                            Novogradnja
+                          </span>
+                        )}
+                      </div>
+                      <div className="flex items-center gap-3 text-sm text-gray-500 mt-0.5">
+                        <span className="flex items-center gap-1">
+                          <MapPin className="w-3.5 h-3.5" />
+                          {tx.obcina.charAt(0).toUpperCase() + tx.obcina.slice(1).toLowerCase()}
                         </span>
+                        <span className="text-gray-300">•</span>
+                        <span className="text-gray-400">{tx.imeKo}</span>
                       </div>
                     </div>
                     <div className="text-right flex-shrink-0">
-                      <div className="font-bold text-gray-900">
+                      <div className="font-bold text-gray-900 text-lg">
                         {formatPrice(tx.cena)}
                       </div>
-                      <div className="text-sm text-gray-500">
+                      <div className="text-sm text-emerald-600 font-medium">
                         {formatPricePerM2(tx.cenaNaM2)}
                       </div>
                     </div>
                   </div>
 
-                  {/* Details row */}
-                  <div className="flex flex-wrap gap-x-4 gap-y-1 mt-2 text-sm text-gray-600">
-                    <span className="inline-flex items-center gap-1 bg-gray-100 px-2 py-0.5 rounded">
-                      {tx.tipNaziv}
-                    </span>
-                    <span>{formatArea(tx.uporabnaPovrsina)}</span>
-                    {tx.letoIzgradnje && <span>leto {tx.letoIzgradnje}</span>}
-                    {tx.novogradnja && (
-                      <span className="text-emerald-600 font-medium">
-                        Novogradnja
+                  {/* Property details grid */}
+                  <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-3 pt-3 border-t border-gray-100">
+                    {/* Type */}
+                    <div className="flex items-center gap-2">
+                      <div className="w-7 h-7 rounded bg-gray-100 flex items-center justify-center">
+                        <Icon className="w-4 h-4 text-gray-600" />
+                      </div>
+                      <div>
+                        <div className="text-xs text-gray-400">Tip</div>
+                        <div className="text-sm font-medium text-gray-900">{tx.tipNaziv}</div>
+                      </div>
+                    </div>
+
+                    {/* Area */}
+                    <div className="flex items-center gap-2">
+                      <div className="w-7 h-7 rounded bg-gray-100 flex items-center justify-center">
+                        <Layers className="w-4 h-4 text-gray-600" />
+                      </div>
+                      <div>
+                        <div className="text-xs text-gray-400">Površina</div>
+                        <div className="text-sm font-medium text-gray-900">{formatArea(tx.uporabnaPovrsina)}</div>
+                      </div>
+                    </div>
+
+                    {/* Year built / Age */}
+                    <div className="flex items-center gap-2">
+                      <div className="w-7 h-7 rounded bg-gray-100 flex items-center justify-center">
+                        <Calendar className="w-4 h-4 text-gray-600" />
+                      </div>
+                      <div>
+                        <div className="text-xs text-gray-400">Leto izgradnje</div>
+                        <div className="text-sm font-medium text-gray-900">
+                          {tx.letoIzgradnje ? (
+                            <span>
+                              {tx.letoIzgradnje}
+                              {propertyAge !== null && (
+                                <span className="text-gray-400 font-normal"> ({propertyAge} let)</span>
+                              )}
+                            </span>
+                          ) : (
+                            <span className="text-gray-400">—</span>
+                          )}
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Date of sale */}
+                    <div className="flex items-center gap-2">
+                      <div className="w-7 h-7 rounded bg-emerald-100 flex items-center justify-center">
+                        <Calendar className="w-4 h-4 text-emerald-600" />
+                      </div>
+                      <div>
+                        <div className="text-xs text-gray-400">Datum prodaje</div>
+                        <div className="text-sm font-medium text-gray-900">{formatDateShort(tx.datum)}</div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Additional details row */}
+                  <div className="flex flex-wrap items-center gap-3 mt-3 text-sm">
+                    {/* Number of rooms */}
+                    {tx.steviloSob !== null && tx.steviloSob > 0 && (
+                      <span className="inline-flex items-center gap-1.5 bg-blue-50 text-blue-700 px-2.5 py-1 rounded-lg">
+                        <DoorOpen className="w-4 h-4" />
+                        {tx.steviloSob} {tx.steviloSob === 1 ? 'soba' : tx.steviloSob === 2 ? 'sobi' : tx.steviloSob <= 4 ? 'sobe' : 'sob'}
                       </span>
                     )}
-                    <span className="text-gray-400">
-                      {formatDateShort(tx.datum)}
-                    </span>
+
+                    {/* Floor */}
+                    {tx.nadstropje && (
+                      <span className="inline-flex items-center gap-1.5 bg-purple-50 text-purple-700 px-2.5 py-1 rounded-lg">
+                        <Layers className="w-4 h-4" />
+                        {tx.nadstropje}. nadstropje
+                      </span>
+                    )}
+
+                    {/* Map link */}
+                    <Link
+                      href={`/zemljevid/${tx.id}`}
+                      className="inline-flex items-center gap-1.5 bg-emerald-50 text-emerald-700 hover:bg-emerald-100 px-2.5 py-1 rounded-lg transition-colors ml-auto"
+                    >
+                      <MapPin className="w-4 h-4" />
+                      Prikaži na zemljevidu
+                    </Link>
                   </div>
                 </div>
               </div>

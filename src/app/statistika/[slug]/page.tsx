@@ -40,9 +40,21 @@ interface MunicipalityData {
   medianaCenaM2: number | null;
   medianaCenaM2Stanovanja: number | null;
   medianaCenaM2Hise: number | null;
+  povprecjeCenaM2: number | null;
+  povprecjeCenaM2Stanovanja: number | null;
+  povprecjeCenaM2Hise: number | null;
   steviloTransakcij: number;
   trendYoY: number | null;
-  cetrtletja: Record<string, { mediana: number; stevilo: number }>;
+  cetrtletja: Record<string, { mediana: number; povprecje: number; stevilo: number }>;
+  // Per-type YoY trends (2024 → 2025)
+  trendStanovanjaYoY: number | null;
+  trendHiseYoY: number | null;
+  // Transaction counts for 2025
+  steviloStanovanja2025: number;
+  steviloHise2025: number;
+  // Most expensive in 2025
+  najdrazjaStanovanje: { cena: number; povrsina: number } | null;
+  najdrazjaHisa: { cena: number; povrsina: number } | null;
   // New context fields
   priceRange: PriceRange | null;
   propertyBreakdown: PropertyBreakdown;
@@ -183,71 +195,125 @@ export default async function ObcinaStatistikaPage({ params }: Props) {
         </div>
       </section>
 
-      {/* Key Stats */}
-      <section className="py-6 px-4 sm:px-6 lg:px-8 border-b">
-        <div className="mx-auto max-w-7xl">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-            <div className="bg-white rounded-xl p-4 border border-gray-200">
-              <div className="flex items-center gap-2 text-emerald-600 mb-1">
-                <Building className="w-4 h-4" />
-                <span className="text-sm font-medium">Stanovanja</span>
+      {/* Key Stats - 2025 Stanovanja & Hiše */}
+      <section className="py-6 px-4 sm:px-6 lg:px-8 border-b bg-white">
+        <div className="mx-auto max-w-5xl">
+          <div className="grid md:grid-cols-2 gap-6">
+            {/* Stanovanja 2025 */}
+            <div className="bg-blue-50 rounded-xl p-5">
+              <div className="flex items-center gap-2 mb-3">
+                <Building className="w-5 h-5 text-blue-600" />
+                <h3 className="font-semibold text-gray-900">Stanovanja 2025</h3>
               </div>
-              <div className="text-2xl font-bold text-gray-900">
-                {hasStanovanja ? formatPricePerM2(data.medianaCenaM2Stanovanja!) : 'Ni podatkov'}
-              </div>
-              <div className="text-sm text-gray-500 flex items-center">
-                mediana cene/m²
-                <InfoTooltip text={STAT_EXPLANATIONS.medianaPriceM2} />
+              <div className="grid grid-cols-2 gap-4">
+                <div>
+                  <div className="text-xs text-gray-500 uppercase tracking-wide mb-1">Mediana €/m²</div>
+                  <div className="text-2xl font-bold text-gray-900">
+                    {hasStanovanja ? formatPricePerM2(data.medianaCenaM2Stanovanja!) : '—'}
+                  </div>
+                  {data.povprecjeCenaM2Stanovanja && (
+                    <div className="text-xs text-gray-500 mt-0.5">
+                      povp. {formatPricePerM2(data.povprecjeCenaM2Stanovanja)}
+                    </div>
+                  )}
+                </div>
+                <div>
+                  <div className="text-xs text-gray-500 uppercase tracking-wide mb-1">Letna rast</div>
+                  <div className={`text-2xl font-bold flex items-center gap-1 ${
+                    data.trendStanovanjaYoY === null ? 'text-gray-400' :
+                    data.trendStanovanjaYoY > 0 ? 'text-green-600' : 'text-red-600'
+                  }`}>
+                    {data.trendStanovanjaYoY !== null ? (
+                      <>
+                        {data.trendStanovanjaYoY > 0 ? (
+                          <TrendingUp className="w-5 h-5" />
+                        ) : (
+                          <TrendingDown className="w-5 h-5" />
+                        )}
+                        {data.trendStanovanjaYoY > 0 ? '+' : ''}{data.trendStanovanjaYoY.toFixed(1)}%
+                      </>
+                    ) : '—'}
+                  </div>
+                </div>
+                <div>
+                  <div className="text-xs text-gray-500 uppercase tracking-wide mb-1">Prodanih 2025</div>
+                  <div className="text-lg font-semibold text-gray-900">
+                    {data.steviloStanovanja2025.toLocaleString('sl-SI')}
+                  </div>
+                </div>
+                <div>
+                  <div className="text-xs text-gray-500 uppercase tracking-wide mb-1">Najdražje 2025</div>
+                  <div className="text-lg font-semibold text-blue-700">
+                    {data.najdrazjaStanovanje ? formatPrice(data.najdrazjaStanovanje.cena) : '—'}
+                  </div>
+                  {data.najdrazjaStanovanje && (
+                    <div className="text-xs text-gray-500">
+                      ({formatArea(data.najdrazjaStanovanje.povrsina)})
+                    </div>
+                  )}
+                </div>
               </div>
             </div>
-            <div className="bg-white rounded-xl p-4 border border-gray-200">
-              <div className="flex items-center gap-2 text-emerald-600 mb-1">
-                <Home className="w-4 h-4" />
-                <span className="text-sm font-medium">Hiše</span>
+
+            {/* Hiše 2025 */}
+            <div className="bg-orange-50 rounded-xl p-5">
+              <div className="flex items-center gap-2 mb-3">
+                <Home className="w-5 h-5 text-orange-600" />
+                <h3 className="font-semibold text-gray-900">Hiše 2025</h3>
               </div>
-              <div className="text-2xl font-bold text-gray-900">
-                {hasHise ? formatPricePerM2(data.medianaCenaM2Hise!) : 'Ni podatkov'}
-              </div>
-              <div className="text-sm text-gray-500 flex items-center">
-                mediana cene/m²
-                <InfoTooltip text={STAT_EXPLANATIONS.stanovanjaVsHise} />
-              </div>
-            </div>
-            <div className="bg-white rounded-xl p-4 border border-gray-200">
-              <div className="flex items-center gap-2 text-emerald-600 mb-1">
-                {trendPositive ? (
-                  <TrendingUp className="w-4 h-4" />
-                ) : (
-                  <TrendingDown className="w-4 h-4" />
-                )}
-                <span className="text-sm font-medium">Letni trend</span>
-              </div>
-              <div
-                className={`text-2xl font-bold ${
-                  !hasTrend ? 'text-gray-400' : trendPositive ? 'text-green-600' : 'text-red-600'
-                }`}
-              >
-                {hasTrend ? `${trendPositive ? '+' : ''}${data.trendYoY!.toFixed(1)}%` : 'Ni podatkov'}
-              </div>
-              <div className="text-sm text-gray-500 flex items-center">
-                v zadnjem letu
-                <InfoTooltip text={STAT_EXPLANATIONS.letniTrend} />
-              </div>
-            </div>
-            <div className="bg-white rounded-xl p-4 border border-gray-200">
-              <div className="flex items-center gap-2 text-emerald-600 mb-1">
-                <BarChart3 className="w-4 h-4" />
-                <span className="text-sm font-medium">Transakcije</span>
-              </div>
-              <div className="text-2xl font-bold text-gray-900">
-                {data.steviloTransakcij.toLocaleString('sl-SI')}
-              </div>
-              <div className="text-sm text-gray-500 flex items-center">
-                v zadnjih 12 mesecih
-                <InfoTooltip text={STAT_EXPLANATIONS.transakcije} />
+              <div className="grid grid-cols-2 gap-4">
+                <div>
+                  <div className="text-xs text-gray-500 uppercase tracking-wide mb-1">Mediana €/m²</div>
+                  <div className="text-2xl font-bold text-gray-900">
+                    {hasHise ? formatPricePerM2(data.medianaCenaM2Hise!) : '—'}
+                  </div>
+                  {data.povprecjeCenaM2Hise && (
+                    <div className="text-xs text-gray-500 mt-0.5">
+                      povp. {formatPricePerM2(data.povprecjeCenaM2Hise)}
+                    </div>
+                  )}
+                </div>
+                <div>
+                  <div className="text-xs text-gray-500 uppercase tracking-wide mb-1">Letna rast</div>
+                  <div className={`text-2xl font-bold flex items-center gap-1 ${
+                    data.trendHiseYoY === null ? 'text-gray-400' :
+                    data.trendHiseYoY > 0 ? 'text-green-600' : 'text-red-600'
+                  }`}>
+                    {data.trendHiseYoY !== null ? (
+                      <>
+                        {data.trendHiseYoY > 0 ? (
+                          <TrendingUp className="w-5 h-5" />
+                        ) : (
+                          <TrendingDown className="w-5 h-5" />
+                        )}
+                        {data.trendHiseYoY > 0 ? '+' : ''}{data.trendHiseYoY.toFixed(1)}%
+                      </>
+                    ) : '—'}
+                  </div>
+                </div>
+                <div>
+                  <div className="text-xs text-gray-500 uppercase tracking-wide mb-1">Prodanih 2025</div>
+                  <div className="text-lg font-semibold text-gray-900">
+                    {data.steviloHise2025.toLocaleString('sl-SI')}
+                  </div>
+                </div>
+                <div>
+                  <div className="text-xs text-gray-500 uppercase tracking-wide mb-1">Najdražja 2025</div>
+                  <div className="text-lg font-semibold text-orange-700">
+                    {data.najdrazjaHisa ? formatPrice(data.najdrazjaHisa.cena) : '—'}
+                  </div>
+                  {data.najdrazjaHisa && (
+                    <div className="text-xs text-gray-500">
+                      ({formatArea(data.najdrazjaHisa.povrsina)})
+                    </div>
+                  )}
+                </div>
               </div>
             </div>
           </div>
+          <p className="text-xs text-gray-500 text-center mt-4">
+            Podatki za leto 2025 • Letna rast: primerjava 2024 → 2025
+          </p>
         </div>
       </section>
 
@@ -270,72 +336,119 @@ export default async function ObcinaStatistikaPage({ params }: Props) {
       {(hasStanovanja || hasHise) && (
         <section className="py-10 px-4 sm:px-6 lg:px-8 bg-gray-50">
           <div className="mx-auto max-w-5xl">
-            <h2 className="text-xl font-bold text-gray-900 mb-6">
+            <h2 className="text-xl font-bold text-gray-900 mb-2">
               Primerjava z nacionalnim povprečjem
             </h2>
+            <p className="text-sm text-gray-500 mb-6">
+              Slovensko povprečje za leto 2025 na podlagi 7.368 prodanih stanovanj in 3.432 prodanih hiš.
+            </p>
             <div className="grid md:grid-cols-2 gap-6">
-              {hasStanovanja && (
-                <div className="bg-white rounded-xl border border-gray-200 p-6">
-                  <h3 className="font-medium text-gray-900 mb-3">Stanovanja</h3>
-                  <div className="flex items-end gap-4">
-                    <div>
-                      <div className="text-sm text-gray-500 mb-1">{name}</div>
-                      <div className="text-2xl font-bold text-emerald-600">
-                        {formatPricePerM2(data.medianaCenaM2Stanovanja!)}
-                      </div>
+              {hasStanovanja && (() => {
+                const nationalAvgStan = 2665; // 2025 median from 7,368 transactions
+                const localPrice = data.medianaCenaM2Stanovanja!;
+                const maxPrice = Math.max(localPrice, nationalAvgStan) * 1.1;
+                const localWidth = (localPrice / maxPrice) * 100;
+                const nationalWidth = (nationalAvgStan / maxPrice) * 100;
+                const diff = ((localPrice / nationalAvgStan - 1) * 100);
+                const isAbove = localPrice > nationalAvgStan;
+
+                return (
+                  <div className="bg-white rounded-xl border border-gray-200 p-6">
+                    <div className="flex items-center justify-between mb-4">
+                      <h3 className="font-medium text-gray-900 flex items-center gap-2">
+                        <Building className="w-4 h-4 text-blue-500" />
+                        Stanovanja
+                      </h3>
+                      <span className={`text-sm font-semibold px-2 py-0.5 rounded ${
+                        isAbove ? 'bg-red-100 text-red-700' : 'bg-green-100 text-green-700'
+                      }`}>
+                        {isAbove ? '+' : ''}{diff.toFixed(0)}%
+                      </span>
                     </div>
-                    <div>
-                      <div className="text-sm text-gray-500 mb-1">Slovenija</div>
-                      <div className="text-2xl font-bold text-gray-400">
-                        {formatPricePerM2(2800)}
+
+                    {/* Visual comparison bars */}
+                    <div className="space-y-3">
+                      <div>
+                        <div className="flex justify-between text-sm mb-1">
+                          <span className="text-gray-700 font-medium">{name} (2024–2025)</span>
+                          <span className="font-bold text-gray-900">{formatPricePerM2(localPrice)}</span>
+                        </div>
+                        <div className="h-4 bg-gray-100 rounded-full overflow-hidden">
+                          <div
+                            className="h-full bg-blue-500 rounded-full transition-all duration-500"
+                            style={{ width: `${localWidth}%` }}
+                          />
+                        </div>
+                      </div>
+                      <div>
+                        <div className="flex justify-between text-sm mb-1">
+                          <span className="text-gray-500">Slovenija 2025</span>
+                          <span className="font-medium text-gray-500">{formatPricePerM2(nationalAvgStan)}</span>
+                        </div>
+                        <div className="h-4 bg-gray-100 rounded-full overflow-hidden">
+                          <div
+                            className="h-full bg-gray-300 rounded-full"
+                            style={{ width: `${nationalWidth}%` }}
+                          />
+                        </div>
                       </div>
                     </div>
                   </div>
-                  <div className="mt-3 text-sm">
-                    {data.medianaCenaM2Stanovanja! > 2800 ? (
-                      <span className="text-red-600">
-                        {((data.medianaCenaM2Stanovanja! / 2800 - 1) * 100).toFixed(0)}% nad
-                        povprečjem
+                );
+              })()}
+              {hasHise && (() => {
+                const nationalAvgHise = 1036; // 2025 median from 3,432 transactions
+                const localPrice = data.medianaCenaM2Hise!;
+                const maxPrice = Math.max(localPrice, nationalAvgHise) * 1.1;
+                const localWidth = (localPrice / maxPrice) * 100;
+                const nationalWidth = (nationalAvgHise / maxPrice) * 100;
+                const diff = ((localPrice / nationalAvgHise - 1) * 100);
+                const isAbove = localPrice > nationalAvgHise;
+
+                return (
+                  <div className="bg-white rounded-xl border border-gray-200 p-6">
+                    <div className="flex items-center justify-between mb-4">
+                      <h3 className="font-medium text-gray-900 flex items-center gap-2">
+                        <Home className="w-4 h-4 text-orange-500" />
+                        Hiše
+                      </h3>
+                      <span className={`text-sm font-semibold px-2 py-0.5 rounded ${
+                        isAbove ? 'bg-red-100 text-red-700' : 'bg-green-100 text-green-700'
+                      }`}>
+                        {isAbove ? '+' : ''}{diff.toFixed(0)}%
                       </span>
-                    ) : (
-                      <span className="text-green-600">
-                        {((1 - data.medianaCenaM2Stanovanja! / 2800) * 100).toFixed(0)}% pod
-                        povprečjem
-                      </span>
-                    )}
-                  </div>
-                </div>
-              )}
-              {hasHise && (
-                <div className="bg-white rounded-xl border border-gray-200 p-6">
-                  <h3 className="font-medium text-gray-900 mb-3">Hiše</h3>
-                  <div className="flex items-end gap-4">
-                    <div>
-                      <div className="text-sm text-gray-500 mb-1">{name}</div>
-                      <div className="text-2xl font-bold text-emerald-600">
-                        {formatPricePerM2(data.medianaCenaM2Hise!)}
+                    </div>
+
+                    {/* Visual comparison bars */}
+                    <div className="space-y-3">
+                      <div>
+                        <div className="flex justify-between text-sm mb-1">
+                          <span className="text-gray-700 font-medium">{name} (2024–2025)</span>
+                          <span className="font-bold text-gray-900">{formatPricePerM2(localPrice)}</span>
+                        </div>
+                        <div className="h-4 bg-gray-100 rounded-full overflow-hidden">
+                          <div
+                            className="h-full bg-orange-500 rounded-full transition-all duration-500"
+                            style={{ width: `${localWidth}%` }}
+                          />
+                        </div>
+                      </div>
+                      <div>
+                        <div className="flex justify-between text-sm mb-1">
+                          <span className="text-gray-500">Slovenija 2025</span>
+                          <span className="font-medium text-gray-500">{formatPricePerM2(nationalAvgHise)}</span>
+                        </div>
+                        <div className="h-4 bg-gray-100 rounded-full overflow-hidden">
+                          <div
+                            className="h-full bg-gray-300 rounded-full"
+                            style={{ width: `${nationalWidth}%` }}
+                          />
+                        </div>
                       </div>
                     </div>
-                    <div>
-                      <div className="text-sm text-gray-500 mb-1">Slovenija</div>
-                      <div className="text-2xl font-bold text-gray-400">
-                        {formatPricePerM2(1500)}
-                      </div>
-                    </div>
                   </div>
-                  <div className="mt-3 text-sm">
-                    {data.medianaCenaM2Hise! > 1500 ? (
-                      <span className="text-red-600">
-                        {((data.medianaCenaM2Hise! / 1500 - 1) * 100).toFixed(0)}% nad povprečjem
-                      </span>
-                    ) : (
-                      <span className="text-green-600">
-                        {((1 - data.medianaCenaM2Hise! / 1500) * 100).toFixed(0)}% pod povprečjem
-                      </span>
-                    )}
-                  </div>
-                </div>
-              )}
+                );
+              })()}
             </div>
           </div>
         </section>
@@ -474,6 +587,15 @@ export default async function ObcinaStatistikaPage({ params }: Props) {
                       {data.medianaCenaM2 ? formatPricePerM2(data.medianaCenaM2) : '—'}
                     </span>
                   </div>
+                  {data.povprecjeCenaM2 && (
+                    <div className="flex justify-between items-center">
+                      <span className="text-sm text-gray-500 flex items-center">
+                        Povprečje
+                        <InfoTooltip text={STAT_EXPLANATIONS.povprecjePriceM2 || 'Povprečna cena na m² – seštevek vseh cen, deljen s številom transakcij.'} iconSize={12} />
+                      </span>
+                      <span className="font-medium">{formatPricePerM2(data.povprecjeCenaM2)}</span>
+                    </div>
+                  )}
                   <div className="flex justify-between items-center">
                     <span className="text-sm text-gray-500 flex items-center">
                       75. percentil (Q3)
@@ -518,6 +640,7 @@ export default async function ObcinaStatistikaPage({ params }: Props) {
                       <th className="text-right px-4 py-3 text-sm font-medium text-gray-600">Površina</th>
                       <th className="text-right px-4 py-3 text-sm font-medium text-gray-600">Cena</th>
                       <th className="text-right px-4 py-3 text-sm font-medium text-gray-600">€/m²</th>
+                      <th className="text-center px-4 py-3 text-sm font-medium text-gray-600"></th>
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-gray-100">
@@ -554,6 +677,14 @@ export default async function ObcinaStatistikaPage({ params }: Props) {
                         </td>
                         <td className="px-4 py-3 text-sm font-semibold text-emerald-600 text-right">
                           {formatPricePerM2(tx.cenaNaM2)}
+                        </td>
+                        <td className="px-4 py-3 text-center">
+                          <Link
+                            href={`/zemljevid/${tx.id}`}
+                            className="inline-flex items-center gap-1 text-emerald-600 hover:text-emerald-700 text-sm"
+                          >
+                            <MapPin className="w-4 h-4" />
+                          </Link>
                         </td>
                       </tr>
                     ))}

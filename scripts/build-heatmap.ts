@@ -19,9 +19,12 @@ interface KOStats {
   medianaCenaM2: number | null;
   medianaCenaM2Stanovanja: number | null;
   medianaCenaM2Hise: number | null;
+  povprecjeCenaM2: number | null;
+  povprecjeCenaM2Stanovanja: number | null;
+  povprecjeCenaM2Hise: number | null;
   steviloTransakcij: number;
   trendYoY: number | null;
-  cetrtletja: { [quarter: string]: { mediana: number; stevilo: number } };
+  cetrtletja: { [quarter: string]: { mediana: number; povprecje: number; stevilo: number } };
 }
 
 // Občina aggregated stats
@@ -30,9 +33,12 @@ interface ObcinaStats {
   medianaCenaM2: number | null;
   medianaCenaM2Stanovanja: number | null;
   medianaCenaM2Hise: number | null;
+  povprecjeCenaM2: number | null;
+  povprecjeCenaM2Stanovanja: number | null;
+  povprecjeCenaM2Hise: number | null;
   steviloTransakcij: number;
   trendYoY: number | null;
-  cetrtletja: { [quarter: string]: { mediana: number; stevilo: number } };
+  cetrtletja: { [quarter: string]: { mediana: number; povprecje: number; stevilo: number } };
 }
 
 /**
@@ -139,6 +145,9 @@ function buildKOHeatmap(
       props.medianaCenaM2 = stat.medianaCenaM2;
       props.medianaCenaM2Stanovanja = stat.medianaCenaM2Stanovanja;
       props.medianaCenaM2Hise = stat.medianaCenaM2Hise;
+      props.povprecjeCenaM2 = stat.povprecjeCenaM2;
+      props.povprecjeCenaM2Stanovanja = stat.povprecjeCenaM2Stanovanja;
+      props.povprecjeCenaM2Hise = stat.povprecjeCenaM2Hise;
       props.steviloTransakcij = stat.steviloTransakcij;
       props.trendYoY = stat.trendYoY;
       props.imeKo = stat.imeKo;
@@ -154,6 +163,9 @@ function buildKOHeatmap(
       props.medianaCenaM2 = null;
       props.medianaCenaM2Stanovanja = null;
       props.medianaCenaM2Hise = null;
+      props.povprecjeCenaM2 = null;
+      props.povprecjeCenaM2Stanovanja = null;
+      props.povprecjeCenaM2Hise = null;
       props.steviloTransakcij = 0;
       props.trendYoY = null;
       props.vsegaTransakcij = 0;
@@ -254,6 +266,9 @@ function buildObcinaHeatmap(
       props.medianaCenaM2 = stat.medianaCenaM2;
       props.medianaCenaM2Stanovanja = stat.medianaCenaM2Stanovanja;
       props.medianaCenaM2Hise = stat.medianaCenaM2Hise;
+      props.povprecjeCenaM2 = stat.povprecjeCenaM2;
+      props.povprecjeCenaM2Stanovanja = stat.povprecjeCenaM2Stanovanja;
+      props.povprecjeCenaM2Hise = stat.povprecjeCenaM2Hise;
       props.steviloTransakcij = stat.steviloTransakcij;
       props.trendYoY = stat.trendYoY;
 
@@ -268,6 +283,9 @@ function buildObcinaHeatmap(
       props.medianaCenaM2 = null;
       props.medianaCenaM2Stanovanja = null;
       props.medianaCenaM2Hise = null;
+      props.povprecjeCenaM2 = null;
+      props.povprecjeCenaM2Stanovanja = null;
+      props.povprecjeCenaM2Hise = null;
       props.steviloTransakcij = 0;
       props.trendYoY = null;
       props.vsegaTransakcij = 0;

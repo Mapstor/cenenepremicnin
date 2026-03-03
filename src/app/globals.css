@@ -5,13 +5,13 @@
 /* Leaflet base styles */
 @import 'leaflet/dist/leaflet.css';
 
-/* Ensure Leaflet popups appear above sticky header (z-50 = 50) */
+/* Ensure Leaflet popups appear above map controls (z-1000) and sticky header (z-50) */
 .leaflet-pane.leaflet-popup-pane {
-  z-index: 100 !important;
+  z-index: 1100 !important;
 }
 
 .leaflet-popup {
-  z-index: 100 !important;
+  z-index: 1100 !important;
 }
 
 /* Custom Leaflet popup styles */
@@ -55,4 +55,22 @@
 .custom-popup .leaflet-popup-content {
   max-height: 450px;
   overflow-y: auto;
+}
+
+/* Mobile touch improvements */
+.leaflet-container {
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Ensure GeoJSON polygons are clickable on mobile */
+.leaflet-interactive {
+  cursor: pointer;
+  pointer-events: auto !important;
+}
+
+/* Prevent touch delay on iOS */
+.leaflet-pane svg path {
+  -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
 }

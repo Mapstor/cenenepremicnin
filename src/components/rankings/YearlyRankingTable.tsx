@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import Link from 'next/link';
 import { formatPrice, formatPricePerM2, formatArea, formatDateShort } from '@/lib/format';
 import { Building, MapPin, ChevronDown, ChevronUp } from 'lucide-react';
 
@@ -105,30 +106,30 @@ export default function YearlyRankingTable({ dataUrl, className = '' }: YearlyRa
                 {transactions.map((item) => (
                   <div
                     key={`${item.id}-${item.rank}`}
-                    className="flex items-start gap-4 p-4 border-b border-gray-100 last:border-b-0 hover:bg-gray-50"
+                    className="flex items-start gap-3 sm:gap-4 p-3 sm:p-4 border-b border-gray-100 last:border-b-0 hover:bg-gray-50"
                   >
                     {/* Rank */}
-                    <div className="flex-shrink-0 w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-700 font-bold text-sm">
+                    <div className="flex-shrink-0 w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-700 font-bold text-xs sm:text-sm">
                       {item.rank}
                     </div>
 
                     {/* Content */}
-                    <div className="flex-1 min-w-0">
-                      <div className="flex items-start justify-between gap-4">
-                        <div>
-                          <h3 className="font-medium text-gray-900 truncate text-sm">
+                    <div className="flex-1 min-w-0 overflow-hidden">
+                      <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-1 sm:gap-4">
+                        <div className="min-w-0">
+                          <h3 className="font-medium text-gray-900 truncate text-xs sm:text-sm">
                             {item.naslov || item.obcina}
                           </h3>
                           <div className="flex items-center gap-1 text-xs text-gray-500">
-                            <MapPin className="w-3 h-3" />
-                            <span>
+                            <MapPin className="w-3 h-3 flex-shrink-0" />
+                            <span className="truncate">
                               {item.obcina.charAt(0).toUpperCase() +
                                 item.obcina.slice(1).toLowerCase()}
                             </span>
                           </div>
                         </div>
-                        <div className="text-right flex-shrink-0">
-                          <div className="font-bold text-gray-900">
+                        <div className="sm:text-right flex-shrink-0 mt-1 sm:mt-0">
+                          <div className="font-bold text-gray-900 text-sm sm:text-base">
                             {formatPrice(item.cena)}
                           </div>
                           <div className="text-xs text-gray-500">
@@ -137,9 +138,16 @@ export default function YearlyRankingTable({ dataUrl, className = '' }: YearlyRa
                         </div>
                       </div>
 
-                      <div className="flex flex-wrap gap-x-3 gap-y-1 mt-1 text-xs text-gray-500">
+                      <div className="flex flex-wrap items-center gap-x-2 sm:gap-x-3 gap-y-1 mt-1 text-xs text-gray-500">
                         <span>{formatArea(item.povrsina)}</span>
                         <span>{formatDateShort(item.datum)}</span>
+                        <Link
+                          href={`/zemljevid/${item.id}`}
+                          className="inline-flex items-center gap-1 text-emerald-600 hover:text-emerald-700 ml-auto"
+                        >
+                          <MapPin className="w-3 h-3" />
+                          <span className="hidden sm:inline">Zemljevid</span>
+                        </Link>
                       </div>
                     </div>
                   </div>

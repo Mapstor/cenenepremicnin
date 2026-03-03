@@ -20,27 +20,30 @@ export const SLOVENIA_BOUNDS: [[number, number], [number, number]] = [
   [45.42, 13.38], // Southwest corner
   [46.88, 16.61], // Northeast corner
 ];
-export const DEFAULT_ZOOM = 9;
+export const DEFAULT_ZOOM = 8;
 export const MIN_ZOOM = 7;
 export const MAX_ZOOM = 18;
 
-// Choropleth color scale for €/m² (YlGn color scheme)
+// Choropleth color scale for €/m² (green-to-red: cheap-to-expensive)
 export const HEATMAP_BREAKS = [500, 1000, 1500, 2000, 2500, 3000, 4000, 5000];
 export const HEATMAP_COLORS = [
-  '#ffffcc', // < 500
-  '#d9f0a3', // 500-1000
-  '#addd8e', // 1000-1500
-  '#78c679', // 1500-2000
-  '#41ab5d', // 2000-2500
-  '#238443', // 2500-3000
-  '#006837', // 3000-4000
-  '#004529', // 4000-5000
-  '#002010', // > 5000
+  '#2d9a2d',  // < 500 €/m² - dark green (very cheap)
+  '#4cb84c',  // 500-1000 - green
+  '#8cd98c',  // 1000-1500 - light green
+  '#c8e68c',  // 1500-2000 - yellow-green
+  '#f0e040',  // 2000-2500 - yellow
+  '#f0b020',  // 2500-3000 - orange
+  '#e07020',  // 3000-4000 - dark orange
+  '#d03030',  // 4000-5000 - red
+  '#8b0000',  // > 5000 - dark red (most expensive)
 ];
+
+// No data color (light gray)
+export const HEATMAP_NO_DATA_COLOR = '#e5e7eb';
 
 // Get color for price per m²
 export function getColor(cenaNaM2: number | null): string {
-  if (cenaNaM2 === null) return '#cccccc'; // No data
+  if (cenaNaM2 === null) return HEATMAP_NO_DATA_COLOR;
   for (let i = 0; i < HEATMAP_BREAKS.length; i++) {
     if (cenaNaM2 <= HEATMAP_BREAKS[i]) return HEATMAP_COLORS[i];
   }

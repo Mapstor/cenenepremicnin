@@ -45,12 +45,12 @@ export default function InfoTooltip({ text, className = '', iconSize = 14 }: Inf
       {isOpen && (
         <div
           ref={tooltipRef}
-          className="absolute z-50 bottom-full left-1/2 -translate-x-1/2 mb-2 w-64 p-3 text-sm text-gray-700 bg-white rounded-lg shadow-lg border border-gray-200"
+          className="absolute z-50 top-full left-1/2 -translate-x-1/2 mt-2 w-64 p-3 text-sm text-gray-700 bg-white rounded-lg shadow-lg border border-gray-200"
         >
-          {text}
-          <div className="absolute top-full left-1/2 -translate-x-1/2 -mt-1">
-            <div className="border-8 border-transparent border-t-white" />
+          <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-[-1px]">
+            <div className="border-8 border-transparent border-b-white" />
           </div>
+          {text}
         </div>
       )}
     </span>

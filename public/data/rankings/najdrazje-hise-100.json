@@ -40,6 +40,19 @@
   },
   {
     "rank": 4,
+    "id": 963282,
+    "datum": "2025-08-04",
+    "cena": 4700000,
+    "tip": 1,
+    "tipNaziv": "Stanovanjska hiša",
+    "povrsina": 278.2,
+    "cenaNaM2": 16894,
+    "obcina": "LJUBLJANA",
+    "naslov": "ULICA MALČI BELIČEVE 28, LJUBLJANA",
+    "leto": 2025
+  },
+  {
+    "rank": 5,
     "id": -478130,
     "datum": "2009-12-11",
     "cena": 4422290,
@@ -52,7 +65,7 @@
     "leto": 2009
   },
   {
-    "rank": 5,
+    "rank": 6,
     "id": 735465,
     "datum": "2023-03-15",
     "cena": 3588440,
@@ -65,7 +78,7 @@
     "leto": 2023
   },
   {
-    "rank": 6,
+    "rank": 7,
     "id": -53771,
     "datum": "2007-09-27",
     "cena": 3000000,
@@ -78,7 +91,7 @@
     "leto": 2007
   },
   {
-    "rank": 7,
+    "rank": 8,
     "id": -53829,
     "datum": "2007-09-27",
     "cena": 3000000,
@@ -89,19 +102,6 @@
     "obcina": "LJUBLJANA",
     "naslov": "Dolenjska cesta 136, Ljubljana",
     "leto": 2007
-  },
-  {
-    "rank": 8,
-    "id": 366965,
-    "datum": "2017-12-14",
-    "cena": 2827936,
-    "tip": 1,
-    "tipNaziv": "Stanovanjska hiša",
-    "povrsina": 3434,
-    "cenaNaM2": 824,
-    "obcina": "GORNJI GRAD",
-    "naslov": "TLAKA 28, GORNJI GRAD",
-    "leto": 2017
   },
   {
     "rank": 9,
@@ -118,19 +118,6 @@
   },
   {
     "rank": 10,
-    "id": -78618,
-    "datum": "2007-11-06",
-    "cena": 2800000,
-    "tip": 1,
-    "tipNaziv": "Stanovanjska hiša",
-    "povrsina": 269,
-    "cenaNaM2": 10409,
-    "obcina": "KOPER",
-    "naslov": "SERMIN 18, KOPER",
-    "leto": 2007
-  },
-  {
-    "rank": 11,
     "id": -152982,
     "datum": "2007-11-20",
     "cena": 2800000,
@@ -143,7 +130,33 @@
     "leto": 2007
   },
   {
+    "rank": 11,
+    "id": -78618,
+    "datum": "2007-11-06",
+    "cena": 2800000,
+    "tip": 1,
+    "tipNaziv": "Stanovanjska hiša",
+    "povrsina": 269,
+    "cenaNaM2": 10409,
+    "obcina": "KOPER",
+    "naslov": "SERMIN 18, KOPER",
+    "leto": 2007
+  },
+  {
     "rank": 12,
+    "id": 963983,
+    "datum": "2025-08-22",
+    "cena": 2700000,
+    "tip": 1,
+    "tipNaziv": "Stanovanjska hiša",
+    "povrsina": 357.5,
+    "cenaNaM2": 7552,
+    "obcina": "LJUBLJANA",
+    "naslov": "ULICA METKE KRAŠOVEC 13, LJUBLJANA",
+    "leto": 2025
+  },
+  {
+    "rank": 13,
     "id": 317978,
     "datum": "2017-03-01",
     "cena": 2550000,
@@ -156,7 +169,7 @@
     "leto": 2017
   },
   {
-    "rank": 13,
+    "rank": 14,
     "id": -227883,
     "datum": "2008-06-18",
     "cena": 2400000,
@@ -169,7 +182,7 @@
     "leto": 2008
   },
   {
-    "rank": 14,
+    "rank": 15,
     "id": -227883,
     "datum": "2008-06-18",
     "cena": 2400000,
@@ -182,7 +195,7 @@
     "leto": 2008
   },
   {
-    "rank": 15,
+    "rank": 16,
     "id": -577526,
     "datum": "2011-12-15",
     "cena": 2379000,
@@ -195,7 +208,7 @@
     "leto": 2011
   },
   {
-    "rank": 16,
+    "rank": 17,
     "id": 503571,
     "datum": "2020-06-10",
     "cena": 2188234,
@@ -208,7 +221,7 @@
     "leto": 2020
   },
   {
-    "rank": 17,
+    "rank": 18,
     "id": -591205,
     "datum": "2011-12-30",
     "cena": 2100000,
@@ -221,7 +234,7 @@
     "leto": 2011
   },
   {
-    "rank": 18,
+    "rank": 19,
     "id": -142011,
     "datum": "2007-08-21",
     "cena": 2000000,
@@ -232,19 +245,6 @@
     "obcina": "BLED",
     "naslov": "RIBENSKA CESTA 1A, BLED",
     "leto": 2007
-  },
-  {
-    "rank": 19,
-    "id": -229242,
-    "datum": "2008-05-19",
-    "cena": 2000000,
-    "tip": 1,
-    "tipNaziv": "Stanovanjska hiša",
-    "povrsina": 195,
-    "cenaNaM2": 10256,
-    "obcina": "LJUBLJANA",
-    "naslov": "TIVOLSKA CESTA 13, LJUBLJANA",
-    "leto": 2008
   },
   {
     "rank": 20,
@@ -339,16 +339,16 @@
   },
   {
     "rank": 27,
-    "id": 662898,
-    "datum": "2022-06-20",
-    "cena": 1760368,
+    "id": 967668,
+    "datum": "2025-09-19",
+    "cena": 1748020,
     "tip": 1,
     "tipNaziv": "Stanovanjska hiša",
-    "povrsina": 267,
-    "cenaNaM2": 6593,
-    "obcina": "ŠENČUR",
-    "naslov": "SREDNJA VAS PRI ŠENČURJU 102",
-    "leto": 2022
+    "povrsina": 378,
+    "cenaNaM2": 4624,
+    "obcina": "MENGEŠ",
+    "naslov": "GORENJSKA CESTA 13b, MENGEŠ",
+    "leto": 2025
   },
   {
     "rank": 28,
@@ -370,19 +370,6 @@
     "cena": 1700000,
     "tip": 1,
     "tipNaziv": "Stanovanjska hiša",
-    "povrsina": 140.9,
-    "cenaNaM2": 12065,
-    "obcina": "RADOVLJICA",
-    "naslov": "ALPSKA CESTA 98, LESCE",
-    "leto": 2009
-  },
-  {
-    "rank": 30,
-    "id": -475465,
-    "datum": "2009-11-30",
-    "cena": 1700000,
-    "tip": 1,
-    "tipNaziv": "Stanovanjska hiša",
     "povrsina": 278.6,
     "cenaNaM2": 6102,
     "obcina": "BLED",
@@ -390,7 +377,7 @@
     "leto": 2009
   },
   {
-    "rank": 31,
+    "rank": 30,
     "id": -475465,
     "datum": "2009-11-30",
     "cena": 1700000,
@@ -403,7 +390,7 @@
     "leto": 2009
   },
   {
-    "rank": 32,
+    "rank": 31,
     "id": -436883,
     "datum": "2009-02-11",
     "cena": 1647358,
@@ -416,7 +403,7 @@
     "leto": 2009
   },
   {
-    "rank": 33,
+    "rank": 32,
     "id": -481694,
     "datum": "2010-03-02",
     "cena": 1643612,
@@ -427,6 +414,19 @@
     "obcina": "LJUBLJANA",
     "naslov": "DRAVLJE",
     "leto": 2010
+  },
+  {
+    "rank": 33,
+    "id": 973194,
+    "datum": "2025-10-25",
+    "cena": 1560000,
+    "tip": 1,
+    "tipNaziv": "Stanovanjska hiša",
+    "povrsina": 234.6,
+    "cenaNaM2": 6650,
+    "obcina": "PIRAN",
+    "naslov": "ULICA IVANA REGENTA 9, PIRAN",
+    "leto": 2025
   },
   {
     "rank": 34,
@@ -482,32 +482,6 @@
   },
   {
     "rank": 38,
-    "id": -468158,
-    "datum": "2009-09-25",
-    "cena": 1500000,
-    "tip": 1,
-    "tipNaziv": "Stanovanjska hiša",
-    "povrsina": 138,
-    "cenaNaM2": 10870,
-    "obcina": "KOPER",
-    "naslov": "KROŽNA CESTA 47, KOPER",
-    "leto": 2009
-  },
-  {
-    "rank": 39,
-    "id": -556081,
-    "datum": "2011-06-04",
-    "cena": 1500000,
-    "tip": 1,
-    "tipNaziv": "Stanovanjska hiša",
-    "povrsina": 157,
-    "cenaNaM2": 9554,
-    "obcina": "PESNICA",
-    "naslov": "SPODNJI JAKOBSKI DOL 36",
-    "leto": 2011
-  },
-  {
-    "rank": 40,
     "id": -627213,
     "datum": "2013-01-30",
     "cena": 1500000,
@@ -520,85 +494,33 @@
     "leto": 2013
   },
   {
-    "rank": 41,
-    "id": 435353,
-    "datum": "2019-05-17",
+    "rank": 39,
+    "id": 971208,
+    "datum": "2025-10-18",
     "cena": 1500000,
     "tip": 1,
     "tipNaziv": "Stanovanjska hiša",
-    "povrsina": 396,
-    "cenaNaM2": 3788,
+    "povrsina": 279.2,
+    "cenaNaM2": 5372,
     "obcina": "LJUBLJANA",
-    "naslov": "CESTA 27. APRILA 15, LJUBLJANA",
-    "leto": 2019
+    "naslov": "POLJE 361, LJUBLJANA",
+    "leto": 2025
   },
   {
-    "rank": 42,
-    "id": 386094,
-    "datum": "2018-06-04",
-    "cena": 1496979,
+    "rank": 40,
+    "id": 974738,
+    "datum": "2025-12-15",
+    "cena": 1464000,
     "tip": 1,
     "tipNaziv": "Stanovanjska hiša",
-    "povrsina": 293,
-    "cenaNaM2": 5109,
-    "obcina": "PIRAN",
-    "naslov": "OBALA 71, PORTOROŽ",
-    "leto": 2018
+    "povrsina": 128.2,
+    "cenaNaM2": 11420,
+    "obcina": "LJUBLJANA",
+    "naslov": "MALA VAS 21e, LJUBLJANA",
+    "leto": 2025
   },
   {
-    "rank": 43,
-    "id": -57163,
-    "datum": "2007-11-02",
-    "cena": 1400000,
-    "tip": 1,
-    "tipNaziv": "Stanovanjska hiša",
-    "povrsina": 257,
-    "cenaNaM2": 5447,
-    "obcina": "BLED",
-    "naslov": "ČRTOMIROVA 4",
-    "leto": 2007
-  },
-  {
-    "rank": 44,
-    "id": -57497,
-    "datum": "2007-11-02",
-    "cena": 1400000,
-    "tip": 1,
-    "tipNaziv": "Stanovanjska hiša",
-    "povrsina": 500,
-    "cenaNaM2": 2800,
-    "obcina": "BLED",
-    "naslov": "Črtomirova  4, Bled",
-    "leto": 2007
-  },
-  {
-    "rank": 45,
-    "id": -57497,
-    "datum": "2007-11-02",
-    "cena": 1400000,
-    "tip": 1,
-    "tipNaziv": "Stanovanjska hiša",
-    "povrsina": 500,
-    "cenaNaM2": 2800,
-    "obcina": "BLED",
-    "naslov": "ČRTOMIROVA  4, BLED",
-    "leto": 2007
-  },
-  {
-    "rank": 46,
-    "id": -148822,
-    "datum": "2007-11-02",
-    "cena": 1400000,
-    "tip": 1,
-    "tipNaziv": "Stanovanjska hiša",
-    "povrsina": 257,
-    "cenaNaM2": 5447,
-    "obcina": "BLED",
-    "naslov": "ČRTOMIROVA ULICA 4, BLED",
-    "leto": 2007
-  },
-  {
-    "rank": 47,
+    "rank": 41,
     "id": -477913,
     "datum": "2007-11-27",
     "cena": 1400000,
@@ -611,7 +533,72 @@
     "leto": 2007
   },
   {
-    "rank": 48,
+    "rank": 42,
+    "id": -57163,
+    "datum": "2007-11-02",
+    "cena": 1400000,
+    "tip": 1,
+    "tipNaziv": "Stanovanjska hiša",
+    "povrsina": 257,
+    "cenaNaM2": 5447,
+    "obcina": "BLED",
+    "naslov": "ČRTOMIROVA 4",
+    "leto": 2007
+  },
+  {
+    "rank": 43,
+    "id": -57497,
+    "datum": "2007-11-02",
+    "cena": 1400000,
+    "tip": 1,
+    "tipNaziv": "Stanovanjska hiša",
+    "povrsina": 500,
+    "cenaNaM2": 2800,
+    "obcina": "BLED",
+    "naslov": "ČRTOMIROVA  4, BLED",
+    "leto": 2007
+  },
+  {
+    "rank": 44,
+    "id": -148822,
+    "datum": "2007-11-02",
+    "cena": 1400000,
+    "tip": 1,
+    "tipNaziv": "Stanovanjska hiša",
+    "povrsina": 257,
+    "cenaNaM2": 5447,
+    "obcina": "BLED",
+    "naslov": "ČRTOMIROVA ULICA 4, BLED",
+    "leto": 2007
+  },
+  {
+    "rank": 45,
+    "id": 973398,
+    "datum": "2025-11-08",
+    "cena": 1400000,
+    "tip": 1,
+    "tipNaziv": "Stanovanjska hiša",
+    "povrsina": 314.5,
+    "cenaNaM2": 4452,
+    "obcina": "LJUBLJANA",
+    "naslov": "MARJEKOVA POT 2, LJUBLJANA",
+    "leto": 2025
+  },
+  {
+    "rank": 46,
+    "id": 975373,
+    "datum": "2025-09-26",
+    "cena": 1400000,
+    "tip": 1,
+    "tipNaziv": "Stanovanjska hiša",
+    "povrsina": 424.2,
+    "cenaNaM2": 3300,
+    "obcina": "MARIBOR",
+    "naslov": "VINARJE",
+    "leto": 2025
+  },
+  {
+    "rank": 47,
     "id": 415346,
     "datum": "2018-12-24",
     "cena": 1360000,
@@ -624,7 +611,7 @@
     "leto": 2018
   },
   {
-    "rank": 49,
+    "rank": 48,
     "id": -158882,
     "datum": "2007-06-18",
     "cena": 1350000,
@@ -637,7 +624,7 @@
     "leto": 2007
   },
   {
-    "rank": 50,
+    "rank": 49,
     "id": -158882,
     "datum": "2007-06-18",
     "cena": 1350000,
@@ -650,7 +637,7 @@
     "leto": 2007
   },
   {
-    "rank": 51,
+    "rank": 50,
     "id": 20400,
     "datum": "2013-09-25",
     "cena": 1350000,
@@ -663,7 +650,7 @@
     "leto": 2013
   },
   {
-    "rank": 52,
+    "rank": 51,
     "id": 331224,
     "datum": "2017-06-06",
     "cena": 1350000,
@@ -676,72 +663,33 @@
     "leto": 2017
   },
   {
-    "rank": 53,
-    "id": 895983,
-    "datum": "2024-12-17",
+    "rank": 52,
+    "id": 908603,
+    "datum": "2025-04-23",
     "cena": 1350000,
     "tip": 1,
     "tipNaziv": "Stanovanjska hiša",
-    "povrsina": 351,
-    "cenaNaM2": 3846,
-    "obcina": "IVANČNA GORICA",
-    "naslov": "VIR PRI STIČNI",
-    "leto": 2024
-  },
-  {
-    "rank": 54,
-    "id": 898493,
-    "datum": "2025-01-16",
-    "cena": 1350000,
-    "tip": 1,
-    "tipNaziv": "Stanovanjska hiša",
-    "povrsina": 243.8,
-    "cenaNaM2": 5537,
-    "obcina": "VOJNIK",
-    "naslov": "RAKOVA STEZA",
+    "povrsina": 503.3,
+    "cenaNaM2": 2682,
+    "obcina": "LJUBLJANA",
+    "naslov": "ULICA ZORE RAGANCINOVE 1a, LJUBLJANA",
     "leto": 2025
   },
   {
-    "rank": 55,
-    "id": -582698,
-    "datum": "2011-11-30",
-    "cena": 1326548,
+    "rank": 53,
+    "id": 960321,
+    "datum": "2025-07-03",
+    "cena": 1325000,
     "tip": 1,
     "tipNaziv": "Stanovanjska hiša",
-    "povrsina": 680,
-    "cenaNaM2": 1951,
-    "obcina": "POSTOJNA",
-    "naslov": "POT K PIVKI 5, POSTOJNA",
-    "leto": 2011
+    "povrsina": 358.1,
+    "cenaNaM2": 3700,
+    "obcina": "KOPER",
+    "naslov": "DOLGA REBER 31f, KOPER",
+    "leto": 2025
   },
   {
-    "rank": 56,
-    "id": -582698,
-    "datum": "2011-11-30",
-    "cena": 1326548,
-    "tip": 1,
-    "tipNaziv": "Stanovanjska hiša",
-    "povrsina": 680,
-    "cenaNaM2": 1951,
-    "obcina": "POSTOJNA",
-    "naslov": "POT K PIVKI 5, POSTOJNA",
-    "leto": 2011
-  },
-  {
-    "rank": 57,
-    "id": -582698,
-    "datum": "2011-11-30",
-    "cena": 1326548,
-    "tip": 1,
-    "tipNaziv": "Stanovanjska hiša",
-    "povrsina": 1150,
-    "cenaNaM2": 1154,
-    "obcina": "POSTOJNA",
-    "naslov": "POT K PIVKI 5, POSTOJNA",
-    "leto": 2011
-  },
-  {
-    "rank": 58,
+    "rank": 54,
     "id": 140988,
     "datum": "2013-09-14",
     "cena": 1317390,
@@ -754,7 +702,7 @@
     "leto": 2013
   },
   {
-    "rank": 59,
+    "rank": 55,
     "id": -159293,
     "datum": "2007-08-29",
     "cena": 1300000,
@@ -767,7 +715,7 @@
     "leto": 2007
   },
   {
-    "rank": 60,
+    "rank": 56,
     "id": -159293,
     "datum": "2007-08-29",
     "cena": 1300000,
@@ -780,20 +728,7 @@
     "leto": 2007
   },
   {
-    "rank": 61,
-    "id": -182339,
-    "datum": "2008-03-26",
-    "cena": 1300000,
-    "tip": 1,
-    "tipNaziv": "Stanovanjska hiša",
-    "povrsina": 221,
-    "cenaNaM2": 5882,
-    "obcina": "LJUBLJANA",
-    "naslov": "Janševa ulica 16B, Ljubljana",
-    "leto": 2008
-  },
-  {
-    "rank": 62,
+    "rank": 57,
     "id": -147115,
     "datum": "2007-08-10",
     "cena": 1300000,
@@ -806,7 +741,7 @@
     "leto": 2007
   },
   {
-    "rank": 63,
+    "rank": 58,
     "id": -151989,
     "datum": "2007-05-23",
     "cena": 1300000,
@@ -819,7 +754,20 @@
     "leto": 2007
   },
   {
-    "rank": 64,
+    "rank": 59,
+    "id": -182339,
+    "datum": "2008-03-26",
+    "cena": 1300000,
+    "tip": 1,
+    "tipNaziv": "Stanovanjska hiša",
+    "povrsina": 221,
+    "cenaNaM2": 5882,
+    "obcina": "LJUBLJANA",
+    "naslov": "Janševa ulica 16B, Ljubljana",
+    "leto": 2008
+  },
+  {
+    "rank": 60,
     "id": -565273,
     "datum": "2011-08-31",
     "cena": 1300000,
@@ -832,20 +780,7 @@
     "leto": 2011
   },
   {
-    "rank": 65,
-    "id": -565273,
-    "datum": "2011-08-31",
-    "cena": 1300000,
-    "tip": 1,
-    "tipNaziv": "Stanovanjska hiša",
-    "povrsina": 98.7,
-    "cenaNaM2": 13171,
-    "obcina": "LJUBLJANA",
-    "naslov": "CESTA 27. APRILA 49, LJUBLJANA",
-    "leto": 2011
-  },
-  {
-    "rank": 66,
+    "rank": 61,
     "id": -560483,
     "datum": "2011-08-31",
     "cena": 1300000,
@@ -858,7 +793,7 @@
     "leto": 2011
   },
   {
-    "rank": 67,
+    "rank": 62,
     "id": -560483,
     "datum": "2011-08-31",
     "cena": 1300000,
@@ -871,7 +806,7 @@
     "leto": 2011
   },
   {
-    "rank": 68,
+    "rank": 63,
     "id": -651159,
     "datum": "2013-05-15",
     "cena": 1300000,
@@ -884,7 +819,7 @@
     "leto": 2013
   },
   {
-    "rank": 69,
+    "rank": 64,
     "id": -651159,
     "datum": "2013-05-15",
     "cena": 1300000,
@@ -897,7 +832,7 @@
     "leto": 2013
   },
   {
-    "rank": 70,
+    "rank": 65,
     "id": -508138,
     "datum": "2010-08-26",
     "cena": 1290000,
@@ -910,46 +845,7 @@
     "leto": 2010
   },
   {
-    "rank": 71,
-    "id": -508138,
-    "datum": "2010-08-26",
-    "cena": 1290000,
-    "tip": 1,
-    "tipNaziv": "Stanovanjska hiša",
-    "povrsina": 106.3,
-    "cenaNaM2": 12135,
-    "obcina": "MARIBOR",
-    "naslov": "NA GRIČU 25, MARIBOR",
-    "leto": 2010
-  },
-  {
-    "rank": 72,
-    "id": -508138,
-    "datum": "2010-08-26",
-    "cena": 1290000,
-    "tip": 1,
-    "tipNaziv": "Stanovanjska hiša",
-    "povrsina": 343.2,
-    "cenaNaM2": 3759,
-    "obcina": "MARIBOR",
-    "naslov": "NA GRIČU 25, MARIBOR",
-    "leto": 2010
-  },
-  {
-    "rank": 73,
-    "id": -508138,
-    "datum": "2010-08-26",
-    "cena": 1290000,
-    "tip": 1,
-    "tipNaziv": "Stanovanjska hiša",
-    "povrsina": 109.6,
-    "cenaNaM2": 11770,
-    "obcina": "MARIBOR",
-    "naslov": "NA GRIČU 25, MARIBOR",
-    "leto": 2010
-  },
-  {
-    "rank": 74,
+    "rank": 66,
     "id": -460640,
     "datum": "2008-03-26",
     "cena": 1284000,
@@ -962,7 +858,7 @@
     "leto": 2008
   },
   {
-    "rank": 75,
+    "rank": 67,
     "id": 822124,
     "datum": "2024-04-10",
     "cena": 1274000,
@@ -975,7 +871,7 @@
     "leto": 2024
   },
   {
-    "rank": 76,
+    "rank": 68,
     "id": 267286,
     "datum": "2016-05-19",
     "cena": 1270000,
@@ -988,33 +884,7 @@
     "leto": 2016
   },
   {
-    "rank": 77,
-    "id": -515976,
-    "datum": "2010-11-15",
-    "cena": 1240000,
-    "tip": 1,
-    "tipNaziv": "Stanovanjska hiša",
-    "povrsina": 440.1,
-    "cenaNaM2": 2818,
-    "obcina": "MARIBOR",
-    "naslov": "AŠKERČEVA ULICA 1, MARIBOR",
-    "leto": 2010
-  },
-  {
-    "rank": 78,
-    "id": 882664,
-    "datum": "2024-08-30",
-    "cena": 1205500,
-    "tip": 1,
-    "tipNaziv": "Stanovanjska hiša",
-    "povrsina": 325.5,
-    "cenaNaM2": 3704,
-    "obcina": "LJUBLJANA",
-    "naslov": "JEZERSKA ULICA 1, LJUBLJANA",
-    "leto": 2024
-  },
-  {
-    "rank": 79,
+    "rank": 69,
     "id": -142899,
     "datum": "2007-09-10",
     "cena": 1200000,
@@ -1027,7 +897,7 @@
     "leto": 2007
   },
   {
-    "rank": 80,
+    "rank": 70,
     "id": -142560,
     "datum": "2007-07-22",
     "cena": 1200000,
@@ -1040,7 +910,7 @@
     "leto": 2007
   },
   {
-    "rank": 81,
+    "rank": 71,
     "id": -437638,
     "datum": "2009-02-11",
     "cena": 1200000,
@@ -1053,7 +923,7 @@
     "leto": 2009
   },
   {
-    "rank": 82,
+    "rank": 72,
     "id": -437638,
     "datum": "2009-02-11",
     "cena": 1200000,
@@ -1066,7 +936,7 @@
     "leto": 2009
   },
   {
-    "rank": 83,
+    "rank": 73,
     "id": -437638,
     "datum": "2009-02-11",
     "cena": 1200000,
@@ -1079,7 +949,7 @@
     "leto": 2009
   },
   {
-    "rank": 84,
+    "rank": 74,
     "id": -437638,
     "datum": "2009-02-11",
     "cena": 1200000,
@@ -1092,7 +962,7 @@
     "leto": 2009
   },
   {
-    "rank": 85,
+    "rank": 75,
     "id": -437638,
     "datum": "2009-02-11",
     "cena": 1200000,
@@ -1105,33 +975,7 @@
     "leto": 2009
   },
   {
-    "rank": 86,
-    "id": -437638,
-    "datum": "2009-02-11",
-    "cena": 1200000,
-    "tip": 1,
-    "tipNaziv": "Stanovanjska hiša",
-    "povrsina": 211.9,
-    "cenaNaM2": 5664,
-    "obcina": "MURSKA SOBOTA",
-    "naslov": "OBRTNA ULICA 39, MURSKA SOBOTA",
-    "leto": 2009
-  },
-  {
-    "rank": 87,
-    "id": -437638,
-    "datum": "2009-02-11",
-    "cena": 1200000,
-    "tip": 1,
-    "tipNaziv": "Stanovanjska hiša",
-    "povrsina": 225.6,
-    "cenaNaM2": 5320,
-    "obcina": "MURSKA SOBOTA",
-    "naslov": "OBRTNA ULICA 39, MURSKA SOBOTA",
-    "leto": 2009
-  },
-  {
-    "rank": 88,
+    "rank": 76,
     "id": -437638,
     "datum": "2009-02-11",
     "cena": 1200000,
@@ -1144,7 +988,7 @@
     "leto": 2009
   },
   {
-    "rank": 89,
+    "rank": 77,
     "id": -437638,
     "datum": "2009-02-11",
     "cena": 1200000,
@@ -1157,7 +1001,7 @@
     "leto": 2009
   },
   {
-    "rank": 90,
+    "rank": 78,
     "id": -437638,
     "datum": "2009-02-11",
     "cena": 1200000,
@@ -1170,20 +1014,7 @@
     "leto": 2009
   },
   {
-    "rank": 91,
-    "id": -468219,
-    "datum": "2009-09-25",
-    "cena": 1200000,
-    "tip": 1,
-    "tipNaziv": "Stanovanjska hiša",
-    "povrsina": 613,
-    "cenaNaM2": 1958,
-    "obcina": "BLED",
-    "naslov": "CESTA GORENJSKEGA ODREDA 3, BLED",
-    "leto": 2009
-  },
-  {
-    "rank": 92,
+    "rank": 79,
     "id": 486373,
     "datum": "2019-12-30",
     "cena": 1200000,
@@ -1196,7 +1027,72 @@
     "leto": 2019
   },
   {
-    "rank": 93,
+    "rank": 80,
+    "id": 974079,
+    "datum": "2025-11-18",
+    "cena": 1200000,
+    "tip": 1,
+    "tipNaziv": "Stanovanjska hiša",
+    "povrsina": 257.8,
+    "cenaNaM2": 4655,
+    "obcina": "LJUBLJANA",
+    "naslov": "ULICA JOŽETA MIRTIČA 33, LJUBLJANA",
+    "leto": 2025
+  },
+  {
+    "rank": 81,
+    "id": 973916,
+    "datum": "2025-11-14",
+    "cena": 1200000,
+    "tip": 1,
+    "tipNaziv": "Stanovanjska hiša",
+    "povrsina": 758,
+    "cenaNaM2": 1583,
+    "obcina": "LJUBLJANA",
+    "naslov": "JEŽICA 9, LJUBLJANA",
+    "leto": 2025
+  },
+  {
+    "rank": 82,
+    "id": 908589,
+    "datum": "2025-04-25",
+    "cena": 1200000,
+    "tip": 1,
+    "tipNaziv": "Stanovanjska hiša",
+    "povrsina": 185.1,
+    "cenaNaM2": 6483,
+    "obcina": "LJUBLJANA",
+    "naslov": "ROŽNA DOLINA, CESTA XV 4a, LJUBLJANA",
+    "leto": 2025
+  },
+  {
+    "rank": 83,
+    "id": 957186,
+    "datum": "2025-03-11",
+    "cena": 1200000,
+    "tip": 1,
+    "tipNaziv": "Stanovanjska hiša",
+    "povrsina": 391,
+    "cenaNaM2": 3069,
+    "obcina": "LJUBLJANA",
+    "naslov": "HAUPTMANCA 58, LJUBLJANA",
+    "leto": 2025
+  },
+  {
+    "rank": 84,
+    "id": 960988,
+    "datum": "2025-07-18",
+    "cena": 1189020,
+    "tip": 1,
+    "tipNaziv": "Stanovanjska hiša",
+    "povrsina": 320.9,
+    "cenaNaM2": 3705,
+    "obcina": "KOPER",
+    "naslov": "CESTA IVANA STARCA 40a, PRADE",
+    "leto": 2025
+  },
+  {
+    "rank": 85,
     "id": -139643,
     "datum": "2007-06-18",
     "cena": 1160000,
@@ -1209,33 +1105,7 @@
     "leto": 2007
   },
   {
-    "rank": 94,
-    "id": -229251,
-    "datum": "2008-06-06",
-    "cena": 1155000,
-    "tip": 1,
-    "tipNaziv": "Stanovanjska hiša",
-    "povrsina": 209.6,
-    "cenaNaM2": 5511,
-    "obcina": "LJUBLJANA",
-    "naslov": "TOBAČNA ULICA 14, LJUBLJANA",
-    "leto": 2008
-  },
-  {
-    "rank": 95,
-    "id": -229251,
-    "datum": "2008-06-06",
-    "cena": 1155000,
-    "tip": 1,
-    "tipNaziv": "Stanovanjska hiša",
-    "povrsina": 198.1,
-    "cenaNaM2": 5832,
-    "obcina": "LJUBLJANA",
-    "naslov": "TOBAČNA ULICA 14, LJUBLJANA",
-    "leto": 2008
-  },
-  {
-    "rank": 96,
+    "rank": 86,
     "id": -229251,
     "datum": "2008-06-06",
     "cena": 1155000,
@@ -1248,7 +1118,33 @@
     "leto": 2008
   },
   {
-    "rank": 97,
+    "rank": 87,
+    "id": -229251,
+    "datum": "2008-06-06",
+    "cena": 1155000,
+    "tip": 1,
+    "tipNaziv": "Stanovanjska hiša",
+    "povrsina": 209.6,
+    "cenaNaM2": 5511,
+    "obcina": "LJUBLJANA",
+    "naslov": "TOBAČNA ULICA 14, LJUBLJANA",
+    "leto": 2008
+  },
+  {
+    "rank": 88,
+    "id": -229251,
+    "datum": "2008-06-06",
+    "cena": 1155000,
+    "tip": 1,
+    "tipNaziv": "Stanovanjska hiša",
+    "povrsina": 198.1,
+    "cenaNaM2": 5832,
+    "obcina": "LJUBLJANA",
+    "naslov": "TOBAČNA ULICA 14, LJUBLJANA",
+    "leto": 2008
+  },
+  {
+    "rank": 89,
     "id": -148363,
     "datum": "2007-10-05",
     "cena": 1150000,
@@ -1261,7 +1157,7 @@
     "leto": 2007
   },
   {
-    "rank": 98,
+    "rank": 90,
     "id": -148363,
     "datum": "2007-10-05",
     "cena": 1150000,
@@ -1274,20 +1170,7 @@
     "leto": 2007
   },
   {
-    "rank": 99,
-    "id": 896201,
-    "datum": "2025-01-03",
-    "cena": 1139000,
-    "tip": 1,
-    "tipNaziv": "Stanovanjska hiša",
-    "povrsina": 371.8,
-    "cenaNaM2": 3063,
-    "obcina": "LJUBLJANA",
-    "naslov": "IŽANSKA CESTA 93, LJUBLJANA",
-    "leto": 2025
-  },
-  {
-    "rank": 100,
+    "rank": 91,
     "id": -446156,
     "datum": "2009-03-12",
     "cena": 1121256,
@@ -1298,5 +1181,122 @@
     "obcina": "MURSKA SOBOTA",
     "naslov": "MURSKA SOBOTA",
     "leto": 2009
+  },
+  {
+    "rank": 92,
+    "id": -446156,
+    "datum": "2009-03-12",
+    "cena": 1121256,
+    "tip": 1,
+    "tipNaziv": "Stanovanjska hiša",
+    "povrsina": 68.2,
+    "cenaNaM2": 16433,
+    "obcina": "MURSKA SOBOTA",
+    "naslov": "MURSKA SOBOTA",
+    "leto": 2009
+  },
+  {
+    "rank": 93,
+    "id": -446156,
+    "datum": "2009-03-12",
+    "cena": 1121256,
+    "tip": 1,
+    "tipNaziv": "Stanovanjska hiša",
+    "povrsina": 66.6,
+    "cenaNaM2": 16843,
+    "obcina": "MURSKA SOBOTA",
+    "naslov": "MURSKA SOBOTA",
+    "leto": 2009
+  },
+  {
+    "rank": 94,
+    "id": -446156,
+    "datum": "2009-03-12",
+    "cena": 1121256,
+    "tip": 1,
+    "tipNaziv": "Stanovanjska hiša",
+    "povrsina": 95.6,
+    "cenaNaM2": 11726,
+    "obcina": "MURSKA SOBOTA",
+    "naslov": "MURSKA SOBOTA",
+    "leto": 2009
+  },
+  {
+    "rank": 95,
+    "id": -446156,
+    "datum": "2009-03-12",
+    "cena": 1121256,
+    "tip": 1,
+    "tipNaziv": "Stanovanjska hiša",
+    "povrsina": 93.8,
+    "cenaNaM2": 11959,
+    "obcina": "MURSKA SOBOTA",
+    "naslov": "MURSKA SOBOTA",
+    "leto": 2009
+  },
+  {
+    "rank": 96,
+    "id": -133058,
+    "datum": "2007-01-30",
+    "cena": 1120000,
+    "tip": 1,
+    "tipNaziv": "Stanovanjska hiša",
+    "povrsina": 400,
+    "cenaNaM2": 2800,
+    "obcina": "LJUBLJANA",
+    "naslov": "STRNIŠEVA 25, BEŽIGRAD",
+    "leto": 2007
+  },
+  {
+    "rank": 97,
+    "id": -485024,
+    "datum": "2009-11-28",
+    "cena": 1100500,
+    "tip": 1,
+    "tipNaziv": "Stanovanjska hiša",
+    "povrsina": 361.8,
+    "cenaNaM2": 3042,
+    "obcina": "CERKLJE NA GORENJSKEM",
+    "naslov": "VOPOVLJE 5A",
+    "leto": 2009
+  },
+  {
+    "rank": 98,
+    "id": -380524,
+    "datum": "2008-04-17",
+    "cena": 1100000,
+    "tip": 1,
+    "tipNaziv": "Stanovanjska hiša",
+    "povrsina": 466,
+    "cenaNaM2": 2361,
+    "obcina": "KRANJSKA GORA",
+    "naslov": "BOROVŠKA CESTA 86, KRANJSKA GORA",
+    "leto": 2008
+  },
+  {
+    "rank": 99,
+    "id": -546048,
+    "datum": "2011-04-04",
+    "cena": 1100000,
+    "tip": 1,
+    "tipNaziv": "Stanovanjska hiša",
+    "povrsina": 114.2,
+    "cenaNaM2": 9632,
+    "obcina": "PIRAN",
+    "naslov": "OBALA 13, PORTOROŽ",
+    "leto": 2011
+  },
+  {
+    "rank": 100,
+    "id": -546048,
+    "datum": "2011-04-04",
+    "cena": 1100000,
+    "tip": 1,
+    "tipNaziv": "Stanovanjska hiša",
+    "povrsina": 65.4,
+    "cenaNaM2": 16820,
+    "obcina": "PIRAN",
+    "naslov": "OBALA 13, PORTOROŽ",
+    "leto": 2011
   }
 ]

@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useMemo } from 'react';
 import dynamic from 'next/dynamic';
+import Link from 'next/link';
 import { Building, Home, MapPin, TrendingUp, Calendar, Ruler, Loader2 } from 'lucide-react';
 import { Transaction } from '@/types/transaction';
 import { formatPrice, formatPricePerM2, formatArea, formatDateShort } from '@/lib/format';
@@ -58,7 +59,10 @@ export default function LocationAnalysis({ lat, lon, address }: LocationAnalysis
   const [radius, setRadius] = useState(1000);
   const [transactions, setTransactions] = useState<Transaction[]>([]);
   const [isLoading, setIsLoading] = useState(true);
-  const [yearsToLoad] = useState([2025, 2024, 2023, 2022, 2021]);
+  const [yearsToLoad] = useState([
+    2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016,
+    2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007
+  ]);
 
   // Load transactions from recent years
   useEffect(() => {
@@ -281,6 +285,7 @@ export default function LocationAnalysis({ lat, lon, address }: LocationAnalysis
                       <th className="px-4 py-3 text-right text-sm font-medium text-gray-500">
                         Razdalja
                       </th>
+                      <th className="px-4 py-3 text-center text-sm font-medium text-gray-500"></th>
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-gray-100">
@@ -324,6 +329,14 @@ export default function LocationAnalysis({ lat, lon, address }: LocationAnalysis
                             ? `${Math.round(tx.distance)} m`
                             : `${(tx.distance / 1000).toFixed(1)} km`}
                         </td>
+                        <td className="px-4 py-3 text-center">
+                          <Link
+                            href={`/zemljevid/${tx.id}`}
+                            className="inline-flex items-center gap-1 text-emerald-600 hover:text-emerald-700 text-sm"
+                          >
+                            <MapPin className="w-4 h-4" />
+                          </Link>
+                        </td>
                       </tr>
                     ))}
                   </tbody>
@@ -337,7 +350,7 @@ export default function LocationAnalysis({ lat, lon, address }: LocationAnalysis
             <h3 className="text-lg font-bold text-gray-900 mb-2">O analizi</h3>
             <p className="text-gray-600 text-sm">
               Analiza temelji na {stats.total} transakcijah v polmeru {radius / 1000} km od
-              izbrane lokacije v zadnjih 5 letih (2021-2025). Prikazana je mediana cene na m²,
+              izbrane lokacije od leta 2007 do 2025. Prikazana je mediana cene na m²,
               ki je bolj reprezentativna od povprečja, saj ni občutljiva na ekstremne vrednosti.
             </p>
           </div>

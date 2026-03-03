@@ -40,32 +40,6 @@
   },
   {
     "rank": 4,
-    "id": 408562,
-    "datum": "2018-12-17",
-    "cena": 2948000,
-    "tip": 2,
-    "tipNaziv": "Stanovanje",
-    "povrsina": 204,
-    "cenaNaM2": 14451,
-    "obcina": "LJUBLJANA",
-    "naslov": "GORNJI TRG 5, LJUBLJANA",
-    "leto": 2018
-  },
-  {
-    "rank": 5,
-    "id": -333649,
-    "datum": "2008-04-07",
-    "cena": 2867004,
-    "tip": 2,
-    "tipNaziv": "Stanovanje",
-    "povrsina": 179.9,
-    "cenaNaM2": 15938,
-    "obcina": "ŠENČUR",
-    "naslov": "ŠENČUR",
-    "leto": 2008
-  },
-  {
-    "rank": 6,
     "id": -226428,
     "datum": "2008-06-13",
     "cena": 2712780,
@@ -78,7 +52,7 @@
     "leto": 2008
   },
   {
-    "rank": 7,
+    "rank": 5,
     "id": 510889,
     "datum": "2020-08-28",
     "cena": 2500000,
@@ -91,7 +65,7 @@
     "leto": 2020
   },
   {
-    "rank": 8,
+    "rank": 6,
     "id": 813354,
     "datum": "2023-04-06",
     "cena": 2360000,
@@ -104,7 +78,7 @@
     "leto": 2023
   },
   {
-    "rank": 9,
+    "rank": 7,
     "id": 813351,
     "datum": "2020-11-27",
     "cena": 2261880,
@@ -117,7 +91,7 @@
     "leto": 2020
   },
   {
-    "rank": 10,
+    "rank": 8,
     "id": 816461,
     "datum": "2024-03-25",
     "cena": 2066124,
@@ -130,33 +104,7 @@
     "leto": 2024
   },
   {
-    "rank": 11,
-    "id": 427948,
-    "datum": "2017-08-24",
-    "cena": 2000000,
-    "tip": 2,
-    "tipNaziv": "Stanovanje",
-    "povrsina": 242,
-    "cenaNaM2": 8264,
-    "obcina": "",
-    "naslov": "KARLOVŠKO PREDMESTJE",
-    "leto": 2017
-  },
-  {
-    "rank": 12,
-    "id": 427948,
-    "datum": "2017-08-24",
-    "cena": 2000000,
-    "tip": 2,
-    "tipNaziv": "Stanovanje",
-    "povrsina": 407,
-    "cenaNaM2": 4914,
-    "obcina": "LJUBLJANA",
-    "naslov": "DOLENJSKA CESTA 136, LJUBLJANA",
-    "leto": 2017
-  },
-  {
-    "rank": 13,
+    "rank": 9,
     "id": 679491,
     "datum": "2022-11-25",
     "cena": 2000000,
@@ -169,7 +117,7 @@
     "leto": 2022
   },
   {
-    "rank": 14,
+    "rank": 10,
     "id": 816463,
     "datum": "2024-03-15",
     "cena": 2000000,
@@ -182,7 +130,7 @@
     "leto": 2024
   },
   {
-    "rank": 15,
+    "rank": 11,
     "id": 813692,
     "datum": "2021-09-16",
     "cena": 1987405,
@@ -195,7 +143,20 @@
     "leto": 2021
   },
   {
-    "rank": 16,
+    "rank": 12,
+    "id": 899020,
+    "datum": "2025-01-30",
+    "cena": 1900000,
+    "tip": 2,
+    "tipNaziv": "Stanovanje",
+    "povrsina": 176.7,
+    "cenaNaM2": 10753,
+    "obcina": "LJUBLJANA",
+    "naslov": "ŽUPANČIČEVA ULICA 17, LJUBLJANA",
+    "leto": 2025
+  },
+  {
+    "rank": 13,
     "id": 88051,
     "datum": "2013-10-21",
     "cena": 1801822,
@@ -208,7 +169,7 @@
     "leto": 2013
   },
   {
-    "rank": 17,
+    "rank": 14,
     "id": 88051,
     "datum": "2013-10-21",
     "cena": 1801822,
@@ -221,7 +182,7 @@
     "leto": 2013
   },
   {
-    "rank": 18,
+    "rank": 15,
     "id": 174487,
     "datum": "2014-10-09",
     "cena": 1800000,
@@ -234,7 +195,7 @@
     "leto": 2014
   },
   {
-    "rank": 19,
+    "rank": 16,
     "id": 480250,
     "datum": "2018-03-30",
     "cena": 1737230,
@@ -247,7 +208,7 @@
     "leto": 2018
   },
   {
-    "rank": 20,
+    "rank": 17,
     "id": 480250,
     "datum": "2018-03-30",
     "cena": 1737230,
@@ -260,7 +221,7 @@
     "leto": 2018
   },
   {
-    "rank": 21,
+    "rank": 18,
     "id": 480250,
     "datum": "2018-03-30",
     "cena": 1737230,
@@ -273,7 +234,7 @@
     "leto": 2018
   },
   {
-    "rank": 22,
+    "rank": 19,
     "id": 813672,
     "datum": "2021-04-23",
     "cena": 1693570,
@@ -286,7 +247,7 @@
     "leto": 2021
   },
   {
-    "rank": 23,
+    "rank": 20,
     "id": 753538,
     "datum": "2023-01-16",
     "cena": 1672722,
@@ -299,7 +260,7 @@
     "leto": 2023
   },
   {
-    "rank": 24,
+    "rank": 21,
     "id": 753538,
     "datum": "2023-01-16",
     "cena": 1672722,
@@ -312,7 +273,7 @@
     "leto": 2023
   },
   {
-    "rank": 25,
+    "rank": 22,
     "id": 813341,
     "datum": "2022-05-24",
     "cena": 1626337,
@@ -325,7 +286,7 @@
     "leto": 2022
   },
   {
-    "rank": 26,
+    "rank": 23,
     "id": 813578,
     "datum": "2022-03-14",
     "cena": 1580000,
@@ -338,7 +299,7 @@
     "leto": 2022
   },
   {
-    "rank": 27,
+    "rank": 24,
     "id": 813600,
     "datum": "2022-01-14",
     "cena": 1571424,
@@ -351,7 +312,7 @@
     "leto": 2022
   },
   {
-    "rank": 28,
+    "rank": 25,
     "id": 813401,
     "datum": "2023-03-29",
     "cena": 1570000,
@@ -364,7 +325,7 @@
     "leto": 2023
   },
   {
-    "rank": 29,
+    "rank": 26,
     "id": 813691,
     "datum": "2022-04-06",
     "cena": 1560800,
@@ -377,7 +338,7 @@
     "leto": 2022
   },
   {
-    "rank": 30,
+    "rank": 27,
     "id": 813754,
     "datum": "2022-01-21",
     "cena": 1520624,
@@ -390,7 +351,7 @@
     "leto": 2022
   },
   {
-    "rank": 31,
+    "rank": 28,
     "id": 813369,
     "datum": "2023-11-04",
     "cena": 1500000,
@@ -401,6 +362,45 @@
     "obcina": "LJUBLJANA",
     "naslov": "ŽUPANČIČEVA ULICA 17, LJUBLJANA",
     "leto": 2023
+  },
+  {
+    "rank": 29,
+    "id": 967228,
+    "datum": "2025-09-11",
+    "cena": 1500000,
+    "tip": 2,
+    "tipNaziv": "Stanovanje",
+    "povrsina": 93.1,
+    "cenaNaM2": 16112,
+    "obcina": "DOMŽALE",
+    "naslov": "LJUBLJANSKA CESTA 63, DOMŽALE",
+    "leto": 2025
+  },
+  {
+    "rank": 30,
+    "id": 967228,
+    "datum": "2025-09-11",
+    "cena": 1500000,
+    "tip": 2,
+    "tipNaziv": "Stanovanje",
+    "povrsina": 120.4,
+    "cenaNaM2": 12458,
+    "obcina": "DOMŽALE",
+    "naslov": "DOMŽALE",
+    "leto": 2025
+  },
+  {
+    "rank": 31,
+    "id": 967228,
+    "datum": "2025-09-11",
+    "cena": 1500000,
+    "tip": 2,
+    "tipNaziv": "Stanovanje",
+    "povrsina": 98.9,
+    "cenaNaM2": 15167,
+    "obcina": "DOMŽALE",
+    "naslov": "DOMŽALE",
+    "leto": 2025
   },
   {
     "rank": 32,
@@ -573,6 +573,32 @@
   },
   {
     "rank": 45,
+    "id": 902300,
+    "datum": "2025-02-21",
+    "cena": 1424000,
+    "tip": 2,
+    "tipNaziv": "Stanovanje",
+    "povrsina": 193.4,
+    "cenaNaM2": 7363,
+    "obcina": "KOBARID",
+    "naslov": "GREGORČIČEVA ULICA 6, KOBARID",
+    "leto": 2025
+  },
+  {
+    "rank": 46,
+    "id": 902300,
+    "datum": "2025-02-21",
+    "cena": 1424000,
+    "tip": 2,
+    "tipNaziv": "Stanovanje",
+    "povrsina": 72.9,
+    "cenaNaM2": 19534,
+    "obcina": "KOBARID",
+    "naslov": "GREGORČIČEVA ULICA 6, KOBARID",
+    "leto": 2025
+  },
+  {
+    "rank": 47,
     "id": 832260,
     "datum": "2024-09-06",
     "cena": 1397616,
@@ -585,7 +611,7 @@
     "leto": 2024
   },
   {
-    "rank": 46,
+    "rank": 48,
     "id": 821815,
     "datum": "2024-05-30",
     "cena": 1395852,
@@ -598,7 +624,7 @@
     "leto": 2024
   },
   {
-    "rank": 47,
+    "rank": 49,
     "id": 813695,
     "datum": "2021-11-16",
     "cena": 1385248,
@@ -611,7 +637,7 @@
     "leto": 2021
   },
   {
-    "rank": 48,
+    "rank": 50,
     "id": -531366,
     "datum": "2010-11-16",
     "cena": 1380000,
@@ -624,7 +650,7 @@
     "leto": 2010
   },
   {
-    "rank": 49,
+    "rank": 51,
     "id": 813323,
     "datum": "2022-03-03",
     "cena": 1380000,
@@ -637,7 +663,7 @@
     "leto": 2022
   },
   {
-    "rank": 50,
+    "rank": 52,
     "id": 813325,
     "datum": "2022-01-20",
     "cena": 1378600,
@@ -650,7 +676,7 @@
     "leto": 2022
   },
   {
-    "rank": 51,
+    "rank": 53,
     "id": 813590,
     "datum": "2023-12-05",
     "cena": 1374461,
@@ -663,7 +689,7 @@
     "leto": 2023
   },
   {
-    "rank": 52,
+    "rank": 54,
     "id": 456385,
     "datum": "2019-10-24",
     "cena": 1342242,
@@ -676,7 +702,7 @@
     "leto": 2019
   },
   {
-    "rank": 53,
+    "rank": 55,
     "id": -194076,
     "datum": "2008-03-21",
     "cena": 1341000,
@@ -689,7 +715,7 @@
     "leto": 2008
   },
   {
-    "rank": 54,
+    "rank": 56,
     "id": 813607,
     "datum": "2021-06-30",
     "cena": 1340000,
@@ -702,7 +728,7 @@
     "leto": 2021
   },
   {
-    "rank": 55,
+    "rank": 57,
     "id": -456022,
     "datum": "2009-07-10",
     "cena": 1319815,
@@ -715,7 +741,7 @@
     "leto": 2009
   },
   {
-    "rank": 56,
+    "rank": 58,
     "id": 813335,
     "datum": "2021-03-01",
     "cena": 1310525,
@@ -728,7 +754,20 @@
     "leto": 2021
   },
   {
-    "rank": 57,
+    "rank": 59,
+    "id": 907777,
+    "datum": "2022-07-20",
+    "cena": 1307834,
+    "tip": 2,
+    "tipNaziv": "Stanovanje",
+    "povrsina": 118.9,
+    "cenaNaM2": 10999,
+    "obcina": "LJUBLJANA",
+    "naslov": "CIMPERMANOVA ULICA 1, LJUBLJANA",
+    "leto": 2022
+  },
+  {
+    "rank": 60,
     "id": 813350,
     "datum": "2023-02-10",
     "cena": 1302532,
@@ -741,7 +780,7 @@
     "leto": 2023
   },
   {
-    "rank": 58,
+    "rank": 61,
     "id": 519863,
     "datum": "2020-11-09",
     "cena": 1300000,
@@ -754,7 +793,20 @@
     "leto": 2020
   },
   {
-    "rank": 59,
+    "rank": 62,
+    "id": 905919,
+    "datum": "2025-04-08",
+    "cena": 1300000,
+    "tip": 2,
+    "tipNaziv": "Stanovanje",
+    "povrsina": 213.4,
+    "cenaNaM2": 6092,
+    "obcina": "LJUBLJANA",
+    "naslov": "MIKLOŠIČEVA CESTA 7a, LJUBLJANA",
+    "leto": 2025
+  },
+  {
+    "rank": 63,
     "id": 899982,
     "datum": "2025-01-20",
     "cena": 1300000,
@@ -767,7 +819,7 @@
     "leto": 2025
   },
   {
-    "rank": 60,
+    "rank": 64,
     "id": 813954,
     "datum": "2024-03-06",
     "cena": 1281250,
@@ -780,7 +832,7 @@
     "leto": 2024
   },
   {
-    "rank": 61,
+    "rank": 65,
     "id": 813347,
     "datum": "2020-09-01",
     "cena": 1271484,
@@ -793,7 +845,7 @@
     "leto": 2020
   },
   {
-    "rank": 62,
+    "rank": 66,
     "id": 830136,
     "datum": "2024-08-28",
     "cena": 1270000,
@@ -806,7 +858,7 @@
     "leto": 2024
   },
   {
-    "rank": 63,
+    "rank": 67,
     "id": 828555,
     "datum": "2024-07-01",
     "cena": 1225000,
@@ -819,20 +871,7 @@
     "leto": 2024
   },
   {
-    "rank": 64,
-    "id": -456728,
-    "datum": "2009-09-04",
-    "cena": 1224917,
-    "tip": 2,
-    "tipNaziv": "Stanovanje",
-    "povrsina": 122.5,
-    "cenaNaM2": 10000,
-    "obcina": "POSTOJNA",
-    "naslov": "PARK POD JAVORNIKI 4, POSTOJNA",
-    "leto": 2009
-  },
-  {
-    "rank": 65,
+    "rank": 68,
     "id": -525345,
     "datum": "2011-01-11",
     "cena": 1220000,
@@ -845,7 +884,7 @@
     "leto": 2011
   },
   {
-    "rank": 66,
+    "rank": 69,
     "id": 813751,
     "datum": "2020-07-28",
     "cena": 1190720,
@@ -858,7 +897,7 @@
     "leto": 2020
   },
   {
-    "rank": 67,
+    "rank": 70,
     "id": 813953,
     "datum": "2024-03-04",
     "cena": 1177386,
@@ -871,46 +910,20 @@
     "leto": 2024
   },
   {
-    "rank": 68,
-    "id": -598560,
-    "datum": "2012-04-25",
-    "cena": 1176028,
-    "tip": 2,
-    "tipNaziv": "Stanovanje",
-    "povrsina": 63,
-    "cenaNaM2": 18667,
-    "obcina": "LJUBLJANA",
-    "naslov": "ULICA KOROŠKEGA BATALJONA 16, LJUBLJANA",
-    "leto": 2012
-  },
-  {
-    "rank": 69,
-    "id": -598560,
-    "datum": "2012-04-25",
-    "cena": 1176028,
-    "tip": 2,
-    "tipNaziv": "Stanovanje",
-    "povrsina": 74.2,
-    "cenaNaM2": 15849,
-    "obcina": "LJUBLJANA",
-    "naslov": "ULICA KOROŠKEGA BATALJONA 8, LJUBLJANA",
-    "leto": 2012
-  },
-  {
-    "rank": 70,
-    "id": -598560,
-    "datum": "2012-04-25",
-    "cena": 1176028,
-    "tip": 2,
-    "tipNaziv": "Stanovanje",
-    "povrsina": 74.2,
-    "cenaNaM2": 15849,
-    "obcina": "LJUBLJANA",
-    "naslov": "ULICA KOROŠKEGA BATALJONA 8, LJUBLJANA",
-    "leto": 2012
-  },
-  {
     "rank": 71,
+    "id": -598560,
+    "datum": "2012-04-25",
+    "cena": 1176028,
+    "tip": 2,
+    "tipNaziv": "Stanovanje",
+    "povrsina": 74.2,
+    "cenaNaM2": 15849,
+    "obcina": "LJUBLJANA",
+    "naslov": "ULICA KOROŠKEGA BATALJONA 8, LJUBLJANA",
+    "leto": 2012
+  },
+  {
+    "rank": 72,
     "id": 631577,
     "datum": "2021-12-23",
     "cena": 1167600,
@@ -923,7 +936,7 @@
     "leto": 2021
   },
   {
-    "rank": 72,
+    "rank": 73,
     "id": 631577,
     "datum": "2021-12-23",
     "cena": 1167600,
@@ -936,7 +949,7 @@
     "leto": 2021
   },
   {
-    "rank": 73,
+    "rank": 74,
     "id": 631577,
     "datum": "2021-12-23",
     "cena": 1167600,
@@ -949,7 +962,7 @@
     "leto": 2021
   },
   {
-    "rank": 74,
+    "rank": 75,
     "id": 631577,
     "datum": "2021-12-23",
     "cena": 1167600,
@@ -962,7 +975,7 @@
     "leto": 2021
   },
   {
-    "rank": 75,
+    "rank": 76,
     "id": 194932,
     "datum": "2015-02-13",
     "cena": 1150000,
@@ -975,7 +988,20 @@
     "leto": 2015
   },
   {
-    "rank": 76,
+    "rank": 77,
+    "id": 958467,
+    "datum": "2025-07-07",
+    "cena": 1150000,
+    "tip": 2,
+    "tipNaziv": "Stanovanje",
+    "povrsina": 286,
+    "cenaNaM2": 4021,
+    "obcina": "LJUBLJANA",
+    "naslov": "FRANKOPANSKA ULICA 3a, LJUBLJANA",
+    "leto": 2025
+  },
+  {
+    "rank": 78,
     "id": 821814,
     "datum": "2024-05-30",
     "cena": 1147781,
@@ -988,7 +1014,7 @@
     "leto": 2024
   },
   {
-    "rank": 77,
+    "rank": 79,
     "id": 447993,
     "datum": "2019-09-09",
     "cena": 1142000,
@@ -1001,7 +1027,7 @@
     "leto": 2019
   },
   {
-    "rank": 78,
+    "rank": 80,
     "id": 447993,
     "datum": "2019-09-09",
     "cena": 1142000,
@@ -1014,7 +1040,7 @@
     "leto": 2019
   },
   {
-    "rank": 79,
+    "rank": 81,
     "id": 447993,
     "datum": "2019-09-09",
     "cena": 1142000,
@@ -1027,7 +1053,7 @@
     "leto": 2019
   },
   {
-    "rank": 80,
+    "rank": 82,
     "id": 447993,
     "datum": "2019-09-09",
     "cena": 1142000,
@@ -1040,7 +1066,20 @@
     "leto": 2019
   },
   {
-    "rank": 81,
+    "rank": 83,
+    "id": 430659,
+    "datum": "2019-04-17",
+    "cena": 1140659,
+    "tip": 2,
+    "tipNaziv": "Stanovanje",
+    "povrsina": 112,
+    "cenaNaM2": 10184,
+    "obcina": "KRANJ",
+    "naslov": "GOLNIŠKA CESTA 102, MLAKA PRI KRANJU",
+    "leto": 2019
+  },
+  {
+    "rank": 84,
     "id": 432136,
     "datum": "2019-03-26",
     "cena": 1140000,
@@ -1053,7 +1092,7 @@
     "leto": 2019
   },
   {
-    "rank": 82,
+    "rank": 85,
     "id": 813326,
     "datum": "2022-07-27",
     "cena": 1133325,
@@ -1066,7 +1105,111 @@
     "leto": 2022
   },
   {
-    "rank": 83,
+    "rank": 86,
+    "id": 907776,
+    "datum": "2022-07-20",
+    "cena": 1091170,
+    "tip": 2,
+    "tipNaziv": "Stanovanje",
+    "povrsina": 118.2,
+    "cenaNaM2": 9232,
+    "obcina": "LJUBLJANA",
+    "naslov": "CIMPERMANOVA ULICA 1, LJUBLJANA",
+    "leto": 2022
+  },
+  {
+    "rank": 87,
+    "id": 908416,
+    "datum": "2025-04-25",
+    "cena": 1066553,
+    "tip": 2,
+    "tipNaziv": "Stanovanje",
+    "povrsina": 57.3,
+    "cenaNaM2": 18613,
+    "obcina": "NOVO MESTO",
+    "naslov": "NAD MLINI 66, NOVO MESTO",
+    "leto": 2025
+  },
+  {
+    "rank": 88,
+    "id": 908416,
+    "datum": "2025-04-25",
+    "cena": 1066553,
+    "tip": 2,
+    "tipNaziv": "Stanovanje",
+    "povrsina": 64.3,
+    "cenaNaM2": 16587,
+    "obcina": "NOVO MESTO",
+    "naslov": "MESTNE NJIVE 9, NOVO MESTO",
+    "leto": 2025
+  },
+  {
+    "rank": 89,
+    "id": 908416,
+    "datum": "2025-04-25",
+    "cena": 1066553,
+    "tip": 2,
+    "tipNaziv": "Stanovanje",
+    "povrsina": 56.2,
+    "cenaNaM2": 18978,
+    "obcina": "NOVO MESTO",
+    "naslov": "DRSKA 46, NOVO MESTO",
+    "leto": 2025
+  },
+  {
+    "rank": 90,
+    "id": 908416,
+    "datum": "2025-04-25",
+    "cena": 1066553,
+    "tip": 2,
+    "tipNaziv": "Stanovanje",
+    "povrsina": 60.7,
+    "cenaNaM2": 17571,
+    "obcina": "NOVO MESTO",
+    "naslov": "SEIDLOVA CESTA 22, NOVO MESTO",
+    "leto": 2025
+  },
+  {
+    "rank": 91,
+    "id": 908416,
+    "datum": "2025-04-25",
+    "cena": 1066553,
+    "tip": 2,
+    "tipNaziv": "Stanovanje",
+    "povrsina": 64.5,
+    "cenaNaM2": 16536,
+    "obcina": "NOVO MESTO",
+    "naslov": "SEIDLOVA CESTA 56, NOVO MESTO",
+    "leto": 2025
+  },
+  {
+    "rank": 92,
+    "id": 908416,
+    "datum": "2025-04-25",
+    "cena": 1066553,
+    "tip": 2,
+    "tipNaziv": "Stanovanje",
+    "povrsina": 75.8,
+    "cenaNaM2": 14071,
+    "obcina": "NOVO MESTO",
+    "naslov": "SEIDLOVA CESTA 24, NOVO MESTO",
+    "leto": 2025
+  },
+  {
+    "rank": 93,
+    "id": 908416,
+    "datum": "2025-04-25",
+    "cena": 1066553,
+    "tip": 2,
+    "tipNaziv": "Stanovanje",
+    "povrsina": 65.1,
+    "cenaNaM2": 16383,
+    "obcina": "NOVO MESTO",
+    "naslov": "SEIDLOVA CESTA 68, NOVO MESTO",
+    "leto": 2025
+  },
+  {
+    "rank": 94,
     "id": 814919,
     "datum": "2024-01-29",
     "cena": 1060000,
@@ -1079,7 +1222,7 @@
     "leto": 2024
   },
   {
-    "rank": 84,
+    "rank": 95,
     "id": 814919,
     "datum": "2024-01-29",
     "cena": 1060000,
@@ -1092,7 +1235,7 @@
     "leto": 2024
   },
   {
-    "rank": 85,
+    "rank": 96,
     "id": 814919,
     "datum": "2024-01-29",
     "cena": 1060000,
@@ -1105,7 +1248,7 @@
     "leto": 2024
   },
   {
-    "rank": 86,
+    "rank": 97,
     "id": 814919,
     "datum": "2024-01-29",
     "cena": 1060000,
@@ -1118,7 +1261,7 @@
     "leto": 2024
   },
   {
-    "rank": 87,
+    "rank": 98,
     "id": 797040,
     "datum": "2023-10-24",
     "cena": 1051899,
@@ -1131,172 +1274,29 @@
     "leto": 2023
   },
   {
-    "rank": 88,
-    "id": 813332,
-    "datum": "2021-07-09",
-    "cena": 1049155,
-    "tip": 2,
-    "tipNaziv": "Stanovanje",
-    "povrsina": 159.4,
-    "cenaNaM2": 6582,
-    "obcina": "LJUBLJANA",
-    "naslov": "ŽUPANČIČEVA ULICA 13, LJUBLJANA",
-    "leto": 2021
-  },
-  {
-    "rank": 89,
-    "id": 154329,
-    "datum": "2014-05-22",
-    "cena": 1039000,
-    "tip": 2,
-    "tipNaziv": "Stanovanje",
-    "povrsina": 257,
-    "cenaNaM2": 4043,
-    "obcina": "MARIBOR",
-    "naslov": "DUPLEŠKA CESTA 87, MARIBOR",
-    "leto": 2014
-  },
-  {
-    "rank": 90,
-    "id": 154329,
-    "datum": "2014-05-22",
-    "cena": 1039000,
-    "tip": 2,
-    "tipNaziv": "Stanovanje",
-    "povrsina": 57,
-    "cenaNaM2": 18228,
-    "obcina": "ŠENTILJ",
-    "naslov": "VRANJI VRH 3",
-    "leto": 2014
-  },
-  {
-    "rank": 91,
-    "id": 154329,
-    "datum": "2014-05-22",
-    "cena": 1039000,
-    "tip": 2,
-    "tipNaziv": "Stanovanje",
-    "povrsina": 81,
-    "cenaNaM2": 12827,
-    "obcina": "ŠENTILJ",
-    "naslov": "VRANJI VRH 3",
-    "leto": 2014
-  },
-  {
-    "rank": 92,
-    "id": 154329,
-    "datum": "2014-05-22",
-    "cena": 1039000,
-    "tip": 2,
-    "tipNaziv": "Stanovanje",
-    "povrsina": 65,
-    "cenaNaM2": 15985,
-    "obcina": "ŠENTILJ",
-    "naslov": "VRANJI VRH 3",
-    "leto": 2014
-  },
-  {
-    "rank": 93,
-    "id": 154329,
-    "datum": "2014-05-22",
-    "cena": 1039000,
-    "tip": 2,
-    "tipNaziv": "Stanovanje",
-    "povrsina": 83,
-    "cenaNaM2": 12518,
-    "obcina": "ŠENTILJ",
-    "naslov": "VRANJI VRH 3",
-    "leto": 2014
-  },
-  {
-    "rank": 94,
-    "id": 154329,
-    "datum": "2014-05-22",
-    "cena": 1039000,
-    "tip": 2,
-    "tipNaziv": "Stanovanje",
-    "povrsina": 90,
-    "cenaNaM2": 11544,
-    "obcina": "ŠENTILJ",
-    "naslov": "VRANJI VRH 3",
-    "leto": 2014
-  },
-  {
-    "rank": 95,
-    "id": 154329,
-    "datum": "2014-05-22",
-    "cena": 1039000,
-    "tip": 2,
-    "tipNaziv": "Stanovanje",
-    "povrsina": 66,
-    "cenaNaM2": 15742,
-    "obcina": "ŠENTILJ",
-    "naslov": "VRANJI VRH 3",
-    "leto": 2014
-  },
-  {
-    "rank": 96,
-    "id": 154329,
-    "datum": "2014-05-22",
-    "cena": 1039000,
-    "tip": 2,
-    "tipNaziv": "Stanovanje",
-    "povrsina": 55,
-    "cenaNaM2": 18891,
-    "obcina": "ŠENTILJ",
-    "naslov": "VRANJI VRH 3",
-    "leto": 2014
-  },
-  {
-    "rank": 97,
-    "id": 154329,
-    "datum": "2014-05-22",
-    "cena": 1039000,
-    "tip": 2,
-    "tipNaziv": "Stanovanje",
-    "povrsina": 102,
-    "cenaNaM2": 10186,
-    "obcina": "MARIBOR",
-    "naslov": "DUPLEŠKA CESTA 87, MARIBOR",
-    "leto": 2014
-  },
-  {
-    "rank": 98,
-    "id": 154329,
-    "datum": "2014-05-22",
-    "cena": 1039000,
-    "tip": 2,
-    "tipNaziv": "Stanovanje",
-    "povrsina": 79,
-    "cenaNaM2": 13152,
-    "obcina": "ŠENTILJ",
-    "naslov": "VRANJI VRH 3",
-    "leto": 2014
-  },
-  {
     "rank": 99,
-    "id": 453326,
-    "datum": "2019-10-24",
-    "cena": 1017000,
+    "id": 955809,
+    "datum": "2025-05-19",
+    "cena": 1050352,
     "tip": 2,
     "tipNaziv": "Stanovanje",
-    "povrsina": 134,
-    "cenaNaM2": 7590,
-    "obcina": "LJUBLJANA",
-    "naslov": "KONGRESNI TRG 4, LJUBLJANA",
-    "leto": 2019
+    "povrsina": 126.8,
+    "cenaNaM2": 8284,
+    "obcina": "KRŠKO",
+    "naslov": "ULICA 11. NOVEMBRA 45, LESKOVEC PRI KRŠKEM",
+    "leto": 2025
   },
   {
     "rank": 100,
-    "id": 453326,
-    "datum": "2019-10-24",
-    "cena": 1017000,
+    "id": 955809,
+    "datum": "2025-05-19",
+    "cena": 1050352,
     "tip": 2,
     "tipNaziv": "Stanovanje",
-    "povrsina": 116,
-    "cenaNaM2": 8767,
-    "obcina": "LJUBLJANA",
-    "naslov": "KONGRESNI TRG 4, LJUBLJANA",
-    "leto": 2019
+    "povrsina": 72.5,
+    "cenaNaM2": 14488,
+    "obcina": "KRŠKO",
+    "naslov": "ULICA 11. NOVEMBRA 45, LESKOVEC PRI KRŠKEM",
+    "leto": 2025
   }
 ]

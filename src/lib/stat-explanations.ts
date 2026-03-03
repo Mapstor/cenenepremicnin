@@ -3,6 +3,7 @@
 
 export const STAT_EXPLANATIONS = {
   medianaPriceM2: 'Mediana je srednja vrednost - polovica prodaj je bila cenejših, polovica dražjih. Je boljši kazalec od povprečja, ker ekstremne vrednosti nanjo ne vplivajo.',
+  povprecjePriceM2: 'Povprečje je aritmetična sredina - seštevek vseh cen, deljen s številom transakcij. Ekstremno visoke ali nizke cene lahko povprečje izkrivijo.',
   letniTrend: 'Sprememba mediane cene v primerjavi z istim obdobjem lani. Pozitivna vrednost pomeni rast cen, negativna padec.',
   transakcije: 'Število realiziranih prodaj nepremičnin v izbranem obdobju. Vključuje le tržne transakcije (brez družinskih prenosov, dedovanj ipd.).',
   percentileQ1: 'Prvi kvartil (Q1) - 25% prodaj je bilo cenejših od te vrednosti.',

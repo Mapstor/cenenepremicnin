@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { NAV_ITEMS } from '@/lib/constants';
+import MobileMenu from './MobileMenu';
 import {
   Map,
   BarChart3,
@@ -11,7 +12,6 @@ import {
   Trophy,
   Search,
   Menu,
-  X,
   ChevronDown,
 } from 'lucide-react';
 
@@ -117,63 +117,16 @@ export default function Header() {
           <button
             type="button"
             className="md:hidden p-2 rounded-md text-gray-700 hover:bg-gray-100"
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            onClick={() => setMobileMenuOpen(true)}
+            aria-label="Odpri meni"
           >
-            {mobileMenuOpen ? (
-              <X className="w-6 h-6" />
-            ) : (
-              <Menu className="w-6 h-6" />
-            )}
+            <Menu className="w-6 h-6" />
           </button>
         </div>
       </nav>
 
-      {/* Mobile menu */}
-      {mobileMenuOpen && (
-        <div className="md:hidden bg-white border-t border-gray-200">
-          <div className="px-4 py-3 space-y-1">
-            {NAV_ITEMS.map((item) => {
-              const Icon = iconMap[item.icon as keyof typeof iconMap];
-              const hasChildren = 'children' in item && item.children;
-
-              return (
-                <div key={item.href}>
-                  <Link
-                    href={item.href}
-                    className={`flex items-center gap-2 px-3 py-2 text-base font-medium rounded-md ${
-                      isActive(item.href)
-                        ? 'text-emerald-700 bg-emerald-50'
-                        : 'text-gray-700 hover:text-emerald-700 hover:bg-gray-50'
-                    }`}
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    <Icon className="w-5 h-5" />
-                    {item.label}
-                  </Link>
-                  {hasChildren && (
-                    <div className="ml-7 mt-1 space-y-1">
-                      {item.children.map((child) => (
-                        <Link
-                          key={child.href}
-                          href={child.href}
-                          className={`block px-3 py-1.5 text-sm ${
-                            isActive(child.href)
-                              ? 'text-emerald-700 bg-emerald-50'
-                              : 'text-gray-600 hover:text-emerald-700 hover:bg-gray-50'
-                          }`}
-                          onClick={() => setMobileMenuOpen(false)}
-                        >
-                          {child.label}
-                        </Link>
-                      ))}
-                    </div>
-                  )}
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      )}
+      {/* Mobile menu drawer */}
+      <MobileMenu isOpen={mobileMenuOpen} onClose={() => setMobileMenuOpen(false)} />
     </header>
   );
 }
