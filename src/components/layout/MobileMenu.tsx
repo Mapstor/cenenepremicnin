@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { NAV_ITEMS } from '@/lib/constants';
@@ -38,6 +38,7 @@ const FOOTER_LINKS = [
 export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
   const pathname = usePathname();
   const [expandedSection, setExpandedSection] = useState<string | null>(null);
+  const prevPathnameRef = useRef(pathname);
 
   // Lock body scroll when menu is open
   useEffect(() => {
@@ -51,9 +52,12 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
     };
   }, [isOpen]);
 
-  // Close menu on route change
+  // Close menu on route change (but not on initial mount)
   useEffect(() => {
-    onClose();
+    if (prevPathnameRef.current !== pathname) {
+      onClose();
+      prevPathnameRef.current = pathname;
+    }
   }, [pathname, onClose]);
 
   const isActive = (href: string) => {

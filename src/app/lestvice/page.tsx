@@ -61,6 +61,14 @@ const RANKINGS = [
     bg: 'bg-emerald-50',
   },
   {
+    slug: 'najcenejse-obcine',
+    title: 'Najcenejše občine',
+    description: 'Občine z najnižjo mediano cene na m² za stanovanja',
+    icon: TrendingDown,
+    color: 'text-teal-600',
+    bg: 'bg-teal-50',
+  },
+  {
     slug: 'najcenejsa-stanovanja-ljubljana',
     title: 'Najcenejša stanovanja v Ljubljani',
     description: 'Najbolj ugodna stanovanja prodana v Ljubljani vsako leto',

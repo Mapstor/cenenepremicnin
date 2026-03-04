@@ -123,7 +123,7 @@ export default function TransactionTable({
       </div>
 
       {/* Transaction list */}
-      <div className="space-y-3">
+      <div className="space-y-3 overflow-x-auto">
         {display.map((tx, index) => {
           const Icon = getTypeIcon(tx.tip);
           const propertyAge = tx.letoIzgradnje ? new Date().getFullYear() - tx.letoIzgradnje : null;
@@ -131,131 +131,124 @@ export default function TransactionTable({
           return (
             <div
               key={`${tx.id}-${index}`}
-              className="bg-white border border-gray-200 rounded-lg p-4 hover:border-emerald-300 hover:shadow-sm transition-all"
+              className="bg-white border border-gray-200 rounded-lg p-3 sm:p-4 hover:border-emerald-300 hover:shadow-sm transition-all"
             >
-              <div className="flex items-start gap-4">
+              <div className="flex items-start gap-3 sm:gap-4">
                 {/* Icon */}
-                <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-emerald-50 flex items-center justify-center">
-                  <Icon className="w-5 h-5 text-emerald-600" />
+                <div className="flex-shrink-0 w-8 h-8 sm:w-10 sm:h-10 rounded-lg bg-emerald-50 flex items-center justify-center">
+                  <Icon className="w-4 h-4 sm:w-5 sm:h-5 text-emerald-600" />
                 </div>
 
                 {/* Main content */}
-                <div className="flex-1 min-w-0">
-                  <div className="flex items-start justify-between gap-4">
-                    <div>
-                      <div className="flex items-center gap-2">
-                        <h3 className="font-medium text-gray-900 truncate">
+                <div className="flex-1 min-w-0 overflow-hidden">
+                  <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-1 sm:gap-4">
+                    <div className="min-w-0">
+                      <div className="flex flex-wrap items-center gap-1 sm:gap-2">
+                        <h3 className="font-medium text-gray-900 truncate text-sm sm:text-base">
                           {tx.naslov || tx.imeKo}
                         </h3>
                         {tx.novogradnja && (
-                          <span className="inline-flex items-center gap-1 bg-emerald-100 text-emerald-700 text-xs font-medium px-2 py-0.5 rounded-full">
+                          <span className="inline-flex items-center gap-1 bg-emerald-100 text-emerald-700 text-xs font-medium px-1.5 sm:px-2 py-0.5 rounded-full">
                             <Sparkles className="w-3 h-3" />
-                            Novogradnja
+                            <span className="hidden sm:inline">Novogradnja</span>
+                            <span className="sm:hidden">Novo</span>
                           </span>
                         )}
                       </div>
-                      <div className="flex items-center gap-3 text-sm text-gray-500 mt-0.5">
+                      <div className="flex items-center gap-2 sm:gap-3 text-xs sm:text-sm text-gray-500 mt-0.5">
                         <span className="flex items-center gap-1">
-                          <MapPin className="w-3.5 h-3.5" />
-                          {tx.obcina.charAt(0).toUpperCase() + tx.obcina.slice(1).toLowerCase()}
+                          <MapPin className="w-3 h-3 sm:w-3.5 sm:h-3.5 flex-shrink-0" />
+                          <span className="truncate">{tx.obcina.charAt(0).toUpperCase() + tx.obcina.slice(1).toLowerCase()}</span>
                         </span>
                         <span className="text-gray-300">•</span>
-                        <span className="text-gray-400">{tx.imeKo}</span>
+                        <span className="text-gray-400 truncate">{tx.imeKo}</span>
                       </div>
                     </div>
-                    <div className="text-right flex-shrink-0">
-                      <div className="font-bold text-gray-900 text-lg">
+                    <div className="sm:text-right flex-shrink-0">
+                      <div className="font-bold text-gray-900 text-base sm:text-lg">
                         {formatPrice(tx.cena)}
                       </div>
-                      <div className="text-sm text-emerald-600 font-medium">
+                      <div className="text-xs sm:text-sm text-emerald-600 font-medium">
                         {formatPricePerM2(tx.cenaNaM2)}
                       </div>
                     </div>
                   </div>
 
                   {/* Property details grid */}
-                  <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-3 pt-3 border-t border-gray-100">
+                  <div className="grid grid-cols-2 gap-2 sm:gap-3 mt-3 pt-3 border-t border-gray-100">
                     {/* Type */}
-                    <div className="flex items-center gap-2">
-                      <div className="w-7 h-7 rounded bg-gray-100 flex items-center justify-center">
-                        <Icon className="w-4 h-4 text-gray-600" />
+                    <div className="flex items-center gap-1.5 sm:gap-2">
+                      <div className="w-6 h-6 sm:w-7 sm:h-7 rounded bg-gray-100 flex items-center justify-center flex-shrink-0">
+                        <Icon className="w-3 h-3 sm:w-4 sm:h-4 text-gray-600" />
                       </div>
-                      <div>
-                        <div className="text-xs text-gray-400">Tip</div>
-                        <div className="text-sm font-medium text-gray-900">{tx.tipNaziv}</div>
+                      <div className="min-w-0">
+                        <div className="text-[10px] sm:text-xs text-gray-400">Tip</div>
+                        <div className="text-xs sm:text-sm font-medium text-gray-900 truncate">{tx.tipNaziv}</div>
                       </div>
                     </div>
 
                     {/* Area */}
-                    <div className="flex items-center gap-2">
-                      <div className="w-7 h-7 rounded bg-gray-100 flex items-center justify-center">
-                        <Layers className="w-4 h-4 text-gray-600" />
+                    <div className="flex items-center gap-1.5 sm:gap-2">
+                      <div className="w-6 h-6 sm:w-7 sm:h-7 rounded bg-gray-100 flex items-center justify-center flex-shrink-0">
+                        <Layers className="w-3 h-3 sm:w-4 sm:h-4 text-gray-600" />
                       </div>
-                      <div>
-                        <div className="text-xs text-gray-400">Površina</div>
-                        <div className="text-sm font-medium text-gray-900">{formatArea(tx.uporabnaPovrsina)}</div>
+                      <div className="min-w-0">
+                        <div className="text-[10px] sm:text-xs text-gray-400">Površina</div>
+                        <div className="text-xs sm:text-sm font-medium text-gray-900">{formatArea(tx.uporabnaPovrsina)}</div>
                       </div>
                     </div>
 
                     {/* Year built / Age */}
-                    <div className="flex items-center gap-2">
-                      <div className="w-7 h-7 rounded bg-gray-100 flex items-center justify-center">
-                        <Calendar className="w-4 h-4 text-gray-600" />
+                    <div className="flex items-center gap-1.5 sm:gap-2">
+                      <div className="w-6 h-6 sm:w-7 sm:h-7 rounded bg-gray-100 flex items-center justify-center flex-shrink-0">
+                        <Calendar className="w-3 h-3 sm:w-4 sm:h-4 text-gray-600" />
                       </div>
-                      <div>
-                        <div className="text-xs text-gray-400">Leto izgradnje</div>
-                        <div className="text-sm font-medium text-gray-900">
-                          {tx.letoIzgradnje ? (
-                            <span>
-                              {tx.letoIzgradnje}
-                              {propertyAge !== null && (
-                                <span className="text-gray-400 font-normal"> ({propertyAge} let)</span>
-                              )}
-                            </span>
-                          ) : (
-                            <span className="text-gray-400">—</span>
-                          )}
+                      <div className="min-w-0">
+                        <div className="text-[10px] sm:text-xs text-gray-400">Leto</div>
+                        <div className="text-xs sm:text-sm font-medium text-gray-900 truncate">
+                          {tx.letoIzgradnje ? tx.letoIzgradnje : <span className="text-gray-400">—</span>}
                         </div>
                       </div>
                     </div>
 
                     {/* Date of sale */}
-                    <div className="flex items-center gap-2">
-                      <div className="w-7 h-7 rounded bg-emerald-100 flex items-center justify-center">
-                        <Calendar className="w-4 h-4 text-emerald-600" />
+                    <div className="flex items-center gap-1.5 sm:gap-2">
+                      <div className="w-6 h-6 sm:w-7 sm:h-7 rounded bg-emerald-100 flex items-center justify-center flex-shrink-0">
+                        <Calendar className="w-3 h-3 sm:w-4 sm:h-4 text-emerald-600" />
                       </div>
-                      <div>
-                        <div className="text-xs text-gray-400">Datum prodaje</div>
-                        <div className="text-sm font-medium text-gray-900">{formatDateShort(tx.datum)}</div>
+                      <div className="min-w-0">
+                        <div className="text-[10px] sm:text-xs text-gray-400">Prodano</div>
+                        <div className="text-xs sm:text-sm font-medium text-gray-900">{formatDateShort(tx.datum)}</div>
                       </div>
                     </div>
                   </div>
 
                   {/* Additional details row */}
-                  <div className="flex flex-wrap items-center gap-3 mt-3 text-sm">
+                  <div className="flex flex-wrap items-center gap-2 mt-3 text-xs sm:text-sm">
                     {/* Number of rooms */}
                     {tx.steviloSob !== null && tx.steviloSob > 0 && (
-                      <span className="inline-flex items-center gap-1.5 bg-blue-50 text-blue-700 px-2.5 py-1 rounded-lg">
-                        <DoorOpen className="w-4 h-4" />
+                      <span className="inline-flex items-center gap-1 bg-blue-50 text-blue-700 px-2 py-0.5 sm:py-1 rounded-lg">
+                        <DoorOpen className="w-3 h-3 sm:w-4 sm:h-4" />
                         {tx.steviloSob} {tx.steviloSob === 1 ? 'soba' : tx.steviloSob === 2 ? 'sobi' : tx.steviloSob <= 4 ? 'sobe' : 'sob'}
                       </span>
                     )}
 
                     {/* Floor */}
                     {tx.nadstropje && (
-                      <span className="inline-flex items-center gap-1.5 bg-purple-50 text-purple-700 px-2.5 py-1 rounded-lg">
-                        <Layers className="w-4 h-4" />
-                        {tx.nadstropje}. nadstropje
+                      <span className="inline-flex items-center gap-1 bg-purple-50 text-purple-700 px-2 py-0.5 sm:py-1 rounded-lg">
+                        <Layers className="w-3 h-3 sm:w-4 sm:h-4" />
+                        {tx.nadstropje}. nad.
                       </span>
                     )}
 
                     {/* Map link */}
                     <Link
                       href={`/zemljevid/${tx.id}`}
-                      className="inline-flex items-center gap-1.5 bg-emerald-50 text-emerald-700 hover:bg-emerald-100 px-2.5 py-1 rounded-lg transition-colors ml-auto"
+                      className="inline-flex items-center gap-1 bg-emerald-50 text-emerald-700 hover:bg-emerald-100 px-2 py-0.5 sm:py-1 rounded-lg transition-colors ml-auto"
                     >
-                      <MapPin className="w-4 h-4" />
-                      Prikaži na zemljevidu
+                      <MapPin className="w-3 h-3 sm:w-4 sm:h-4" />
+                      <span className="hidden sm:inline">Prikaži na zemljevidu</span>
+                      <span className="sm:hidden">Zemljevid</span>
                     </Link>
                   </div>
                 </div>

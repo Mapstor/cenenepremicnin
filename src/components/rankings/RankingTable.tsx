@@ -70,7 +70,7 @@ export default function RankingTable({ dataUrl, className = '' }: RankingTablePr
   }
 
   return (
-    <div className={className}>
+    <div className={`overflow-x-auto ${className}`}>
       <div className="space-y-3">
         {data.map((item) => {
           const Icon = getTypeIcon(item.tip);

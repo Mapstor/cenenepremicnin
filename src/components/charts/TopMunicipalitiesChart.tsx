@@ -51,7 +51,7 @@ export default function TopMunicipalitiesChart({
 
   if (loading) {
     return (
-      <div className={`h-[500px] bg-gray-50 animate-pulse rounded-lg ${className}`} />
+      <div className={`h-full bg-gray-50 animate-pulse rounded-lg ${className}`} />
     );
   }
 
@@ -63,7 +63,7 @@ export default function TopMunicipalitiesChart({
 
   return (
     <div className={className}>
-      <ResponsiveContainer width="100%" height={500}>
+      <ResponsiveContainer width="100%" height="100%">
         <BarChart
           data={data}
           layout="vertical"

@@ -144,6 +144,21 @@ export const NAJCENEJSA_STANOVANJA_FAQS: FAQItem[] = [
   },
 ];
 
+export const NAJCENEJSE_OBCINE_FAQS: FAQItem[] = [
+  {
+    question: 'Katera je najcenejša občina v Sloveniji?',
+    answer: 'Najcenejše občine so večinoma v Pomurju, Posavju in na Koroškem, s cenami stanovanj pod 1.000 €/m². Gre za območja z manjšim povpraševanjem, starejšim stanovanjskim fondom in nižjo ekonomsko aktivnostjo.',
+  },
+  {
+    question: 'Zakaj so nekatere občine tako poceni?',
+    answer: 'Nizke cene so posledica več dejavnikov: oddaljenost od večjih mest, manjša ponudba delovnih mest, starejša infrastruktura, depopulacija. Cene na m² so lahko tudi 3-5x nižje kot v Ljubljani.',
+  },
+  {
+    question: 'Ali so poceni občine dobra investicija?',
+    answer: 'Poceni občine lahko ponujajo visok donos pri oddajanju, vendar z višjim tveganjem. Potencial za rast cen je negotov in odvisen od gospodarskega razvoja regije. Za lastno bivanje so lahko odlična izbira.',
+  },
+];
+
 export const NAJVECJE_PODRAZITVE_FAQS: FAQItem[] = [
   {
     question: 'Katere občine so se najbolj podražile?',

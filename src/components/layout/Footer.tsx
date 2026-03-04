@@ -42,7 +42,7 @@ export default function Footer() {
           ))}
 
           {/* Contact */}
-          <div>
+          <div className="min-w-0">
             <h3 className="text-sm font-semibold text-white uppercase tracking-wider mb-4">
               Kontakt
             </h3>
@@ -50,8 +50,8 @@ export default function Footer() {
               href={`mailto:${FOOTER.contact}`}
               className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
             >
-              <Mail className="w-4 h-4" />
-              {FOOTER.contact}
+              <Mail className="w-4 h-4 flex-shrink-0" />
+              <span className="break-all">{FOOTER.contact}</span>
             </a>
           </div>
         </div>

@@ -72,7 +72,7 @@ export default function YearlyRankingTable({ dataUrl, className = '' }: YearlyRa
   const years = Object.keys(data).sort((a, b) => Number(b) - Number(a));
 
   return (
-    <div className={`space-y-4 ${className}`}>
+    <div className={`space-y-4 overflow-x-auto ${className}`}>
       {years.map((year) => {
         const isExpanded = expandedYears.has(year);
         const transactions = data[year];

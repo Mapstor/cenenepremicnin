@@ -78,7 +78,7 @@ export default function MunicipalityRankingTable({
   }
 
   return (
-    <div className={className}>
+    <div className={`overflow-x-auto ${className}`}>
       <div className="space-y-3">
         {data.map((item) => (
           <Link
